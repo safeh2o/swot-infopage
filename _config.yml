@@ -7,10 +7,9 @@ permalink:        pretty
 #relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Safe Water Optimization Tool
+description:      'Leveraging routine water quality data to guarantee safe water supply and improve the public health of populations living in precarious situations.'
+url:              http://swot.getpoole.com
 baseurl:          /
 
 author:
