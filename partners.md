@@ -15,8 +15,7 @@ title: Partners
   <div class="column">
      <img src="/swot/public/images/MSF.jpg" alt="MSF logo">
   </div>
-</div>
-
-<div>
-  <img src="/swot/public/images/DIGHRlogo-red.png" alt="DIGHR Logo">
+  <div class="column">
+     <img src="/swot/public/images/DIGHRlogo-red.png" alt="DIGHR Logo">
+  </div>
 </div>
