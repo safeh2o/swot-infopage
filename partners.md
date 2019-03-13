@@ -9,7 +9,7 @@ title: Partner
 <div>
 
 <div>
- <img src="/swot/public/images/DIGHRlogo-red.png" alt="Work Flow">
- <img src="/swot/public/images/MSF.jpg" alt="Work Flow">
- <img src="/swot/public/images/yorku_logo.jpg" alt="Work Flow">
+ <img src="/swot/public/images/DIGHRlogo-red.png" alt="DIGHR Logo">
+ <img src="/swot/public/images/MSF.jpg" alt="MSF logo">
+ <img src="/swot/public/images/yorku_logo.png" alt="Yorku logo">
 </div>
