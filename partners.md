@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Partner
+title: Partners
 ---
 <div>
     This project is a collaboration between 
@@ -8,8 +8,15 @@ title: Partner
     For further information please contact Dr. Syed Imran Ali (DIGHR) [siali@yorku.ca]  or Mr. Jeff Fesselet (MSF) [jeff.fesselet@amsterdam.msf.org]
 <div>
 
+<div class="row">
+  <div class="column">
+     <img src="/swot/public/images/yorku_logo.png" alt="Yorku logo">
+  </div>
+  <div class="column">
+     <img src="/swot/public/images/MSF.jpg" alt="MSF logo">
+  </div>
+</div>
+
 <div>
- <img src="/swot/public/images/DIGHRlogo-red.png" alt="DIGHR Logo">
- <img src="/swot/public/images/MSF.jpg" alt="MSF logo">
- <img src="/swot/public/images/yorku_logo.png" alt="Yorku logo">
+  <img src="/swot/public/images/DIGHRlogo-red.png" alt="DIGHR Logo">
 </div>
