@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SWAT Benefits
+title: SWOT Benefits
 ---
 * Improvement to overall public health – reduction in the incidence of water borne disease
 * Establish site-specific guidance to ensure better compliance with chlorination standards at the household level

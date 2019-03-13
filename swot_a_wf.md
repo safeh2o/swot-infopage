@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SWAT Workflow
+title: SWOT Workflow
 ---
 
 <ul>
