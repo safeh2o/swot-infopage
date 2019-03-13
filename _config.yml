@@ -10,7 +10,7 @@ permalink:        pretty
 title:            Safe Water Optimization Tool
 description:      'Leveraging routine water quality data to guarantee safe water supply and improve the public health of populations living in precarious situations.'
 url:              https://dighr.github.io/
-baseurl:          /swot
+baseurl:          /swot/
 
 author:
   name:           'Mark Otto'
