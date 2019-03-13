@@ -22,5 +22,5 @@ title: SWOT Workflow
 </ul>
 
 <div>
-  <img src="/assets/images/work_flow_1.png" alt="Work Flow">
+  <img src="swat/assets/images/work_flow_1.png" alt="Work Flow">
 </div>
