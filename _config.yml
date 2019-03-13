@@ -9,8 +9,8 @@ permalink:        pretty
 # Setup
 title:            Safe Water Optimization Tool
 description:      'Leveraging routine water quality data to guarantee safe water supply and improve the public health of populations living in precarious situations.'
-url:              http://swot.getpoole.com
-baseurl:          /
+url:              https://dighr.github.io/
+baseurl:          /swot
 
 author:
   name:           'Mark Otto'
