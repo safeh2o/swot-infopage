@@ -26,3 +26,5 @@ version:          2.1.0
 github:
   repo:           https://github.com/poole/hyde
 
+
+theme: jekyll-theme-leap-day
