@@ -6,7 +6,7 @@ title: Why SWOT? - NK EDITS
 Chlorination is the most widely practised water treatment technique used to supply safe water to refugees and internally displaced persons. If well managed, it can ensure residual contamination protection from the point of water dispensation to the point of water consumption in the household.
 
 <b>The Problem</b><br>
-Humanitarian agencies prioritize water safety and routinely collect, monitor and report residual chlorination data. Little is done, however, to leverage this information to ensure that water quality complies with safety guidelines at the point of consumption, a significant oversight in response efforts.
+Humanitarian agencies prioritize water safety and routinely collect, monitor and report residual chlorination data. Little is done, however, to leverage this information to ensure that water quality complies with safety guidelines <em>at the point of consumption</em>, a significant oversight in response efforts.
 
 <b>The Solution</b><br>
 The proper management and analysis of routinely collected residual chlorine data, using appropriate statistical techniques, will provide humanitarian field workers with high-quality, site-specific, and evidence-based operational guidance . The Safe Water Optimisation Tool (SWOT) is being developed with this primary objective.
