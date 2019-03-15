@@ -12,9 +12,9 @@ Humanitarian agencies prioritize water safety and routinely collect, monitor and
 The proper management and analysis of routinely collected residual chlorine data, using appropriate statistical techniques, will provide humanitarian field workers with high-quality, site-specific, and evidence-based operational guidance . The Safe Water Optimisation Tool (SWOT) is being developed with this primary objective.
 
 <b>Benefits of SWOT</b><br>
-•	Improvement to overall public health by reducing the incidence of water borne disease<br>
-•	Establish site-specific guidance to ensure better compliance with chlorination standards at the household level<br>
-•	Improved accountability to populations and donors<br>
-•	Highlights problematic areas or practices towards which resources can be focused during water supply interventions or outbreak control
+•	Improve public health by reducing the incidence of water borne disease<br>
+•	Establish site-specific guidance to ensure stricter compliance with chlorination standards at the household level<br>
+•	Improve accountability to populations and donors <b>(HOW????)</b><br>
+•	Highlight problematic areas or practices towards which resources can be focused during water supply interventions or outbreak control
 
 <b>Resource</b>: Chlorine Residual Testing Fact Sheet, Centre for Disease Control
