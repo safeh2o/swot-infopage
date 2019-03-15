@@ -26,4 +26,4 @@ this primary objective.
 * Better accountability to populations and donors
 * Helps highlight problematic areas or practices towards which resources can be focused during water supply interventions or outbreak control.
 
- <img src="/swot/public/images/SWOT pic 1.png" alt="Yorku logo">
+ <img src="/swot/public/images/SWOT_pic_1.png" alt="Yorku logo">
