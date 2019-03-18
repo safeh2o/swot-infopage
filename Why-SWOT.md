@@ -15,4 +15,7 @@ The proper management and analysis of routinely collected residual chlorine data
 •	Improve public health by reducing the incidence of water borne disease<br>
 •	Establish site-specific guidance to ensure stricter compliance with chlorination standards at the household level<br>
 •	Improve accountability to populations and donors<br>
-•	Highlight problematic areas or practices towards which resources can be focused during water supply interventions or outbreak control
+•	Highlight problematic areas or practices towards which resources can be focused during water supply interventions or outbreak control<br>
+<br>
+<div>  <img src="/swot/public/images/SWOTpic2_cropped.jpeg" alt="MSF staff test water quality">
+</div>
