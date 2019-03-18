@@ -4,7 +4,7 @@ Leveraging routine water quality data to guarantee safe water supply and improve
 
 ## Contents
 
-- [Layout Author](#author)
+ - [Layout Author](#author)
 - [License](#license)
 
 
