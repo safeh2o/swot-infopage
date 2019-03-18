@@ -91,10 +91,12 @@ html {
 /* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
+  font-family: "CooperHewitt";
 }
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
+  font-family: "CooperHewitt";
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
