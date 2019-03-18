@@ -32,8 +32,8 @@
  */
 
  @font-face {
-  font-family: 'CooperHewitt';
-  src:  url('../fonts/cooper-hewitt/CooperHewitt-Light.otf') format('otf');
+  font-family: 'Cooper-Hewitt';
+  src:  url('../fonts/cooper-hewitt/Cooper-Hewitt-Light.otf') format('otf');
 }
 
 html {
@@ -84,19 +84,19 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "CooperHewitt", "Abril Fatface", serif;
+  font-family: "Cooper-Hewitt", "Abril Fatface", serif;
   font-size: 3.25rem;
 }
 
 /* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
-  font-family: "CooperHewitt";
+  font-family: "Cooper-Hewitt";
 }
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
-  font-family: "CooperHewitt";
+  font-family: "Cooper-Hewitt";
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
