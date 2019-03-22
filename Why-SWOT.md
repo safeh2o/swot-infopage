@@ -17,5 +17,5 @@ The proper management and analysis of routinely collected residual chlorine data
 •	Improve accountability to populations and donors<br>
 •	Highlight problematic areas or practices towards which resources can be focused during water supply interventions or outbreak control<br>
 <br>
-<div>  <img src="/swot/public/images/SWOTpic2_cropped.jpeg" alt="MSF staff test water quality">
+<div>  <img src="{{ site.baseurl }}/public/images/SWOTpic2_cropped.jpeg" alt="MSF staff test water quality">
 </div>
