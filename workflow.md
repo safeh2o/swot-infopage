@@ -7,5 +7,5 @@ The Safe Water Optimization Tool was designed to easily integrate into existing 
 <br>
 <br>
 <div>
-  <img src="/swot/public/images/SWOT_workflow.png" alt="Work Flow">
+  <img src="{{ site.baseurl }}/public/images/SWOT_workflow.png" alt="Work Flow">
 </div>
