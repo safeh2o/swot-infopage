@@ -19,4 +19,5 @@ The proper management and analysis of routinely collected residual chlorine data
 •	Highlight problematic areas or practices towards which resources can be focused during water supply or outbreak control interventions<br>
 <br>
 <div>  <img src="{{ site.baseurl }}/public/images/SWOTpic2_cropped.jpeg" alt="MSF staff test water quality">
+  <em>Measuring FRC at a tapstand - Gendrassa, Maban County, South Sudan (2013) </em>
 </div>
