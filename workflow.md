@@ -3,7 +3,7 @@ layout: page
 title: SWOT Workflow
 ---
 
-The Safe Water Optimization Tool was designed to easily integrate into existing humanitarian operations by using data that is already collected in the field. The SWOT provides an accessible platform to manage that data, advanced machine learning software to analyse it and delivery of results to humanitarian workers.
+The Safe Water Optimization Tool is designed to integrate into existing humanitarian operations by using data that is already collected in the field. The SWOT provides an accessible platform to manage data and integrates advanced machine learning to generate site-specific and evidenced based water treatment recommendations for field teams.
 <br>
 <br>
 <div>
