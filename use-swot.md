@@ -4,4 +4,6 @@ title: Use SWOT
 ---
 
 <b>Under Construction</b>
-<div>  <img src="{{ site.baseurl }}/public/images/https: / commingsoon.jpg" alt=" ">
+<div>  
+<img src="{{ site.baseurl }}/public/images/https: / commingsoon.jpg" alt=" ">
+</div>
