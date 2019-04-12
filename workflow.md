@@ -33,10 +33,3 @@ Field workers receive guidance for the residual chlorine level required at distr
 <p style="font-size:75%"><i>Guidance can be viewed online and sent by text (SMS) and email.</i></p>
 </div>
     </div>
-
-
-<br>
-<br>
-<div>
-  <img src="{{ site.baseurl }}/public/images/SWOT_workflow.png" alt="Work Flow">
-</div>
