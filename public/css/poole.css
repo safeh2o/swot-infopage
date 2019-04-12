@@ -377,6 +377,12 @@ tbody tr:nth-child(odd) th {
   color: inherit;
 }
 
+/* added by NSK for responsive images */
+.responsive-image {
+  width: 100%;
+  height: auto;
+}
+
 
 /*
  * Pagination
