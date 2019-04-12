@@ -8,7 +8,7 @@ Chlorination is the most widely practised water treatment technique used to esnu
 <b>The Problem</b><br>
 Humanitarian agencies prioritize water safety and routinely collect, monitor and report residual chlorination data. Little is done, however, to leverage this information to ensure that water quality complies with safety guidelines <em>at the point of consumption</em>, a significant oversight in response efforts.
 
-<div>  <img src="{{ site.baseurl }}/public/images/SWOTpic2_cropped.jpeg" alt="MSF staff test water quality" display="in-line block" float="right" width="400px" height="auto" border-radius="4px" margin="0px 0px 20px 20px>
+<div>  <img src="{{ site.baseurl }}/public/images/SWOTpic2_cropped.jpeg" alt="MSF staff test water quality" display="inline-block" float="right" width="400px" height="auto" border-radius="4px" margin="0px 0px 20px 20px>
   <em>Measuring FRC at a tapstand - Gendrassa, Maban County, South Sudan (2013) </em>
 </div>
 
