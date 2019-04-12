@@ -11,6 +11,7 @@ The Safe Water Optimization Tool is designed to integrate into existing humanita
      </div>
     <div class="workflow-item">
 <h2>Step 1: Input</h2>
+      <hr style="color:#004a8d">
 Paired and time-stamped water quality monitoring data collected at distribution points and households.
 <p style="font-size:75%"><i>Data collection can be achieved using either a digital platform or a paper-pen-to-spreadsheet approach</i></p>
       </div>
