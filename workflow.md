@@ -7,7 +7,7 @@ The Safe Water Optimization Tool is designed to integrate into existing humanita
 
 <div class="workflow-container">
   <div class="workflow-item">
-<img src="{{ site.baseurl }}/public/images/Input_SWOT.png" alt="MSF staff test water quality">
+<img src="{{ site.baseurl }}/public/images/Input_SWOT.png" alt="icon of a tapstand and a tent">
      </div>
     <div class="workflow-item">
 <h2>Step 1: Input</h2>
@@ -15,18 +15,18 @@ Paired and time-stamped water quality monitoring data collected at distribution 
 <p style="font-size:75%"><i>Data collection can be achieved using either a digital platform or a paper-pen-to-spreadsheet approach</i></p>
       </div>
 <div class="workflow-item">
-<img src="{{ site.baseurl }}/public/images/Data_Management_SWOT.jpg" alt="MSF staff test water quality">
+<img src="{{ site.baseurl }}/public/images/Data_Management_SWOT.jpg" alt="icon of a cloud with a lock">
 </div>
     <div class="workflow-item">
 <h2>Step 2: Data Management</h2>
 Cloud-based data storage provides a secure repository for historical data which can be used for reporting.
       </div>
-<div class="workflow-item"></div>
+<div class="workflow-item"><img src="{{ site.baseurl }}/public/images/Data_Processing_SWOT.png" alt="icon of a wrench in front of a globe"></div>
 <div class="workflow-item">
 <h2>Step 3: Data Processing</h2>
 Web-based analysis of data uses a sophisticated machine learning approach which can include analysis of various water quality parameters
 </div>
-    <div class="workflow-item"></div>
+    <div class="workflow-item"><div class="workflow-item"><img src="{{ site.baseurl }}/public/images/Output_SWOT.png" alt="icon of a smartphone"></div>
     <div class="workflow-item">
 <h2>Step 4: Output</h2>
 Field workers receive guidance for the residual chlorine level required at distribution points to ensure safe water supply up to the moment of consumption in the household.
