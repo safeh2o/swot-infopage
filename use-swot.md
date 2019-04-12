@@ -2,6 +2,8 @@
 layout: page
 title: Use SWOT
 ---
-<div background-image="{{ site.baseurl }}/public/images/architecture-768432_1280.jpg">
-  <h2>Under Construction<h2>
+<div>
+    <img src="{{ site.baseurl }}/public/images/Under_Construction.jpg" alt="ground view of two glass buildings" style="width:100%;height:auto">
 </div>
+    
+    
