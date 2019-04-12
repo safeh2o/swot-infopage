@@ -2,7 +2,7 @@
 layout: page
 title: What is it?
 ---
-<div style="width:200px;font-size:75%;text-align:center;padding:3px"> <img src="{{ site.baseurl }}/public/images/SWOTpic2_cropped.jpeg" alt="MSF staff test water quality" style="float:right;width:200px;height:auto;border-radius:4px;margin:0px 0px 20px 20px"><br>
+<div style="width:200px;font-size:75%;text-align:right;padding:3px"> <img src="{{ site.baseurl }}/public/images/SWOTpic2_cropped.jpeg" alt="MSF staff test water quality" style="float:right;width:200px;height:auto;border-radius:4px;margin:0px 0px 20px 20px">
   <em>Measuring FRC at a tapstand - Gendrassa, Maban County, South Sudan (2013) </em>
 </div>
 
