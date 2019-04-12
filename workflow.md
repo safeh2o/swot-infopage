@@ -7,7 +7,7 @@ The Safe Water Optimization Tool is designed to integrate into existing humanita
 
 <div class="workflow-container">
   <div class="workflow-item">
-<img src="{{ site.baseurl }}/public/images/Data-Management_SWOT.jpg" alt="MSF staff test water quality">
+<img src="{{ site.baseurl }}/public/images/Data Management_SWOT.jpg" alt="MSF staff test water quality">
      </div>
     <div class="workflow-item">
 <h2>Step 1: Input</h2>
