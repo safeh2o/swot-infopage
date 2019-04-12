@@ -2,11 +2,11 @@
 layout: page
 title: What is it?
 ---
-<div> <img src="{{ site.baseurl }}/public/images/SWOTpic2_cropped.jpeg" alt="MSF staff test water quality" class="responsive-image" style="float:right;border-radius:4px;margin:10px 0px 10px 10px">
-</div>
-
 <b>Background</b><br>
 Chlorination is the most widely practised water treatment technique used to esnure the safety of water supplied to populations in precarious situations. If well managed, it can ensure residual protection from further contamination up to the point of water consumption in the household.
+
+<div> <img src="{{ site.baseurl }}/public/images/SWOTpic2_cropped.jpeg" alt="MSF staff test water quality" class="responsive-image" style="float:right;border-radius:4px;margin:10px 0px 10px 10px">
+</div>
 
 <b>The Problem</b><br>
 Humanitarian agencies prioritize water safety and routinely collect, monitor and report residual chlorination data. Little is done, however, to leverage this information to ensure that water quality complies with safety guidelines <em>at the point of consumption</em>, a significant oversight in response efforts.
