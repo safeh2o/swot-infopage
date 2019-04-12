@@ -2,6 +2,11 @@
 layout: page
 title: What is it?
 ---
+<div>  <img src="{{ site.baseurl }}/public/images/SWOTpic2_cropped.jpeg" alt="MSF staff test water quality" display="in-line block" float="right" width="400px" height="auto" border-radius="4px" margin="0px 0px 20px 20px>
+  <em>Measuring FRC at a tapstand - Gendrassa, Maban County, South Sudan (2013) </em>
+</div>
+
+
 <b>The Background</b><br>
 Chlorination is the most widely practised water treatment technique used to esnure the safety of water supplied to populations in precarious situations. If well managed, it can ensure residual protection from further contamination up to the point of water consumption in the household.
 
