@@ -384,6 +384,19 @@ tbody tr:nth-child(odd) th {
   height: auto;
 }
 
+/* added by NSK for workflow grid */
+.workflow-container {
+  display: inline-grid;
+  grid-template-columns: 25% 75%;
+  margin: 10px;
+}
+
+.workflow-item {
+  padding: 10px;
+  text-align: left;
+  image-align: center;
+}
+
 
 /*
  * Pagination
