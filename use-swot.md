@@ -5,5 +5,5 @@ title: Use SWOT
 
 <b>Under Construction</b>
 <div>  
-<img src="{{ site.baseurl }}/public/images/coming-soon-2579123_640.jpg" alt="coming soon sign" style="width:100%;height:auto">
+<img src="{{ site.baseurl }}/public/images/architecture-768432_1280.jpg" alt="ground view of two glass buildings" style="width:100%;height:auto"><h2 style="float:center">Under Construction<h2>
 </div>
