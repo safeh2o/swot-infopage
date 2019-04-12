@@ -379,7 +379,8 @@ tbody tr:nth-child(odd) th {
 
 /* added by NSK for responsive images */
 .responsive-image {
-  width: 100%;
+  max-width: 300px;
+  max-width: 30%;
   height: auto;
 }
 
