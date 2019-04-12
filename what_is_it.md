@@ -2,12 +2,12 @@
 layout: page
 title: What is it?
 ---
+<b>The Background</b><br>
+Chlorination is the most widely practised water treatment technique used to esnure the safety of water supplied to populations in precarious situations. If well managed, it can ensure residual protection from further contamination up to the point of water consumption in the household.
+
 <div style="display:inline-block;width:200px;font-size:75%;text-align:right;padding:3px"> <img src="{{ site.baseurl }}/public/images/SWOTpic2_cropped.jpeg" alt="MSF staff test water quality" style="float:right;width:200px;height:auto;border-radius:4px;margin:0px 0px 20px 20px">
   <em>Measuring FRC at a tapstand - Gendrassa, Maban County, South Sudan (2013) </em>
 </div>
-
-<b>The Background</b><br>
-Chlorination is the most widely practised water treatment technique used to esnure the safety of water supplied to populations in precarious situations. If well managed, it can ensure residual protection from further contamination up to the point of water consumption in the household.
 
 <b>The Problem</b><br>
 Humanitarian agencies prioritize water safety and routinely collect, monitor and report residual chlorination data. Little is done, however, to leverage this information to ensure that water quality complies with safety guidelines <em>at the point of consumption</em>, a significant oversight in response efforts.
