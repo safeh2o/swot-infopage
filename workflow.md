@@ -26,7 +26,7 @@ Cloud-based data storage provides a secure repository for historical data which 
 <h2>Step 3: Data Processing</h2>
 Web-based analysis of data uses a sophisticated machine learning approach which can include analysis of various water quality parameters
 </div>
-    <div class="workflow-item"><div class="workflow-item"><img src="{{ site.baseurl }}/public/images/Output_SWOT.png" alt="icon of a smartphone"></div>
+    <div class="workflow-item"><img src="{{ site.baseurl }}/public/images/Output_SWOT.png" alt="icon of a smartphone"></div>
     <div class="workflow-item">
 <h2>Step 4: Output</h2>
 Field workers receive guidance for the residual chlorine level required at distribution points to ensure safe water supply up to the moment of consumption in the household.
