@@ -2,7 +2,7 @@
 layout: page
 title: What is it?
 ---
-<div>  <img src="{{ site.baseurl }}/public/images/SWOTpic2_cropped.jpeg" alt="MSF staff test water quality" style="float:right;width:400px;height:auto">
+<div>  <img src="{{ site.baseurl }}/public/images/SWOTpic2_cropped.jpeg" alt="MSF staff test water quality" style="float:right;width:200px;height:auto" border-radius="4px" margin="0px 0px 20px 20px>&nbsp;
   <em>Measuring FRC at a tapstand - Gendrassa, Maban County, South Sudan (2013) </em>
 </div>
 
