@@ -3,7 +3,7 @@ layout: page
 title: What is it?
 ---
 <b>Background</b><br>
-Chlorination is the most widely practised water treatment technique used to esnure the safety of water supplied to populations in precarious situations. If well managed, it can ensure residual protection from further contamination up to the point of water consumption in the household.
+Chlorination is the most widely practised water treatment technique used to ensure the safety of water supplied to populations in precarious situations. If well managed, it can ensure residual protection from further contamination up to the point of water consumption in the household.
 
 <div> <img src="{{ site.baseurl }}/public/images/SWOTpic2_cropped.jpeg" alt="MSF staff test water quality" class="responsive-image" style="float:right;border-radius:4px;margin:10px 0px 10px 10px">
 </div>
