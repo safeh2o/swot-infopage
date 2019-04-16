@@ -11,7 +11,7 @@ The Safe Water Optimization Tool is designed to integrate into existing humanita
      </div>
     <div class="workflow-item">
 <h2>Step 1: Input</h2>
-Paired and time-stamped water quality monitoring data collected at distribution points and households.
+Paired and time-stamped water quality monitoring data collected at distribution points and at household level.
 <p style="font-size:75%"><i>Data collection can be achieved using either a digital platform or a paper-pen-to-spreadsheet approach</i></p>
       </div>
 <div class="workflow-item">
@@ -24,12 +24,12 @@ Cloud-based data storage provides a secure repository for historical data which 
 <div class="workflow-item"><img src="{{ site.baseurl }}/public/images/Data_Processing_SWOT.png" alt="icon of a wrench in front of a globe"></div>
 <div class="workflow-item">
 <h2>Step 3: Data Processing</h2>
-Web-based analysis of data uses a sophisticated machine learning approach which can include analysis of various water quality parameters
+Web-based analysis of water quality data using a sophisticated machine learning approach.
 </div>
     <div class="workflow-item"><img src="{{ site.baseurl }}/public/images/Output_SWOT.png" alt="icon of a smartphone"></div>
     <div class="workflow-item">
 <h2>Step 4: Output</h2>
-Field workers receive guidance for the residual chlorine level required at distribution points to ensure safe water supply up to the moment of consumption in the household.
-<p style="font-size:75%"><i>Guidance can be viewed online and sent by text (SMS) and email.</i></p>
+Field workers receive guidance for the residual chlorine level required at distribution points to ensure safe water supply up to the point of consumption in the household.
+<p style="font-size:75%"><i>Guidance can be viewed online and sent by email.</i></p>
 </div>
     </div>
