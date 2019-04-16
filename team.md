@@ -24,7 +24,7 @@ Dr. Imran Ali is an aid worker and academic focused on humanitarian challenges a
 <b>Jean Francois (Jeff) Fesselet, Project Manager</b><br>
 Jeff is currently the WatSan unit coordinator in the Public Health Department of MSF Operational Centre Amsterdam. 
 He has spent 25 years of his carrier with MSF, starting in the field working in different positions and contexts. In 1999, he started working at headquarters and has since been involved in several large scale emergency responses, leading the research and development portfolio, contributing to technical and management trainings, participating in strategic plans, managing a team of up to 6 advisors and contributing to technical and topic specific guidelines. 
-Jeff has received his postgraduate degree in Rural development at Bioforce Lyon France  and now holds a Master in Tropical Public Health Engineering from Leeds, UK.
+Jeff has received his postgraduate degree in Rural development at Bioforce Lyon France  and now holds a Master in Tropical Public Health Engineering from Leeds, UK.<br>
 <br>
 <b>Matt Arnold, Technical Advisor</b><br>
 Safe Water Optimization Tool Technical Advisor, DIGHR<br>
