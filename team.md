@@ -35,5 +35,6 @@ Assistant Professor, PEng, Lassonde School of Engineering, York University<br>
 <br>
 <b>Mike Spendlove, Software Solutions Advisor</b><br>
 Mike is a software engineer with 12+ years experience in software development, specializing in full stack web and cloud. Graduating from the University of Waterloo's program in Systems Design Engineering, he has built and designed systems for start-ups, commercial enterprises and public sector organizations, as a developer, team lead and architect. In 2014, he took on a technical logistician role in South Kivu, Democratic Republic of Congo with Medecins Sans Frontieres, managing the construction and operation of a remote medical center. Since 2018, he has been engaged with the Dahdaleh Institute of Global Health Research leveraging technology to help address humanitarian needs.<br>
+<br>
 <b>Saad Ali, Engineering Modelling Developer</b>
 </div>
