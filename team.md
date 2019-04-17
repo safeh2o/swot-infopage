@@ -4,17 +4,17 @@ title: Project Team
 ---
 This project is a collaboration between Médecins Sans Frontières / Doctors Without Borders (MSF) and the Dahdaleh Institute for Global Health Research at York University, Toronto.
 
-  <div class="column" margin="5px 10px 5px 10px">
+  <div class="column">
   <a href="https://www.doctorswithoutborders.ca/" target="_blank" rel="noopener">
     <img src="{{ site.baseurl }}/public/images/MSF_logo.jpg" alt="MSF logo">
     </a>
   </div>
- <div class="column" margin="5px 10px 5px 10px">
+ <div class="column">
   <a href="http://dighr.yorku.ca/" target="_blank" rel="noopener">
  <img src="{{ site.baseurl }}/public/images/yorku_logo.png" alt="Yorku logo">
     </a>
   </div>
-  <div class="column" margin="5px 10px 5px 10px">
+  <div class="column">
    <a href="http://dighr.yorku.ca/" target="_blank" rel="noopener">
      <img src="{{ site.baseurl }}/public/images/DIGHRlogo-red.png" alt="DIGHR Logo">
      </a>
