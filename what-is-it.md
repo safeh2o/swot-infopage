@@ -8,13 +8,13 @@ Chlorination is the most widely practised water treatment technique used to ensu
 <div> <img src="{{ site.baseurl }}/public/images/SWOTpic2_cropped.jpeg" alt="MSF staff test water quality" class="responsive-image" style="float:right;border-radius:4px;margin:10px 0px 10px 10px">
 </div>
 
-</h2>The Problem</h2>
+<h2>The Problem</h2>
 Humanitarian agencies prioritize water safety and routinely collect, monitor and report residual chlorination data. Little is done, however, to leverage this information to ensure that water quality complies with safety guidelines <em>at the point of consumption</em>, a significant oversight in response efforts.
 
-<b>The Solution</b><br>
+<h2>The Solution</h2>
 The proper management and analysis of routinely collected residual chlorine data, using appropriate statistical techniques, will provide humanitarian field workers with high-quality, site-specific, and evidence-based operational guidance. The Safe Water Optimisation Tool (SWOT) is being developed with this primary objective.
 
-</h2>Benefits of the SWOT</h2>
+<h2>Benefits of the SWOT</h2>
 <ul>
 <li>Improve public health by reducing the incidence of water borne disease</li>
 <li>Establish site-specific guidance to ensure better compliance with chlorination standards at the household level</li>
