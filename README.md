@@ -1,6 +1,6 @@
 # SWOT
 Safe Water Optimization Tool
-Leveraging routine water quality data to guarantee safe water supply and improve the public health of populations living in precarious situations.
+Leveraging routine water quality data to guarantee safe water supply.
 
 ## Contents
 
