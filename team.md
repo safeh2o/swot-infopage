@@ -4,19 +4,19 @@ title: Project Team
 ---
 This project is a collaboration between Médecins Sans Frontières / Doctors Without Borders (MSF) and the Dahdaleh Institute for Global Health Research (DIGHR) at York University, Toronto.
 
-  <div class="column">
+  <a href="https://www.doctorswithoutborders.ca/" target="_blank" rel="noopener"><div class="column">
+    <img src="{{ site.baseurl }}/public/images/MSF_logo.jpg" alt="MSF logo"> 
+  </div></a>
+  <a href="http://dighr.yorku.ca/" target="_blank" rel="noopener"><div class="column">
      <img src="{{ site.baseurl }}/public/images/yorku_logo.png" alt="Yorku logo">
   </div>
   <div class="column">
-     <img src="{{ site.baseurl }}/public/images/MSF.jpg" alt="MSF logo">
-  </div>
-  <div class="column">
      <img src="{{ site.baseurl }}/public/images/DIGHRlogo-red.png" alt="DIGHR Logo">
-  </div>
+  </div></a>
 
 <div>
 <h2>Team Members</h2>
-<br>
+
 <h3>Syed Imran Ali, Project Lead</h3>
 <b>Global Health & Humanitarianism Research Fellow, Dahdaleh Institute for Global Health Research</b><br>
 Dr. Imran Ali is an aid worker and academic focused on humanitarian challenges at the intersection of environment and public health. He has worked in emergency responses and led operational research with Médecins Sans Frontières and the United Nations High Commissioner for Refugees in South Sudan, Pakistan, Jordan, Rwanda, and Uganda. Dr. Ali has taught at the University of California, Berkeley, where he completed a postdoctoral fellowship in the Development Impact Lab and the Blum Center for Developing Economies. Dr. Ali received his doctorate in environmental engineering from the University of Guelph and his bachelors in engineering from Queen’s University.
@@ -31,11 +31,11 @@ Jeff has received his postgraduate degree in Rural development at Bioforce Lyon 
 <b>Safe Water Optimization Tool Technical Advisor, Dahdaleh Institute for Global Health Research</b><br>
 Matt started working as a Technical Advisor at The Dahdaleh Institute of Global Health Research in June 2018. Prior to that, and since 2003, he worked for MSF, both in the field and as a Technical Advisor at HQ level. This work necessitated supporting and implementing water supply and sanitation projects in many humanitarian emergencies and contexts – from natural disasters and disease outbreaks to population displacements. With an educational background (MSc) in Hydrogeology and a keen interest in Public Health and water quality he is looking to further investigate and research issues in these domains with a view to improving the quality of water supplied to medical facilities and populations facing humanitarian crises.
 
-<h3>Usman Khan, Artificial Neural Network Lead</h3>
-<b>Assistant Professor, PEng, Lassonde School of Engineering, York University</b>
-
 <h3>Mike Spendlove, Software Solutions Advisor</h3>
 Mike is a software engineer with 12+ years experience in software development, specializing in full stack web and cloud. Graduating from the University of Waterloo's program in Systems Design Engineering, he has built and designed systems for start-ups, commercial enterprises and public sector organizations, as a developer, team lead and architect. In 2014, he took on a technical logistician role in South Kivu, Democratic Republic of Congo with Medecins Sans Frontieres, managing the construction and operation of a remote medical center. Since 2018, he has been engaged with the Dahdaleh Institute of Global Health Research leveraging technology to help address humanitarian needs.
+
+<h3>Usman Khan, PEng., Artificial Neural Network Lead</h3>
+<b>Assistant Professor, Lassonde School of Engineering, York University</b>
 
 <h3>Saad Ali, Engineering Modelling Developer</h3>
 </div>
