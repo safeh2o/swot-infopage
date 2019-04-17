@@ -6,17 +6,17 @@ This project is a collaboration between Médecins Sans Frontières / Doctors Wit
 
   <div class="column">
   <a href="https://www.doctorswithoutborders.ca/" target="_blank" rel="noopener">
-    <img src="{{ site.baseurl }}/public/images/MSF_logo.jpg" alt="MSF logo" margin="10px">
+    <img src="{{ site.baseurl }}/public/images/MSF_logo.jpg" alt="MSF logo" margin="5px 5px 5px 5px">
     </a>
   </div>
  <div class="column">
   <a href="http://dighr.yorku.ca/" target="_blank" rel="noopener">
- <img src="{{ site.baseurl }}/public/images/yorku_logo.png" alt="Yorku logo" margin="10px">
+ <img src="{{ site.baseurl }}/public/images/yorku_logo.png" alt="Yorku logo" margin="5px 5px 5px 5px">
     </a>
   </div>
   <div class="column">
    <a href="http://dighr.yorku.ca/" target="_blank" rel="noopener">
-     <img src="{{ site.baseurl }}/public/images/DIGHRlogo-red.png" alt="DIGHR Logo" margin="10px">
+     <img src="{{ site.baseurl }}/public/images/DIGHRlogo-red.png" alt="DIGHR Logo" margin="5px 5px 5px 5px">
      </a>
   </div>
 
