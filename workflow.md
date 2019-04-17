@@ -7,7 +7,7 @@ The Safe Water Optimization Tool is designed to integrate into existing humanita
 
 <div class="workflow-container">
   <div class="workflow-item">
-<img src="{{ site.baseurl }}/public/images/Input_SWOT.png" alt="icon of a tapstand and a tent">
+<img src="{{ site.baseurl }}/public/images/Input_tent and tapstand_SWOT.png" alt="icon of a tapstand and a tent">
      </div>
     <div class="workflow-item">
 <h2>Step 1: Input</h2>
@@ -15,13 +15,13 @@ Paired and time-stamped water quality monitoring data collected at distribution 
 <p style="font-size:75%"><i>Data collection can be done using either a digital platform or a paper-pen-to-spreadsheet approach</i></p>
       </div>
 <div class="workflow-item">
-<img src="{{ site.baseurl }}/public/images/Data_Management_SWOT.jpg" alt="icon of a cloud with a lock">
+<img src="{{ site.baseurl }}/public/images/Data Management_SWOT.png" alt="icon of a cloud with a lock">
 </div>
     <div class="workflow-item">
 <h2>Step 2: Data Management</h2>
 Cloud-based data storage provides a secure repository for historical data which can be used for reporting.
       </div>
-<div class="workflow-item"><img src="{{ site.baseurl }}/public/images/Data_Processing_SWOT.png" alt="icon of a wrench in front of a globe"></div>
+<div class="workflow-item"><img src="{{ site.baseurl }}/public/images/Data Processing_SWOT.png" alt="icon of a wrench in front of a globe"></div>
 <div class="workflow-item">
 <h2>Step 3: Data Processing</h2>
 Web-based analysis of water quality data using a sophisticated machine learning approach.
