@@ -18,7 +18,7 @@ The proper management and analysis of routinely collected residual chlorine data
 <ul>
 <li>Improve public health by reducing the incidence of water borne disease</li>
 <li>Establish site-specific guidance to ensure better compliance with chlorination standards at the household level</li>
-<li>Provides a secure repository for historical data which can then be sued for reporting purposes</li>
+<li>Provides a secure repository for historical data which can then be used for reporting purposes</li>
 <li>Improve accountability to populations and donors</li>
 <li>Highlight problematic areas or practices towards which resources can be focused during water supply or outbreak control interventions</li>
 </ul>
