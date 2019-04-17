@@ -15,7 +15,7 @@ Paired and time-stamped water quality monitoring data collected at distribution 
 <p style="font-size:75%"><i>Data collection can be done using either a digital platform or a paper-pen-to-spreadsheet approach</i></p>
       </div>
 <div class="workflow-item">
-<img src="{{ site.baseurl }}/public/images/Data_Management_SWOT.png" alt="icon of a cloud with a lock">
+<img src="{{ site.baseurl }}/public/images/DataManagement_SWOT.png" alt="icon of a cloud with a lock">
 </div>
     <div class="workflow-item">
 <h2>Step 2: Data Management</h2>
