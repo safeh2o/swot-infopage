@@ -13,7 +13,6 @@ The Safe Water Optimization Tool is designed to integrate into existing humanita
 <h2>Step 1: Input</h2>
 Paired and time-stamped water quality monitoring data collected at distribution points and at household level.<br>
 <p style="font-size:75%"><i>Data collection can be done using either a digital platform or a paper-pen-to-spreadsheet approach</i></p><br>
-      <br>
       </div>
 <div class="workflow-item">
 <img src="{{ site.baseurl }}/public/images/DataManagement_SWOT.png" alt="icon of a cloud with a lock">
@@ -31,7 +30,6 @@ Web-based analysis of water quality data using a sophisticated machine learning 
     <div class="workflow-item">
 <h2>Step 4: Output</h2>
 Field workers receive guidance for the residual chlorine level required at distribution points to ensure safe water supply up to the point of consumption in the household.<br>
-      <br>
 <p style="font-size:75%"><i>Guidance can be viewed online and sent by email.</i></p>
 </div>
     </div>
