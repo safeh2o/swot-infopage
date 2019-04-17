@@ -2,21 +2,21 @@
 layout: page
 title: Project Team
 ---
-This project is a collaboration between Médecins Sans Frontières / Doctors Without Borders (MSF) and the Dahdaleh Institute for Global Health Research (DIGHR) at York University, Toronto.
+This project is a collaboration between Médecins Sans Frontières / Doctors Without Borders (MSF) and the Dahdaleh Institute for Global Health Research at York University, Toronto.
 
-  <div class="column">
+  <div class="column" margin="5px 10px 5px 10px">
   <a href="https://www.doctorswithoutborders.ca/" target="_blank" rel="noopener">
-    <img src="{{ site.baseurl }}/public/images/MSF_logo.jpg" alt="MSF logo" margin="5px 5px 5px 5px">
+    <img src="{{ site.baseurl }}/public/images/MSF_logo.jpg" alt="MSF logo">
     </a>
   </div>
- <div class="column">
+ <div class="column" margin="5px 10px 5px 10px">
   <a href="http://dighr.yorku.ca/" target="_blank" rel="noopener">
- <img src="{{ site.baseurl }}/public/images/yorku_logo.png" alt="Yorku logo" margin="5px 5px 5px 5px">
+ <img src="{{ site.baseurl }}/public/images/yorku_logo.png" alt="Yorku logo">
     </a>
   </div>
-  <div class="column">
+  <div class="column" margin="5px 10px 5px 10px">
    <a href="http://dighr.yorku.ca/" target="_blank" rel="noopener">
-     <img src="{{ site.baseurl }}/public/images/DIGHRlogo-red.png" alt="DIGHR Logo" margin="5px 5px 5px 5px">
+     <img src="{{ site.baseurl }}/public/images/DIGHRlogo-red.png" alt="DIGHR Logo">
      </a>
   </div>
 
