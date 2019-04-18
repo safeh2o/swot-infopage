@@ -387,7 +387,7 @@ tbody tr:nth-child(odd) th {
 /* added by NSK for workflow grid */
 .workflow-container {
   display: inline-grid;
-  grid-template-columns: 10% 90%;
+  grid-template-columns: 20% 80%;
   margin: 10px;
 }
 
