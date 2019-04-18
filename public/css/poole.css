@@ -396,10 +396,11 @@ tbody tr:nth-child(odd) th {
   text-align: left;
 }
 
-.icon {
+img.workflow-icon {
+  margin: 10px 20px;
   max-width: 80px;
   image-align: center;
-  vertical-align: center;
+  vertical-align: middle;
 }
 
 /*
