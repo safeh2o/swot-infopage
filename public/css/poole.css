@@ -392,8 +392,9 @@ tbody tr:nth-child(odd) th {
 }
 
 .workflow-item {
-  text-align: left;
+  text-align: left !important;
   margin: 10px;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
