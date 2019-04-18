@@ -392,15 +392,12 @@ tbody tr:nth-child(odd) th {
 }
 
 .workflow-item {
-  margin: 10px 20px;
   text-align: left;
 }
 
 img.workflow-icon {
   margin: auto;
   max-width: 80px;
-  image-align: center;
-  vertical-align: middle;
 }
 
 /*
