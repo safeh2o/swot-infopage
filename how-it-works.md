@@ -6,7 +6,7 @@ title: How it works
 The Safe Water Optimization Tool is designed to integrate into existing humanitarian operations by using data that is already collected in the field. The SWOT provides an accessible platform to manage data and integrates advanced machine learning to generate site-specific and evidenced based water treatment recommendations for field teams.
 
 <div class="workflow-container">
-  <div class="workflow-item icon">
+  <img class="workflow-icon">
 <img src="{{ site.baseurl }}/public/images/Input_tent_and_tapstand_SWOT.png" alt="icon of a tapstand and a tent" style="margin-top:1rem;margin-left:auto;margin-right:auto">
      </div>
     <div class="workflow-item">
@@ -14,7 +14,7 @@ The Safe Water Optimization Tool is designed to integrate into existing humanita
 Paired and time-stamped water quality monitoring data collected at distribution points and at household level.<br>
 <p style="font-size:75%"><i>Data collection can be done using either a digital platform or a paper-pen-to-spreadsheet approach</i></p>
       </div>
-<div class="workflow-item icon">
+<img class="workflow-icon">
 <img src="{{ site.baseurl }}/public/images/DataManagement_SWOT.png" alt="icon of a cloud with a lock" style="margin-top:16px;margin-left:auto;margin-right:auto">
 </div>
     <div class="workflow-item">
@@ -22,13 +22,13 @@ Paired and time-stamped water quality monitoring data collected at distribution 
 Cloud-based data storage.<br>
       <p style="font-size:75%"><i>Provides a secure repository for historical data which can be used for reporting purposes.</i></p>
       </div>
-<div class="workflow-item icon"><img src="{{ site.baseurl }}/public/images/Data_Processing_SWOT_80x80.png" alt="icon of a wrench in front of a globe" style="margin-top:16px;margin-left:auto;margin-right:auto"></div>
+<img class="workflow-icon"><img src="{{ site.baseurl }}/public/images/Data_Processing_SWOT_80x80.png" alt="icon of a wrench in front of a globe" style="margin-top:16px;margin-left:auto;margin-right:auto"></div>
 <div class="workflow-item">
 <h2>Step 3: Data Processing</h2>
 Web-based analysis of water quality data using a sophisticated machine learning approach.<br>
       <p style="font-size:75%"><i>Various water quality parameters can be included for analysis</i></p>
 </div>
-    <div class="workflow-item icon"><img src="{{ site.baseurl }}/public/images/Output_SWOT_NoFill.png" alt="icon of a smartphone" style="margin-top:16px;margin-left:auto;margin-right:auto" ></div>
+    <img class="workflow-icon"><img src="{{ site.baseurl }}/public/images/Output_SWOT_NoFill.png" alt="icon of a smartphone" style="margin-top:16px;margin-left:auto;margin-right:auto" ></div>
     <div class="workflow-item">
 <h2>Step 4: Output</h2>
 Site-specific guidance for the residual chlorine level required at distribution points to ensure safe water supply up to the moment of consumption in the household.<br>
