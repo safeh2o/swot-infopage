@@ -398,7 +398,9 @@ tbody tr:nth-child(odd) th {
 
 img.workflow-icon {
   max-width: 80px;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
 }
 
