@@ -6,6 +6,7 @@ title: How it works
 The Safe Water Optimization Tool is designed to integrate into existing humanitarian operations by using data that is already collected in the field. The SWOT provides an accessible platform to manage data and integrates advanced machine learning to generate site-specific and evidenced based water treatment recommendations for field teams.
 
 <div class="workflow-container">
+      <div class="workflow-item">
 <img class="workflow-icon" src="{{ site.baseurl }}/public/images/Input_tent_and_tapstand_SWOT.png" alt="icon of a tapstand and a tent">
      </div>
     <div class="workflow-item">
