@@ -8,7 +8,7 @@ permalink:        pretty
 
 # Setup
 title:            Safe Water Optimization Tool
-description:      'Leveraging routine water quality data to guarantee safe water supply.<hr><a href="{{ site.baseurl }}/public/SWOT_Summary.pdf/" download>Download the summary</a>'
+description:      'Leveraging routine water quality data to guarantee safe water supply.<hr><a href="{{ site.baseurl }}/public/SWOT_Summary.pdf/" target="_blank" rel="noopener">Click to download the Project Overview</a><hr>'
 url:              ""
 baseurl:          /
 
