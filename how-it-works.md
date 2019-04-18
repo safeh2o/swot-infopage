@@ -7,7 +7,7 @@ The Safe Water Optimization Tool is designed to integrate into existing humanita
 
 <div class="workflow-container">
   <div class="workflow-item">
-<img src="{{ site.baseurl }}/public/images/Input_tent_and_tapstand_SWOT.png" alt="icon of a tapstand and a tent" style="margin-top:16px;margin-left:auto;margin-right:auto">
+<img src="{{ site.baseurl }}/public/images/Input_tent_and_tapstand_SWOT.png" alt="icon of a tapstand and a tent" style="margin-top:1rem;margin-left:auto;margin-right:auto">
      </div>
     <div class="workflow-item">
 <h2>Step 1: Input</h2>
