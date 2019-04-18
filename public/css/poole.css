@@ -392,12 +392,15 @@ tbody tr:nth-child(odd) th {
 }
 
 .workflow-item {
-  padding: 10px;
+  margin: 10px 20px;
   text-align: left;
-  image-align: center;
-  vertical-align: bottom;
 }
 
+.icon {
+  max-width: 80px;
+  image-align: center;
+  vertical-align: center;
+}
 
 /*
  * Pagination
