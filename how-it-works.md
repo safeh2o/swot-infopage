@@ -21,7 +21,7 @@ Paired and time-stamped water quality monitoring data collected at distribution 
 <h2>Step 2: Data Management</h2>
 Cloud-based data storage provides a secure repository for historical data which can be used for reporting.
       </div>
-<div class="workflow-item"><img src="{{ site.baseurl }}/public/images/Data_Processing_SWOT.png" alt="icon of a wrench in front of a globe" style="margin-top:16px;margin-left:auto;margin-right:auto"></div>
+<div class="workflow-item"><img src="{{ site.baseurl }}/public/images/Data_Processing_SWOT_80x80.png" alt="icon of a wrench in front of a globe" style="margin-top:16px;margin-left:auto;margin-right:auto"></div>
 <div class="workflow-item">
 <h2>Step 3: Data Processing</h2>
 Web-based analysis of water quality data using a sophisticated machine learning approach.
