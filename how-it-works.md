@@ -19,17 +19,19 @@ Paired and time-stamped water quality monitoring data collected at distribution 
 </div>
     <div class="workflow-item">
 <h2>Step 2: Data Management</h2>
-Cloud-based data storage provides a secure repository for historical data which can be used for reporting.
+Cloud-based data storage.<br>
+      <p style="font-size:75%"><i>Provides a secure repository for historical data which can be used for reporting purposes.</i></p>
       </div>
 <div class="workflow-item"><img src="{{ site.baseurl }}/public/images/Data_Processing_SWOT_80x80.png" alt="icon of a wrench in front of a globe" style="margin-top:16px;margin-left:auto;margin-right:auto"></div>
 <div class="workflow-item">
 <h2>Step 3: Data Processing</h2>
-Web-based analysis of water quality data using a sophisticated machine learning approach.
+Web-based analysis of water quality data using a sophisticated machine learning approach.<br>
+      <p style="font-size:75%"><i>Various water quality parameters can be included for analysis</i></p>
 </div>
     <div class="workflow-item"><img src="{{ site.baseurl }}/public/images/Output_SWOT_NoFill.png" alt="icon of a smartphone" style="margin-top:16px;margin-left:auto;margin-right:auto" ></div>
     <div class="workflow-item">
 <h2>Step 4: Output</h2>
-Field workers receive guidance for the residual chlorine level required at distribution points to ensure safe water supply up to the point of consumption in the household.<br>
-<p style="font-size:75%"><i>Guidance can be viewed online and sent by email.</i></p>
+Site-specific guidance for the residual chlorine level required at distribution points to ensure safe water supply up to the moment of consumption in the household.<br>
+<p style="font-size:75%"><i>Guidance can be viewed online or sent by email.</i></p>
 </div>
     </div>
