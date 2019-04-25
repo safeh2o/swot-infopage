@@ -24,7 +24,6 @@ The proper management and analysis of routinely collected residual chlorine data
 </ul>
 
 <h2>Supporting Research</h2><br>
-<br>
 The following links are to documents that are the result of several field invetigations into chlorine decay and its management:<br>
 <br>
 *<a href="https://www.who.int/bulletin/volumes/93/8/14-147645/en/" target="_blank" rel="noopener"> Effectiveness of emergency water treatment practices in refugee camps in South Sudan</a><br>
