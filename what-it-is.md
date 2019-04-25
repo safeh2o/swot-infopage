@@ -30,5 +30,5 @@ The following links are to documents that come from several field investigations
 *<a href="https://fieldresearch.msf.org/handle/10144/618835" target="_blank" rel="noopener"> Evidence-Based FRC Targets</a><br>
 *<a href="https://fieldresearch.msf.org/handle/10144/618836" target="_blank" rel="noopener"> Study Report: Evidence Based FRC Targets for Centralized Chlorination in Emergencies</a><br>
 *<a href="https://fieldresearch.msf.org/handle/10144/618737" target="_blank" rel="noopener"> Validation Study Report: Eavluating New Evidence-Based FRC Targets at Mtendeli, Tanzania</a><br>
-
+---------------------
 <p style="font-size:75%">Image Credit: Syed Imran Ali/Measuring FRC at a tapstand, Gendrassa, Maban County, South Sudan/2013</p>
