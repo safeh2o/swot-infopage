@@ -21,7 +21,7 @@ This project is a collaboration between Médecins Sans Frontières / Doctors Wit
   </div>
 
 <div>
-<h2>Team Members</h2>
+<h2>Core Team Members</h2>
 
 <h3>Syed Imran Ali PhD, Project Lead</h3>
 <b>Global Health & Humanitarianism Fellow, DIGHR</b><br>
@@ -43,7 +43,7 @@ Mike is a software engineer with 12+ years experience in software development, s
 
 <h3>Usman Khan PhD PEng, Artificial Neural Network Lead</h3>
 <b>Assistant Professor, Lassonde School of Engineering, York University</b><br>
-Prof Khan is n Assistant Professor in Civil Engineering at the Lassonde School of Engineering, York University. His research interests lie in Water Resources Engineering, focusing on urban hydrology, including flood risk assessment and uncertainty analysis, sustainable water resource management and infrastructure, and the impacts of climate change on these systems. Usman received his BSc and MSc from the University of Calgary (Canada). Usman was awarded a PhD from the University of Victoria (Canada) where his research contributions included designing new big-data based techniques to improve water quality and quantity analysis in urban areas. He has won a number of national awards for his research and teaching, including NSERC awards for his MSc, PhD and postdoctoral work, and recently an Andy Farquharson Teaching Excellence Award. In addition to this, Usman has worked with municipal governments, providing his expertise to a number of stormwater, watershed management and urban hydrology projects. 
+Prof Khan is Assistant Professor of Civil Engineering at York University. His research interests lie in Water Resources Engineering, focusing on urban hydrology, including flood risk assessment and uncertainty analysis, sustainable water resource management and infrastructure, and the impacts of climate change on these systems. Usman received his BSc and MSc from the University of Calgary (Canada). Usman was awarded a PhD from the University of Victoria (Canada) where his research contributions included designing new big-data based techniques to improve water quality and quantity analysis in urban areas. He has won a number of national awards for his research and teaching, including NSERC awards for his MSc, PhD and postdoctoral work, and recently an Andy Farquharson Teaching Excellence Award. In addition to this, Usman has worked with municipal governments, providing his expertise to a number of stormwater, watershed management and urban hydrology projects. 
 
 <h3>Rizwan Ali, Design Consultant</h3>
 <b>Principal Designer, Little Rocket Inc.</b><br>
