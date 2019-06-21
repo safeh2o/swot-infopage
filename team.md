@@ -23,25 +23,29 @@ This project is a collaboration between Médecins Sans Frontières / Doctors Wit
 <div>
 <h2>Team Members</h2>
 
-<h3>Syed Imran Ali, Project Lead</h3>
-<b>Global Health & Humanitarianism Research Fellow, Dahdaleh Institute for Global Health Research</b><br>
-Dr. Imran Ali is an aid worker and academic focused on humanitarian challenges at the intersection of environment and public health. He has worked in emergency responses and led operational research with Médecins Sans Frontières and the United Nations High Commissioner for Refugees in South Sudan, Pakistan, Jordan, Rwanda, and Uganda. Dr. Ali has taught at the University of California, Berkeley, where he completed a postdoctoral fellowship in the Development Impact Lab and the Blum Center for Developing Economies. Dr. Ali received his doctorate in environmental engineering from the University of Guelph and his bachelors in engineering from Queen’s University.
+<h3>Syed Imran Ali PhD, Project Lead</h3>
+<b>Global Health & Humanitarianism Fellow, DIGHR</b><br>
+Imran is an aid worker and academic focused on humanitarian challenges at the intersection of environment and public health. He has worked with Médecins Sans Frontières and the United Nations High Commissioner for Refugees in South Sudan, Pakistan, Jordan, Rwanda, and Uganda. Imran has taught at the University of California, Berkeley, where he did a postdoctoral fellowship developing the first evidence-based guidance for water treatment in emergencies, which the SWOT Project now builds upon. Imran received his doctorate in environmental engineering from the University of Guelph (Canada) and his bachelors in engineering from Queen’s University (Canada).
 
-<h3>Jean Francois (Jeff) Fesselet, Project Manager</h3>
-<b>WATSAN Unit Coordinator, Public Health Department, MSF Operational Centre Amsterdam</b><br>
-Jeff is currently the WatSan unit coordinator in the Public Health Department of MSF Operational Centre Amsterdam. 
-He has spent 25 years of his career with MSF, starting in the field working in different positions and contexts. In 1999, he started working at headquarters and has since been involved in several large scale emergency responses, leading the research and development portfolio, contributing to technical and management trainings, participating in strategic plans, managing a team of up to 6 advisors and contributing to technical and topic specific guidelines. 
-Jeff has received his postgraduate degree in Rural development at Bioforce Lyon France  and now holds a Master in Tropical Public Health Engineering from Leeds, UK.
+<h3>Jean-Francois (Jeff) Fesselet, Project Manager</h3>
+<b>WatSan Unit Coordinator, Public Health Department, MSF OCA</b><br>
+Jeff has spent 25 years with MSF, starting in the field working in different positions and contexts. In 1999, he started working at headquarters and has since been involved in several large scale emergency responses, leading the research and development portfolio, contributing to technical and management trainings, participating in strategic plans, managing a team of up to 6 advisors and contributing to technical and topic specific guidelines. Jeff received his postgraduate degree in Rural Development from Institute Bioforce (France) and holds a Master in Tropical Public Health Engineering from University of Leeds (UK).
 
 <h3>Matt Arnold, Technical Advisor</h3>
-<b>Safe Water Optimization Tool Technical Advisor, Dahdaleh Institute for Global Health Research</b><br>
-Matt is a hydrogeologist and humanitarian. He started working as a Technical Advisor at The Dahdaleh Institute of Global Health Research in June 2018. Prior to that, and since 2003, he worked for MSF, both in the field and as a Technical Advisor at HQ level. This work necessitated supporting and implementing water supply and sanitation projects in many humanitarian emergencies and contexts – from natural disasters and disease outbreaks to population displacements. With an educational background (MSc) in Hydrogeology and a keen interest in Public Health and water quality he is looking to further investigate and research issues in these domains with a view to improving the quality of water supplied to medical facilities and populations.
+<b>SWOT Technical Advisor, DIGHR</b><br>
+Matt is a hydrogeologist and humanitarian. He started working as a Technical Advisor at the Dahdaleh Institute of Global Health Research in June 2018. Prior to that, and since 2003, he worked for MSF, both in the field and as a Technical Advisor at HQ level. This work necessitated supporting and implementing water supply and sanitation projects in many humanitarian emergencies and contexts – from natural disasters and disease outbreaks to population displacements. With an MSc in Hydrogeology from the University of Birmingham (UK) and a keen interest in public health and water quality, he is looking to further investigate and research issues in these domains with a view to improving the quality of water supplied to medical facilities and populations in precarious situations.
 
 <h3>Mike Spendlove, Software Solutions Advisor</h3>
-Mike is a software engineer with 12+ years experience in software development, specializing in full stack web and cloud. Graduating from the University of Waterloo's program in Systems Design Engineering, he has built and designed systems for start-ups, commercial enterprises and public sector organizations, as a developer, team lead and architect. In 2014, he took on a technical logistician role in South Kivu, Democratic Republic of Congo with Medecins Sans Frontieres, managing the construction and operation of a remote medical center. Since 2018, he has been engaged with the Dahdaleh Institute of Global Health Research leveraging technology to help address humanitarian needs.
+<b>Director of Engineering, Checkout 51</b><br>
+Mike is a software engineer with 12+ years experience in software development, specializing in full stack web and cloud. Graduating from the University of Waterloo (Canada) with a degree in Systems Design Engineering, he has built and designed systems for start-ups, commercial enterprises and public sector organizations, as a developer, team lead and architect. In 2014, he took on a technical logistician role in South Kivu, Democratic Republic of Congo with Medecins Sans Frontieres, managing the construction and operation of a remote medical center. Since 2018, he has been engaged with the Dahdaleh Institute of Global Health Research leveraging technology to help address humanitarian needs.
 
-<h3>Usman Khan, PEng., Artificial Neural Network Lead</h3>
+<h3>Saad Ali, Engineering Optimization Lead</h3>
+
+<h3>Usman Khan PhD PEng, Artificial Neural Network Lead</h3>
 <b>Assistant Professor, Lassonde School of Engineering, York University</b>
+Prof Khan is n Assistant Professor in Civil Engineering at the Lassonde School of Engineering, York University. His research interests lie in Water Resources Engineering, focusing on urban hydrology, including flood risk assessment and uncertainty analysis, sustainable water resource management and infrastructure, and the impacts of climate change on these systems. Usman received his BSc and MSc from the University of Calgary (Canada). Usman was awarded a PhD from the University of Victoria (Canada) where his research contributions included designing new big-data based techniques to improve water quality and quantity analysis in urban areas. He has won a number of national awards for his research and teaching, including NSERC awards for his MSc, PhD and postdoctoral work, and recently an Andy Farquharson Teaching Excellence Award. In addition to this, Usman has worked with municipal governments, providing his expertise to a number of stormwater, watershed management and urban hydrology projects. 
 
-<h3>Saad Ali, Engineering Modelling Developer</h3>
+<h3>Rizwan Ali, Design Consultant</h3>
+<b>Principal Designer, Little Rocket Inc.</b>
+Rizwan is a designer/creative with 10+ years of experience working in a variety of fields including software, e-commerce, television, consumer electronics, social enterprise, and humanitarian aid. Graduating from the Ontario College of Art & Design, he has assisted with numerous charitable and humanitarian needs projects.
 </div>
