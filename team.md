@@ -42,10 +42,10 @@ Mike is a software engineer with 12+ years experience in software development, s
 <h3>Saad Ali, Engineering Optimization Lead</h3>
 
 <h3>Usman Khan PhD PEng, Artificial Neural Network Lead</h3>
-<b>Assistant Professor, Lassonde School of Engineering, York University</b>
+<b>Assistant Professor, Lassonde School of Engineering, York University</b><br>
 Prof Khan is n Assistant Professor in Civil Engineering at the Lassonde School of Engineering, York University. His research interests lie in Water Resources Engineering, focusing on urban hydrology, including flood risk assessment and uncertainty analysis, sustainable water resource management and infrastructure, and the impacts of climate change on these systems. Usman received his BSc and MSc from the University of Calgary (Canada). Usman was awarded a PhD from the University of Victoria (Canada) where his research contributions included designing new big-data based techniques to improve water quality and quantity analysis in urban areas. He has won a number of national awards for his research and teaching, including NSERC awards for his MSc, PhD and postdoctoral work, and recently an Andy Farquharson Teaching Excellence Award. In addition to this, Usman has worked with municipal governments, providing his expertise to a number of stormwater, watershed management and urban hydrology projects. 
 
 <h3>Rizwan Ali, Design Consultant</h3>
-<b>Principal Designer, Little Rocket Inc.</b>
+<b>Principal Designer, Little Rocket Inc.</b><br>
 Rizwan is a designer/creative with 10+ years of experience working in a variety of fields including software, e-commerce, television, consumer electronics, social enterprise, and humanitarian aid. Graduating from the Ontario College of Art & Design, he has assisted with numerous charitable and humanitarian needs projects.
 </div>
