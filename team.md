@@ -16,7 +16,7 @@ This project is a collaboration between Médecins Sans Frontières / Doctors Wit
   </div>
   <div class="column">
    <a href="http://dighr.yorku.ca/" target="_blank" rel="noopener">
-     <img src="{{ site.baseurl }}/public/images/RGB__Main_Black on Trans.png" alt="DIGHR Logo">
+     <img src="{{ site.baseurl }}/public/images/RGB__Main_Black on Trans.png" alt="DIGHR Logo" style="width:auto;height:100px;">
      </a>
   </div>
 
@@ -55,10 +55,11 @@ Rizwan is a designer/creative with 10+ years of experience working in a variety 
 The Achmea Foundation advocates an inclusive society in which everyone can participate and works with partners to develop structural solutions. The Foundation contributes financially and puts the expertise and talents of Achmea employees to work. Initiatives in healthcare, agriculture and financial services enable the Foundation to make a lasting difference for people in poor socio-economic circumstances.
 &nbsp;
 The Achmea Foundation enthusiastically joins SWOT in providing safe drinking water in refugee and IDP camps.
-&nbsp;
+</div>
+
 <div class="column">
  <a href="https://www.achmea.nl/en/sustainability/achmea-foundation" target="_blank" rel="noopener">
  <img src="{{ site.baseurl }}/public/images/AchmeaFoundation.png" alt="Achmea Foundation logo">
     </a>
-</div>
+
 </div>
