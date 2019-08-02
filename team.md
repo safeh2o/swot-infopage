@@ -16,7 +16,7 @@ This project is a collaboration between Médecins Sans Frontières / Doctors Wit
   </div>
   <div class="column">
    <a href="http://dighr.yorku.ca/" target="_blank" rel="noopener">
-     <img src="{{ site.baseurl }}/public/images/DIGHRlogo-red.png" alt="DIGHR Logo">
+     <img src="{{ site.baseurl }}/public/images/RGB__Main_Black on Trans.png" alt="DIGHR Logo">
      </a>
   </div>
 
@@ -48,14 +48,14 @@ Saad helps design and build modular systems for the pharmaceutical and biotech i
 Usman is a Civil Engineering professor at York University. His research interests lie in Water Resources Engineering, focusing on urban hydrology, including flood risk assessment and uncertainty analysis, sustainable water resource management and infrastructure, and the impacts of climate change on these systems. Usman received his BSc and MSc from the University of Calgary (Canada). Usman was awarded a PhD from the University of Victoria (Canada) where his research contributions included designing new big-data based techniques to improve water quality and quantity analysis in urban areas. He has won a number of national awards for his research and teaching, including NSERC awards for his MSc, PhD and postdoctoral work, and recently an Andy Farquharson Teaching Excellence Award. In addition to this, Usman has worked with municipal governments, providing his expertise to a number of stormwater, watershed management and urban hydrology projects. 
 
 <h3>Rizwan Ali, Design Consultant</h3>
-<b>Principal Designer, Little Rocket Inc.</b><br>
+<b>Design Director, Little Rocket Inc.</b><br>
 Rizwan is a designer/creative with 10+ years of experience working in a variety of fields including software, e-commerce, television, consumer electronics, social enterprise, and humanitarian aid. Graduating from the Ontario College of Art & Design, he has assisted with numerous charitable and humanitarian needs projects.
 
 <h2>Funding Partner</h2>
 The Achmea Foundation advocates an inclusive society in which everyone can participate and works with partners to develop structural solutions. The Foundation contributes financially and puts the expertise and talents of Achmea employees to work. Initiatives in healthcare, agriculture and financial services enable the Foundation to make a lasting difference for people in poor socio-economic circumstances.
-
+&nbsp;
 The Achmea Foundation enthusiastically joins SWOT in providing safe drinking water in refugee and IDP camps.
-
+&nbsp;
 <div class="column">
  <a href="https://www.achmea.nl/en/sustainability/achmea-foundation" target="_blank" rel="noopener">
  <img src="{{ site.baseurl }}/public/images/AchmeaFoundation.png" alt="Achmea Foundation logo">
