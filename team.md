@@ -16,7 +16,7 @@ This project is a collaboration between Médecins Sans Frontières / Doctors Wit
   </div>
   <div class="column">
    <a href="http://dighr.yorku.ca/" target="_blank" rel="noopener">
-     <img src="{{ site.baseurl }}/public/images/Horizontal-DIGHR-logo_safeh2onet.png" alt="DIGHR Logo">
+     <img src="{{ site.baseurl }}/public/images/RGB__Main_Black on Trans.png" alt="DIGHR Logo" style="width:auto;height:100px">
      </a>
   </div>
 
