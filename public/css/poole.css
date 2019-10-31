@@ -384,6 +384,19 @@ tbody tr:nth-child(odd) th {
   height: auto;
 }
 
+/* added by NSK for logo grid */
+.logo-container {
+  display: inline-grid;
+  grid-template-columns: 30% 30% 30%;
+  margin: 5px;
+}
+
+.logo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* added by NSK for workflow grid */
 .workflow-container {
   display: inline-grid;
