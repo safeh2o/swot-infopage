@@ -388,7 +388,7 @@ tbody tr:nth-child(odd) th {
 .logo-container {
   display: inline-grid;
   grid-template-columns: 30% 30% 30%;
-  margin: 5px;
+  margin:10px;
 }
 
 .logo-item {
