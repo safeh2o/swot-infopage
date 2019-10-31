@@ -395,6 +395,7 @@ tbody tr:nth-child(odd) th {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 
 /* added by NSK for workflow grid */
