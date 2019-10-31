@@ -20,7 +20,9 @@ title: Project Team
      </a>
   </div>
 
-<h3 style="text-align:left;">Syed Imran Ali, Project Lead</h3>
+<div>
+  <h3 >Syed Imran Ali, Project Lead</h3>
+  </div>
 <b>Global Health & Humanitarianism Fellow, DIGHR</b><br>
 Imran is an aid worker and academic focused on humanitarian challenges at the intersection of environment and public health. He has worked with Médecins Sans Frontières and the United Nations High Commissioner for Refugees in South Sudan, Pakistan, Jordan, Rwanda, and Uganda. Imran has taught at the University of California, Berkeley, where he did a postdoctoral fellowship developing the first evidence-based guidance for water treatment in emergencies, which the SWOT Project now builds upon. Imran received his doctorate in environmental engineering from the University of Guelph (Canada) and his bachelors in engineering from Queen’s University (Canada).
 
