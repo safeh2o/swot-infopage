@@ -19,14 +19,14 @@ The Safe Water Optimization Tool (SWOT) unlocks life-saving information inside w
 <h2>The Benefits</h2>
 <ul>
 <li>Improves public health by reducing the incidence of waterborne disease.</li>
-<li>Generates site-specific, evidence-based free resiudual chlorine (FRC) targets at the tapstand which ensure that water remains safe to drink up to the point of consumption in refugees' households.</li>
-<li>Provides a secure repository for historical FRC data which can be used for reporting purposes.</li>
+<li>Generates site-specific, evidence-based targets for free residual chlorine (FRC) at tapstands which ensure that water remains safe to drink up to the point of consumption in refugees' households.</li>
+<li>Provides a secure repository for historical FRC data that can be used for reporting purposes.</li>
 <li>Improves accountability to populations and donors.</li>
 <li>Highlights problematic areas or practices toward which resources can be applied during water supply or outbreak control interventions.</li>
 </ul>
 
 <h2>Supporting Research</h2>
-The SWOT builds on years of engineering and field research led by MSF, York University, UNHCR, and University of California, Berkeley. Some of the foundational research for the SWOT can be found via the links below:<br>
+The SWOT builds on years of engineering research led by MSF, York University, UNHCR, and University of California, Berkeley. Some of the foundational research for the SWOT can be found via the links below:<br>
 <ul>
 <li><a href="https://www.who.int/bulletin/volumes/93/8/14-147645/en/" target="_blank" rel="noopener"> Effectiveness of emergency water treatment practices in refugee camps in South Sudan</a></li>
 <li><a href="https://fieldresearch.msf.org/handle/10144/618835" target="_blank" rel="noopener"> Evidence-Based FRC Targets</a></li>
