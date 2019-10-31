@@ -5,6 +5,10 @@
   padding: 5px;
 }
 
+.column-block {
+  display: block;
+}
+
 /* Clearfix (clear floats) */
 .row::after {
   content: "";
