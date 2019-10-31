@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Want to try the SWOT out?
+title: Want to Try the SWOT Out?
 ---
 
 The SWOT web tool will go live to the public at this URL in mid-November 2019. 
