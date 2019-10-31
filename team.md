@@ -50,12 +50,10 @@ Usman is a Civil Engineering professor at York University. His research interest
 Rizwan is a designer/creative with 10+ years of experience working in a variety of fields including software, e-commerce, television, consumer electronics, social enterprise, and humanitarian aid. Graduating from the Ontario College of Art & Design, he has assisted with numerous charitable and humanitarian needs projects.
 
 <h2>Funding Partner</h2>
-The SWOT is built with the generous support of the Achmea Foundation. <br>
-
-<div class="column">
+<p>The SWOT is built with the generous support of the Achmea Foundation.</p>
+<div class="responsive-image">
  <a href="https://www.achmea.nl/en/sustainability/achmea-foundation" target="_blank" rel="noopener">
  <img src="{{ site.baseurl }}/public/images/AchmeaFoundation.png" alt="Achmea Foundation logo">
     </a>
-</div>
-&nbsp;
+  </div>
 <p>The Achmea Foundation advocates an inclusive society in which everyone can participate and works with partners to develop structural solutions. The Foundation contributes financially and puts the expertise and talents of Achmea employees to work. Initiatives in healthcare, agriculture and financial services enable the Foundation to make a lasting difference for people in poor socio-economic circumstances. The Achmea Foundation enthusiastically joins SWOT in providing safe drinking water in refugee and IDP camps.</p>
