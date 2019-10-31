@@ -22,7 +22,8 @@ The SWOT is a collaboration between Médecins Sans Frontières / Doctors Without
 
 <div>
 <br>
-
+<div>
+  
 <h3>Syed Imran Ali, Project Lead</h3>
 <b>Global Health & Humanitarianism Fellow, DIGHR</b><br>
 Imran is an aid worker and academic focused on humanitarian challenges at the intersection of environment and public health. He has worked with Médecins Sans Frontières and the United Nations High Commissioner for Refugees in South Sudan, Pakistan, Jordan, Rwanda, and Uganda. Imran has taught at the University of California, Berkeley, where he did a postdoctoral fellowship developing the first evidence-based guidance for water treatment in emergencies, which the SWOT Project now builds upon. Imran received his doctorate in environmental engineering from the University of Guelph (Canada) and his bachelors in engineering from Queen’s University (Canada).
@@ -60,5 +61,6 @@ The SWOT is built with the generous support of the Achmea Foundation. <br>
     </a>
 </div>
 <br>
+<div>
 The Achmea Foundation advocates an inclusive society in which everyone can participate and works with partners to develop structural solutions. The Foundation contributes financially and puts the expertise and talents of Achmea employees to work. Initiatives in healthcare, agriculture and financial services enable the Foundation to make a lasting difference for people in poor socio-economic circumstances. The Achmea Foundation enthusiastically joins SWOT in providing safe drinking water in refugee and IDP camps.
 </div>
