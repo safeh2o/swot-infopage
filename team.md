@@ -2,8 +2,8 @@
 layout: page
 title: Project Team
 ---
-The SWOT is a collaboration between Médecins Sans Frontières / Doctors Without Borders (MSF) and the Dahdaleh Institute for Global Health Research at York University, Toronto.
-
+<p>The SWOT is a collaboration between Médecins Sans Frontières / Doctors Without Borders (MSF) and the Dahdaleh Institute for Global Health Research at York University, Toronto.</p>
+<div>
   <div class="column">
   <a href="https://www.doctorswithoutborders.ca/" target="_blank" rel="noopener">
     <img src="{{ site.baseurl }}/public/images/MSF_logo.jpg" alt="MSF logo">
@@ -19,8 +19,8 @@ The SWOT is a collaboration between Médecins Sans Frontières / Doctors Without
      <img src="{{ site.baseurl }}/public/images/RGB__Main_Black on Trans.png" alt="DIGHR Logo" style="width:auto;height:100px">
      </a>
   </div>
+  </div>
   
-<h3> </h3>
 <h3>Syed Imran Ali, Project Lead</h3>
 <b>Global Health & Humanitarianism Fellow, DIGHR</b><br>
 Imran is an aid worker and academic focused on humanitarian challenges at the intersection of environment and public health. He has worked with Médecins Sans Frontières and the United Nations High Commissioner for Refugees in South Sudan, Pakistan, Jordan, Rwanda, and Uganda. Imran has taught at the University of California, Berkeley, where he did a postdoctoral fellowship developing the first evidence-based guidance for water treatment in emergencies, which the SWOT Project now builds upon. Imran received his doctorate in environmental engineering from the University of Guelph (Canada) and his bachelors in engineering from Queen’s University (Canada).
