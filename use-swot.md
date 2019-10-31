@@ -2,9 +2,5 @@
 layout: page
 title: Use SWOT
 ---
-This part of the site will host the SWOT data entry, management, analysis and chlorination guidance output.
-<div>
-    <img src="{{ site.baseurl }}/public/images/Under_Construction.jpg" alt="ground view of two glass buildings" style="width:100%;height:auto">
-</div>
-    
-    
+The SWOT web tool will go live to the public at this URL in mid-November 2019. If you are interested in learning more about the SWOT or if you want to try to use the SWOT to improve water safety at your emergency project site, please contact Project Lead Dr. Syed Imran Ali at <a href="mailto: imran@safeh2o.app">imran@safeh2o.app</a>.
+
