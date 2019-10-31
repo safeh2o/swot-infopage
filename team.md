@@ -3,7 +3,7 @@ layout: page
 title: Project Team
 ---
 <p>The SWOT is a collaboration between Médecins Sans Frontières / Doctors Without Borders (MSF) and the Dahdaleh Institute for Global Health Research at York University, Toronto.</p>
-<div>
+
   <div class="column">
   <a href="https://www.doctorswithoutborders.ca/" target="_blank" rel="noopener">
     <img src="{{ site.baseurl }}/public/images/MSF_logo.jpg" alt="MSF logo">
@@ -19,8 +19,7 @@ title: Project Team
      <img src="{{ site.baseurl }}/public/images/RGB__Main_Black on Trans.png" alt="DIGHR Logo" style="width:auto;height:100px">
      </a>
   </div>
-  </div>
-<br/>  
+<div>
 <h3>Syed Imran Ali, Project Lead</h3>
 <b>Global Health & Humanitarianism Fellow, DIGHR</b><br>
 Imran is an aid worker and academic focused on humanitarian challenges at the intersection of environment and public health. He has worked with Médecins Sans Frontières and the United Nations High Commissioner for Refugees in South Sudan, Pakistan, Jordan, Rwanda, and Uganda. Imran has taught at the University of California, Berkeley, where he did a postdoctoral fellowship developing the first evidence-based guidance for water treatment in emergencies, which the SWOT Project now builds upon. Imran received his doctorate in environmental engineering from the University of Guelph (Canada) and his bachelors in engineering from Queen’s University (Canada).
@@ -57,3 +56,4 @@ Rizwan is a designer/creative with 10+ years of experience working in a variety 
     </a>
   </div>
 <p>The Achmea Foundation advocates an inclusive society in which everyone can participate and works with partners to develop structural solutions. The Foundation contributes financially and puts the expertise and talents of Achmea employees to work. Initiatives in healthcare, agriculture and financial services enable the Foundation to make a lasting difference for people in poor socio-economic circumstances. The Achmea Foundation enthusiastically joins SWOT in providing safe drinking water in refugee and IDP camps.</p>
+</div>
