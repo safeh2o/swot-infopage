@@ -33,4 +33,4 @@ The SWOT builds on years of engineering research led by MSF, York University, UN
 <li><a href="https://fieldresearch.msf.org/handle/10144/618836" target="_blank" rel="noopener"> Study Report: Evidence Based FRC Targets for Centralized Chlorination in Emergencies</a></li>
 <li><a href="https://fieldresearch.msf.org/handle/10144/618737" target="_blank" rel="noopener"> Validation Study Report: Eavluating New Evidence-Based FRC Targets at Mtendeli, Tanzania</a></li>
 <br>
-<p style="font-size:75%">Image Credit: Syed Imran Ali/Measuring FRC at a tapstand, Gendrassa, Maban County, South Sudan/2013</p>
+<p style="font-size:75%">Image Credit: Syed Imran Ali/Measuring FRC at a tapstand, Gendrassa, Maban County, South Sudan (2013)</p>
