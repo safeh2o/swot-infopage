@@ -3,18 +3,19 @@ layout: page
 title: Project Team
 ---
 <p>The SWOT is a collaboration between Médecins Sans Frontières / Doctors Without Borders (MSF) and the Dahdaleh Institute for Global Health Research at York University, Toronto.</p>
-<div class="column-block">
-<div class="column">
+
+<div class="logo-container">
+<div class="logo-item">
   <a href="https://www.doctorswithoutborders.ca/" target="_blank" rel="noopener">
     <img src="{{ site.baseurl }}/public/images/MSF_logo.jpg" alt="MSF logo">
     </a>
   </div>
- <div class="column">
+ <div class="logo-item">
   <a href="http://dighr.yorku.ca/" target="_blank" rel="noopener">
  <img src="{{ site.baseurl }}/public/images/yorku_logo.png" alt="Yorku logo">
     </a>
   </div>
-  <div class="column">
+ <div class="logo-item">
    <a href="http://dighr.yorku.ca/" target="_blank" rel="noopener">
      <img src="{{ site.baseurl }}/public/images/RGB__Main_Black on Trans.png" alt="DIGHR Logo" style="width:auto;height:100px">
      </a>
