@@ -1,5 +1,5 @@
 .column {
-  float: left;
+  display: inline;
   width: 33.33%;
   height: auto;
   padding: 5px;
