@@ -1,6 +1,4 @@
 (function($) {
-  "use strict"; // Start of use strict
-
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -15,6 +13,18 @@
     }
   });
 
+  function setHeight() {
+      windowHeight = $(window).innerHeight();
+      headerHeight = $('header').height() - 10;
+      $('#home').css('height', windowHeight - headerHeight);
+      $('.bg').css('height', windowHeight);
+  };
+  setHeight();
+
+  $(window).resize(function() {
+      setHeight();
+  });
+
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
@@ -26,4 +36,4 @@
     offset: 56
   });
 
-})(jQuery); // End of use strict
+})(jQuery);
