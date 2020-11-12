@@ -65,6 +65,28 @@
 </head>
 
 <body>
+  <style>
+    #message {
+        position: fixed;
+        transform: translate(0, 115%);
+        left: 0;
+        width: 100%;
+        z-index: 1040;
+        text-align: center;
+    }
+    #inner-message {
+        margin: 0 auto;
+        word-wrap: normal;
+    }
+    </style>
+    <div id="message">
+        <div style="padding: 5px;">
+            <div id="inner-message" class="alert alert- alert-info">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong><a target="_blank" href="https://dighr.yorku.ca/event/safe-water-optimization-tool-launch/">&#128640;Join us for the Virtual Launch Event for the Safe Water Optimization Tool on Wednesday November 25th, 1-2pm EST</a></strong>
+            </div>
+        </div>
+    </div>
 
   <header role="banner">
     <!-- Navigation -->
@@ -101,10 +123,10 @@
 
 
   <main role="main">
-  <div class="bg"></div>
-
-  <section id="home">
-    <div class="container" style="padding: 7.5%">
+    <div class="bg"></div>
+  
+    <section id="home">
+      <div class="container" style="padding: 7.5%">
       <h1 class="lead" style="color: white; font-size: 2rem; margin-top: 20%; margin-bottom: 25%;">UNLOCKING LIFE-PRESERVING INFORMATION FROM ROUTINE WATER QUALITY MONITORING DATA</h1>
     </div>
   </section>
