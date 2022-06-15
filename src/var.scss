@@ -1,0 +1,24 @@
+// sass --watch src/style.scss:public/assets/style.css
+
+$col-1: #4069b1;
+$col-2: #92a4c4;
+$col-3: #dbdfe4;
+$col-4: #f2c148;
+$col-5: #272d37;
+$col-text: #191a1d;
+// $col-text: #4069b1;
+
+$sm: 640px;
+$md: 960px;
+$lg: 1280px;
+
+$max-width: 960px;
+$max-width-small: 720px;
+
+.plyr {
+	--plyr-color-main: $col-1;
+	--plyr-control-icon-size: 2em;
+	--plyr-control-spacing: 0.5em;
+	--plyr-control-padding: 0.25em;
+	--plyr-control-radius: 0px;
+}

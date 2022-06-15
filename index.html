@@ -6,7 +6,10 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151594790-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag () {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-151594790-1');
@@ -18,379 +21,432 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Safe Water Optimization Tool - Landing Page</title>
+  <!--theme colors -->
+  <meta name="theme-color" content="" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-
-  <!-- Custom styles for this template -->
-  <link href="public/css/poole.css" rel="stylesheet">
-  <link href="public/css/syntax.css" rel="stylesheet">
-  <link href="public/css/hyde.css" rel="stylesheet">
-  <link href="public/css/row.css" rel="stylesheet">
-  <link href="public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="public/css/extra.css" rel="stylesheet">
-  <link href="https://use.typekit.net/duo1xaj.css" rel="stylesheet">
-  <!-- <link href="//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface" rel="stylesheet"> -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
-
-
-
-  <!-- Bootstrap core CSS -->
-
+  <meta name="msapplication-TileColor" content="#4069b1">
+  <meta name="msapplication-TileImage" content="/public/ms-icon-144x144.png">
+  <meta name="theme-color" content="#4069b1">
   <!-- Icons -->
-  <link rel="shortcut icon" href="public/favicon.ico">
-  <link rel="apple-touch-icon" sizes="57x57" href="public/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="public/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="public/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="public/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="public/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="public/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="public/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="public/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="public/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="public/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="public/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="public/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="public/favicon-16x16.png">
-  <link rel="manifest" href="public/manifest.json">
+  <link rel="shortcut icon" href="./public/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="./public/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./public/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./public/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./public/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./public/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./public/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./public/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./public/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./public/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./public/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./public/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./public/favicon-16x16.png">
+  <link rel="manifest" href="./public/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="public/ms-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="./public/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 
-
   <!-- Mailchimp Subscribe -->
-  <script
-    id="mcjs">!function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/4e51b95811143b5dba0fbb5c3/3e7c478778df15fa0f5ec1c8b.js");</script>
+  <script id="mcjs">
+    ! function (c, h, i, m, p) {
+      m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p)
+    }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/4e51b95811143b5dba0fbb5c3/3e7c478778df15fa0f5ec1c8b.js");
+  </script>
+
+  <!-- SEO -->
+  <title>Safe Water Optimization Tool</title>
+  <meta name="description"
+    content="Safe Water Optimization Tool Leveraging routine water quality data to guarantee safe water supply.">
+  <meta name="author" content="SWOT Team">
+
+  <!--OpenGraph Meta -->
+  <meta property="og:description"
+    content="Safe Water Optimization Tool Leveraging routine water quality data to guarantee safe water supply." />
+  <meta property="og:title" content="The Safe Water Optimization Tool" />
+  <meta property="og:image" content="https://swot.bheku.com//public/safe-water-optimization-tool-thumbnail.png" />
+  <meta property="og:url" content="https://www.safeh2o.app/" />
+
+  <!--Meta for Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@safeh2oapp">
+  <meta name="twitter:title" content="The Safe Water Optimization Tool">
+  <meta name="twitter:image" content="https://swot.bheku.com//public/safe-water-optimization-tool-thumbnail.png">
+  <meta name="twitter:site" content="@safeh2oapp">
+  <meta name="twitter:description"
+    content="Safe Water Optimization Tool Leveraging routine water quality data to guarantee safe water supply.">
+
+  <link rel="stylesheet" href="./public/assets//normalize.css">
+  <link rel="stylesheet" href="./public/assets//style.css">
+
 </head>
 
-<body>
-  <style>
-    #message {
-      position: fixed;
-      transform: translate(0, 115%);
-      left: 0;
-      width: 100%;
-      z-index: 1040;
-      text-align: center;
-    }
+<body class="home">
 
-    #inner-message {
-      margin: 0 auto;
-      word-wrap: normal;
-    }
-  </style>
-  <header role="banner">
+  <!-- partial: -->
+  <header class="site-header">
     <!-- Navigation -->
-    <nav class="navbar navbar-swot navbar-expand-lg fixed-top" id="mainNav" role="navigation">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#home"><img src="public/images/swot_logo2.png"
-            style="width: auto; height: 70px" /></a>
+    <nav role="navigation">
+      <a class="menu-brand" href="/">
+        <img src="./public/assets/swot_logo.svg" class="large" />
+        <img src="./public/assets/swot_logo_compact.svg" class="compact" />
+      </a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#home">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#how-it-works">HOW IT WORKS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#signup">SIGN UP</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">TEAM</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="/public/SWOT_Quickstart.pdf" target="_blank">GET STARTED</a>
-            </li>
-          </ul>
-        </div>
+      <button class="menu-open" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+          <path fill="none" stroke="currentColor" stroke-width="3" stroke-miterlimit="10"
+            d="M7 5.7h18M7 26.3h18M7 16h18" />
+          <path fill="none" d="M0 0h32v32H0V0z" />
+        </svg>
+      </button>
+
+      <!-- <div id="menu-actions">
+      <ul>
+        <li>
+          <button>
+            <span>Profile</span>
+            <i>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                <path fill="none" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" d="M16 3C8.8 3 3 8.8 3 16c0 3.1 1.1 6 3 8.3.9 1.1 2.1 2.1 3.4 2.9 2 1.1 4.2 1.6 6.7 1.6 2.4 0 4.6-.5 6.5-1.5 1.3-.8 2.5-1.7 3.5-2.9 1.9-2.3 3.1-5.2 3.1-8.4C29 8.8 23.2 3 16 3z" />
+                <path fill="currentColor" d="M16 3C8.8 3 3 8.8 3 16c0 3.1 1.1 6 3 8.3 1.6-2.5 4.2-4.3 7.4-4.3h5c3.3 0 6 1.8 7.5 4.4 1.9-2.3 3.1-5.2 3.1-8.4 0-7.2-5.8-13-13-13zm-.5 12.7c-2 .2-4-2-4-4.7s1.9-4.7 4-4.7c2.3 0 4 2.2 4 4.7 0 2.7-1.8 4.7-4 4.7z" />
+              </svg>
+            </i>
+          </button>
+        </li>
+        <li>
+          <button>
+            <span>Notifications</span>
+            <i>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                <path fill="currentColor" d="M17.9,28.5h-3.8c-0.7,0-1.4-0.6-1.4-1.4s0.6-1.4,1.4-1.4h3.8c0.7,0,1.4,0.6,1.4,1.4S18.6,28.5,17.9,28.5z M25.8,22.8 c-0.7-1.3-2.4-3.6-2.4-7.7v-0.8c0-3.6-2-6.7-4.9-7.8c0-1.4-1.2-2.5-2.6-2.5c-1.4,0-2.6,1.1-2.6,2.5c-2.9,1.2-4.9,4.2-4.9,7.7v0.9 c0,4.1-1.7,6.5-2.4,7.7C6.1,22.9,6,23.1,6,23.3c0,0.5,0.4,0.9,0.8,0.9h18.3c0.2,0,0.3,0,0.5-0.1C25.9,23.8,26.1,23.3,25.8,22.8z" />
+              </svg>
+            </i>
+          </button>
+        </li>
+        <li>
+          <a href="https://live.safeh2o.app/admin">
+            <span>Fieldsite Admin</span>
+            <i>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                <path fill="none" d="M0 0h32v32H0z" />
+                <path fill="none" d="M0 0h32v32H0z" />
+                <path fill="currentColor" d="M29.5 14.8c0-.4-.3-.6-.5-.8l-2.6-1.6-.3-.6-.3-.6.8-3c.1-.4 0-.7-.2-1-.5-.6-1.1-1.2-1.7-1.7-.3-.2-.6-.3-1-.2l-3 .8-.6-.3-.6-.3-1.6-2.6c-.2-.3-.4-.4-.8-.5-.8-.1-1.6-.1-2.4 0-.4 0-.6.3-.8.5l-1.6 2.6-.6.3-.6.3-3-.8c-.4-.1-.7 0-1 .2-.5.7-1 1.2-1.6 1.8-.2.3-.3.6-.2 1l.8 3-.3.6-.3.6L3 14c-.3.2-.4.4-.5.8-.1.8-.1 1.6 0 2.4 0 .4.3.6.5.8l2.6 1.6.3.6.3.6-.8 3c-.1.4 0 .7.2 1 .5.6 1.1 1.2 1.7 1.7.3.2.6.3 1 .2l3-.8.6.3.6.3 1.6 2.6c.2.3.4.4.8.5.8.1 1.6.1 2.4 0 .4 0 .6-.3.8-.5l1.6-2.6.6-.3.6-.3 3 .8c.4.1.7 0 1-.2.6-.5 1.2-1.1 1.7-1.7.2-.3.3-.6.2-1l-.8-3 .3-.6.3-.6 2.6-1.6c.3-.2.4-.4.5-.8-.1-.7-.1-1.6-.2-2.4zm-13.5 6c-2.6 0-4.7-2.1-4.7-4.7s2.1-4.7 4.7-4.7 4.7 2.1 4.7 4.7-2.1 4.7-4.7 4.7z" />
+              </svg>
+            </i>
+          </a>
+        </li>
+        <li class="sign-in">
+          <a href="https://live.safeh2o.app/signin" target="_blank">
+            <span>Sign in</span>
+            <i>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                <path fill="none" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" d="M16 3C8.8 3 3 8.8 3 16c0 3.1 1.1 6 3 8.3.9 1.1 2.1 2.1 3.4 2.9 2 1.1 4.2 1.6 6.7 1.6 2.4 0 4.6-.5 6.5-1.5 1.3-.8 2.5-1.7 3.5-2.9 1.9-2.3 3.1-5.2 3.1-8.4C29 8.8 23.2 3 16 3z" />
+                <path fill="currentColor" d="M16 3C8.8 3 3 8.8 3 16c0 3.1 1.1 6 3 8.3 1.6-2.5 4.2-4.3 7.4-4.3h5c3.3 0 6 1.8 7.5 4.4 1.9-2.3 3.1-5.2 3.1-8.4 0-7.2-5.8-13-13-13zm-.5 12.7c-2 .2-4-2-4-4.7s1.9-4.7 4-4.7c2.3 0 4 2.2 4 4.7 0 2.7-1.8 4.7-4 4.7z" />
+              </svg>
+            </i>
+          </a>
+        </li>
+      </ul>
+    </div> -->
+
+      <div id="menu-main">
+        <ul class="menu-main-ul">
+          <!-- <li class="sign-out">
+          <a href="https://live.safeh2o.app/news">
+            <span>Sign Out</span>
+            <i>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                <path fill="none" d="M0 0h32v32H0z" />
+                <path fill="none" stroke-width="2" stroke="currentColor" d="M21.8 10.8 27 16l-5.2 5.3M13 16h14M13 27H6c-.6 0-1-.4-1-1V6c0-.6.4-1 1-1h7" />
+              </svg>
+            </i>
+          </a>
+        </li> -->
+          <li class="dropdown" tabIndex="0">
+            <span>
+              <span>About</span>
+              <i class="select">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                  <path fill="currentColor" d="m7 16 9 9 9-9z" />
+                  <path fill="none" d="M0 0h32v32H0z" />
+                </svg>
+              </i>
+            </span>
+            <div class="children">
+              <ul>
+                <li><a href="/how-it-works.html">How it Works</a></li>
+                <li><a href="/research.html">Research</a></li>
+                <li><a href="/our-story.html">Our Story</a></li>
+                <li><a href="/team.html">Team</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="https://live.safeh2o.app/">Get Started</a>
+          </li>
+          <li>
+            <a href="https://live.safeh2o.app/contact">Contact</a>
+          </li>
+          <li>
+            <a href="https://live.safeh2o.app/news">News</a>
+          </li>
+        </ul>
+        <button class="menu-close"></button>
       </div>
     </nav>
   </header>
 
-
-  <main role="main">
-    <div class="bg"></div>
-
-    <section id="home">
-      <div class="container" style="padding: 7.5%">
-        <h1 class="lead" style="color: white; font-size: 2rem; margin-top: 20%; margin-bottom: 25%;">UNLOCKING
-          LIFE-PRESERVING INFORMATION FROM ROUTINE WATER QUALITY MONITORING DATA</h1>
-      </div>
-    </section>
-
-    <section id="about" class="bg-light2">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h1 class="page-title">WHAT IS THE SWOT?</h1>
-            <br />
-            <p>Waterborne diseases are among the leading causes of preventable mortality and morbidity during
-              humanitarian crises.
-              Safe water is essential for protecting public health in refugee and internally displaced persons camps.
-              The Safe Water Optimization Tool helps humanitarian responders optimize water chlorination so that water
-              remains safe to drink up to the point of consumption.</p>
-            <br />
-            <style>
-              .embed-container {
-                position: relative;
-                padding-bottom: 56.25%;
-                height: 0;
-                overflow: hidden;
-                max-width: 100%;
-              }
-
-              .embed-container iframe,
-              .embed-container object,
-              .embed-container embed {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-              }
-            </style>
-            <div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/aglXq6wOXfY'
-                frameborder='0' allowfullscreen></iframe></div>
-          </div>
-
+  <!-- partial: -->
+  <article>
+    <section id="intro">
+      <div class="section-wrap">
+        <header>
+          <h1 class="section-title">Keeping water safe to drink&nbsp;— <br />from the tapstand to the last cup. </h1>
+        </header>
+        <div class="image">
+          <figure>
+            <div class="media">
+              <img src="./public/assets/intro.png" alt="" width="1080px" height="960px" />
+            </div>
+          </figure>
+        </div>
+        <div class="text">
+          <p>Safe water is essential for protecting public health during humanitarian emergencies.</p>
+          <p>Chlorination is an effective way to protect water from contamination, but dosing to achieve the right level
+            is challenging.</p>
+          <p>The SWOT applies advanced analytics to water quality data you already collect and provides evidence-based,
+            context-specific water chlorination targets that help you ensure the water you provide is safe to drink.</p>
+          <!-- <a href="#" class="btn try-it-now"><span>Try it Now</span></a> -->
         </div>
       </div>
+      <svg preserveAspectRatio="none" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg"
+        class="svg-wave-how-it-works">
+        <path
+          d="M 0,600 C 0,600 0,300 0,300 C 127.06666666666666,336 254.13333333333333,372 405,378 C 555.8666666666667,384 730.5333333333333,360 907,342 C 1083.4666666666667,324 1261.7333333333333,312 1440,300 C 1440,300 1440,600 1440,600 Z">
+        </path>
+      </svg>
     </section>
 
-    <section id="how-it-works" class="bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h1 class="page-title">HOW DOES IT WORK?</h1>
-            <br />
-            <p>The SWOT deploys innovative analytics based on machine learning and numerical modelling in order to
-              unlock life-preserving information
-              in routinely collected water quality monitoring data. It generates a site-specific, evidence-based free
-              residual
-              chlorine (FRC) target for water distribution points that ensures there is enough residual chlorine
-              protection for the
-              entire duration of household storage and use at any field site.</p>
-            <p><img src="public/images/howitworks.png" alt="How it Works"></p>
-            <p>The SWOT builds on years of water safety research carried out in refugee camps in South Sudan, Jordan,
-              Rwanda,
-              Tanzania, Bangladesh (and elsewhere) by our team at York University, University of California Berkeley,
-              MSF, and
-              UNHCR. Foundational research for the SWOT can be found at:</p>
-
-            <p>Ali, S. I., Ali, S. S., &amp; Fesselet, J. (2021). <a
-                href="https://www.sciencedirect.com/science/article/pii/S0043135420311775"
-                target="_blank">Evidence-based
-                chlorination targets for household water safety in humanitarian settings: Recommendations from a
-                multi-site study in refugee camps in South Sudan, Jordan, and Rwanda.</a> Water Research, 189(116642).
+    <section id="how-it-works">
+      <div class="section-wrap">
+        <header>
+          <h1 class="section-subtitle">What is the SWOT?</h1>
+          <p>A tool to help you uncover the hidden message in your water quality data</p>
+        </header>
+      </div>
+      <div class="section-wrap points">
+        <div class="image-text how">
+          <figure>
+            <div class="media">
+              <img src="./public/assets//slice3.png" alt="" width="" height="" />
+            </div>
+          </figure>
+          <div>
+            <h2>Advanced Analytics</h2>
+            <p>The SWOT uses advanced analytics to chlorine decay between the tapstand and home</p>
+          </div>
+        </div>
+        <div class="image-text how">
+          <figure>
+            <div class="media"><img src="./public/assets//slice1.png" alt="" width="" height="" />
+            </div>
+          </figure>
+          <div>
+            <h2>Routine data</h2>
+            <p>It uses routine water quality data to generate site-specific guidance on the level of chlorination
+              required to ensure water.</p>
+          </div>
+        </div>
+        <div class="image-text how">
+          <figure>
+            <div class="media"><img src="./public/assets//slice2.png" alt="" width="" height="" />
+            </div>
+          </figure>
+          <div>
+            <h2>Actionable insights</h2>
+            <p>Your teams have the data they need to be confident that the water they provide is safe to the last drop.
             </p>
-
-            <p>Ali, S. I., Ali, S. S., &amp; Fesselet, J. (2015). <a
-                href="https://www.who.int/bulletin/volumes/93/8/14-147645/en/" target="_blank">Effectiveness of
-                emergency water treatment practices
-                in refugee camps
-                in South Sudan.</a> Bulletin of the World Health Organization, 93(8), 550–558.</p>
-
-            <p>Ali, S. I. (2016). <a href="https://fieldresearch.msf.org/handle/10144/618737" target="_blank">Validation
-                Study Report: Evaluating
-                New Evidence-Based FRC Targets at Mtendeli, Tanzania</a>. MSF Field Research.</p>
-
-            <p>MSF OCA (2019). <a
-                href="https://static1.squarespace.com/static/5418c1afe4b08773525281cc/t/5e98ae4efe26125555e78377/1587064405136/MSF_FRCGuidance%28Apr2020%29.pdf"
-                target="_blank">Field
-                Guidance Note: Evidence-Based Guidance For Water Chlorination In Humanitarian Response</a>. MSF Field
-              Research.</p>
-
           </div>
         </div>
+      </div>
+      <footer><a class="btn" href="how-it-works.html"><span>Learn More</span></a></footer>
     </section>
 
-    <section id="signup" class="text-white">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h1 class="page-title">SIGN UP</h1>
-            <br />
-            <h6>WANNA TRY IT OUT?</h6>
-            <p>The SWOT is now live! <a href="https://live.safeh2o.app" target="_blank">Click here</a> to request a
-              user account.</p>
-            <p>Our team is standing by to provide training and support to your team today. Let’s get safe water to the
+    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="704 -184 1440 400"
+      class="svg-wave-signup">
+      <path d="M704 16h80c80 0 240 0 400 13.4 160 12.9 320 40.4 480 46.6s320-6.3 400-13.4l80-6.6v160H704V16z" />
+    </svg>
+    <section id="signup">
+      <div class="section-wrap">
+        <div class="sign-up">
+          <div class="sign-up-img">
+            <img src="/public/assets/view-2.jpg" alt="Person holding water sample" />
+          </div>
+          <div class="sign-up-content">
+            <h1 class="section-subtitle">Get Started</h1>
+            <p>Our team is standing by to provide training and support to your team today. Let's get safe water to the
               people who need it.</p>
-
-            <div>
-              <!-- Begin Mailchimp Signup Form -->
-              <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet"
-                type="text/css">
-              <style type="text/css">
-                #mc_embed_signup {
-                  border: 1px;
-                  clear: left;
-                  font: 14px Helvetica, Arial, sans-serif;
-                  width: 100%;
-                }
-
-                /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-          We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-              </style>
-              <div id="mc_embed_signup">
-                <form
-                  action="https://app.us2.list-manage.com/subscribe/post?u=4e51b95811143b5dba0fbb5c3&amp;id=fb6ca52d01"
-                  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                  target="_blank" novalidate>
-                  <div id="mc_embed_signup_scroll">
-                    <label for="mce-EMAIL">
-                      <h6>WANNA STAY UP TO DATE?</h6>
-                      <h6>SUBSCRIBE TO OUR NEWSLETTER!</h6>
-                    </label>
-                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address"
-                      required>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                        name="b_4e51b95811143b5dba0fbb5c3_fb6ca52d01" tabindex="-1" value=""></div>
-                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe"
-                        id="mc-embedded-subscribe" class="button"></div>
-                  </div>
-                </form>
-              </div>
-              <!--End mc_embed_signup-->
-            </div>
+            <a class="btn" href="https://live.safeh2o.app/contact" target="_blank"><span>Request an Account</span></a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="team" class="bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h1 class="page-title">PROJECT TEAM</h1>
-            <br />
-            <p>The SWOT is a collaboration between the Dahdaleh
-              Institute for Global Health Research at York University, Toronto and Médecins Sans Frontières / Doctors
-              Without Borders (MSF).</p>
+    <section id="newsletter">
+      <div class="section-wrap">
+        <!-- Begin Mailchimp Signup Form -->
+        <form action="https://app.us2.list-manage.com/subscribe/post?u=4e51b95811143b5dba0fbb5c3&amp;id=fb6ca52d01"
+          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+          target="_blank" novalidate="">
+          <h2 class="section-title">Newsletter</h2>
 
-            <div class="team team-list">
-              <div class="team-list">
-                <div class="team-item">
-                  <b>Syed Imran Ali</b>
-                  <span>Founder &amp; Lead</span>
-                </div>
-                <div class="team-item">
-                  <b>Jeff Fesselet</b>
-                  <span>MSF Lead</span>
-                </div>
-                <div class="team-item">
-                  <b>Usman Khan</b>
-                  <span>ANN Lead</span>
-                </div>
-                <div class="team-item">
-                  <b>Mike Spendlove</b>
-                  <span>Tech Advisor</span>
-                </div>
-                <div class="team-item">
-                  <b>James Brown</b>
-                  <span>Field Advisor</span>
-                </div>
-                <div class="team-item">
-                  <b>Syed Saad Ali</b>
-                  <span>EO Lead</span>
-                </div>
-                <div class="team-item">
-                  <b>Mohamed Moselhy</b>
-                  <span>Lead Developer</span>
-                </div>
-                <div class="team-item">
-                  <b>Ngqabutho Zondo</b>
-                  <span>Designer</span>
-                </div>
-                <div class="team-item">
-                  <b>Mike De Santi</b>
-                  <span>ANN Developer</span>
-                </div>
-                <div class="team-item">
-                  <b>Nayeem Munier</b>
-                  <span>Project Support</span>
-                </div>
-                <div class="team-item">
-                  <b>Matt Arnold</b>
-                  <span>WASH Advisor</span>
-                </div>
-                <div class="team-item">
-                  <b>James Orbinski</b>
-                  <span>Advisor</span>
-                </div>
-              </div>
-            </div>
-
-            <br />
+          <div class="form-wrap">
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="enter email"
+              required="">
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn">
+            <div class="credit small">
+              powered by <a href="https://mailchimp.com" target="_blank">mailchimp</a> </div>
           </div>
-        </div>
+
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+              name="b_4e51b95811143b5dba0fbb5c3_fb6ca52d01" tabindex="-1" value=""></div>
+        </form>
+        <!--End mc_embed_signup-->
       </div>
     </section>
+  </article>
 
-    <section id="team" class="bg-light2">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h3>THE SWOT IS DEVELOPED BY</h3>
-            <div class="logo-containers-1">
-              <a href="http://dighr.yorku.ca/" target="_blank">
-                <img src="public/images/RGB__Main_Black on Trans.png" style="min-height:150px" />
-              </a>
-              <a href="http://yorku.ca/" target="_blank">
-                <img src="public/images/YorkULogo_Ver_rgb.png" style="min-height:150px" />
-              </a>
-              <a href="https://www.msf.org/" target="_blank">
-                <img src="public/images/MSF_logo_transparent.png" />
-              </a>
-            </div>
-            <h4>WITH SUPPORT FROM</h4>
-            <div class="logo-containers-1">
-              <a href="https://www.achmea.nl/en/foundation" target="_blank">
-                <img src="public/images/achmea-2021.svg" style="width:250px" />
-              </a>
-              <a href="https://www.grandchallenges.ca/programs/creating-hope-conflict/" target="_blank">
-                <img src="public/images/HGC-Logo-clear.png" style="min-height:150px; width:250px" />
-              </a>
-            </div>
-          </div>
-        </div>
+  <!-- partial -->
+  <footer class="site-footer">
+    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 400" class="svg-wave-footer">
+      <path d="m0 112 80 5.3C160 123 320 133 480 128s320-27 480-37.3C1120 80 1280 80 1360 80h80v320H0V112z" />
+    </svg>
+
+    <section class="rte">
+      <h2>A free and open-source tool by</h2>
+      <div class="logos">
+        <a target="_blank" href="http://yorku.ca/" rel="noreferrer">
+          <img src="./public/assets/organisations/YorkULogo_DIGITAL_Ver_RGB_REV.png" alt=" logo" width="200"
+            height="200" />
+        </a>
+        <a target="_blank" href="http://dighr.yorku.ca/" rel="noreferrer">
+          <img src="./public/assets/organisations/dighr_black_on_white.png" alt=" logo" width="200" height="200" />
+        </a>
+        <a target="_blank" href="https://www.doctorswithoutborders.ca/" rel="noreferrer">
+          <img src="./public/assets/organisations/dwb_compact.svg" alt=" logo" width="1599.6" height="465.8" />
+        </a>
       </div>
     </section>
-
-  </main>
-
-  <!-- Footer -->
-  <footer class="py-5 navbar-swot">
-    <div class="container text-white">
-      <p>If you want to learn more about the SWOT or have any questions, please reach us at <a
-          href="mailto:hello@safeh2o.app">hello@safeh2o.app</a>.</p>
-      <br />
-      <p>Suite 2150, Dahdaleh Building, York University, 88 The Pond Road, Toronto, Ontario, Canada, M3J 1P3</p>
-      <p>&copy; Safe Water Optimization Tool at the Dahdaleh Institute for Global Health Research. All rights reserved.
-      </p>
-    </div>
+    <section class="rte">
+      <h3 class="title">Follow Us</h3>
+      <div class="social-networks">
+        <a class="linkedin" target="_blank" href="http://linkedin.com/" rel="noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" xml:space="preserve" fill="currentColor">
+            <path
+              d="M7.8 13.1h3.5v11H7.8zM9.6 11.5c-1.1 0-2-.8-2-2s.9-2 2-2 2 .8 2 2-.9 2-2 2zM24 24h-3.5v-6c0-1.8-.8-2.3-1.7-2.3-1 0-2 .8-2 2.4v6h-3.5v-11h3.3v1.5c.3-.7 1.5-1.8 3.3-1.8 1.9 0 4 1.1 4 4.5V24z" />
+          </svg>
+        </a>
+        <a class="twitter" target="_blank" href="https://www.twitter.com/" rel="noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" xml:space="preserve">
+            <path d="M0 0h192v192H0V0z" style="fill:none" />
+            <path fill="currentColor"
+              d="m154.7 72.6-14.9 14.9c-3 34.5-32.1 61.4-67 61.4-7.2 0-13.1-1.1-17.6-3.4-3.6-1.8-5.1-3.8-5.5-4.3-1.2-1.8-.7-4.3 1.1-5.5.3-.2.5-.3.8-.4.1 0 11.8-4.5 19.3-13-4.7-3.3-8.8-7.4-12.2-12.1-6.8-9.2-13.9-25.2-9.6-49 .3-1.4 1.3-2.6 2.7-3.1 1.4-.5 2.9-.1 4 .9.1.2 16.6 16.4 36.7 21.6v-3c.1-13.2 10.8-23.8 24-23.7 8.4.1 16.1 4.6 20.3 11.9h15c1.6 0 3 1 3.7 2.4.7 1.5.3 3.2-.8 4.4z" />
+          </svg>
+        </a>
+        <a class="youtube" target="_blank" href="https://youtube.com/" rel="noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" xml:space="preserve" fill="currentColor">
+            <path d="M12.3 22.5 23.6 16 12.3 9.5z" />
+          </svg>
+        </a>
+      </div>
+    </section>
+    <section>
+      <nav class="nav-legal">
+        <span>© Safe Water Optimization Tool</span>
+        <span class="divider">|</span>
+        <a href="https://live.safeh2o.app/terms-of-use.php"><span>Terms of Use</span></a>
+        <span class="divider">|</span>
+        <a href="https://live.safeh2o.app/privacy-policy.php"><span>Privacy Policy</span></a>
+        <span class="divider">|</span>
+        <a href="https://live.safeh2o.app/cookie-policy.php"><span>Cookie Policy</span></a>
+      </nav>
+    </section>
   </footer>
+  <div class="site-cookie-policy small">
+    <div class="wrap">
+      <p>This website uses cookies. To learn more, visit our <a href="https://live.safeh2o.app/cookie-policy"> Cookie
+          Policy</a>.</p>
+      <span class="user-input">
+        <button class="needed"><span>Accept Nessesary</span></button>
+        <button class="accept btn"><span>Accept All</span></Button>
+      </span>
+    </div>
+  </div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="public/vendor/jquery/jquery.min.js"></script>
-  <script src="public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- partial -->
+  <script src="public/js/intersect.js"></script>
+  <script src="public/js/media-audio-video.js"></script>
+  <script>
+    const init = () => {
+      const body = document.body;
+      const mainNav = document.getElementById('menu-main');
+      const openButton = document.getElementsByClassName('menu-open')[0];
+      const closeButton = document.getElementsByClassName('menu-close')[0];
 
-  <!-- Plugin JavaScript -->
-  <script src="public/vendor/jquery-easing/jquery.easing.min.js"></script>
+      let actionBuffer = false
+      const toggleNav = (fn) => {
+        if (!actionBuffer) {
+          actionBuffer = true
+          body.classList.toggle('overflow-hidden')
+          mainNav.classList.toggle('show-mobile-nav')
+          setTimeout(() => {
+            actionBuffer = false
+          }, 300)
+        }
+      }
 
-  <!-- Custom JavaScript for this theme -->
-  <script src="public/js/scrolling-nav.js"></script>
+      openButton.addEventListener('click', () => {
+        toggleNav();
+      });
+
+      closeButton.addEventListener('click', () => {
+        toggleNav();
+      });
+
+
+
+      // Scroll JS
+      var scrollObject = {};
+      document.addEventListener('scroll', () => {
+        requestAnimationFrame(() => {
+          scrollPos();
+        });
+      }, true);
+
+      const scrollPos = () => {
+        scrollObject = {
+          x: window.pageXOffset,
+          y: window.pageYOffset
+        }
+        // If you want to check distance
+        if (scrollObject.y > 100) {
+          document.body.classList.add('scrolling');
+        } else {
+          document.body.classList.remove('scrolling');
+        }
+      }
+    }
+    window.addEventListener('DOMContentLoaded', () => {
+      init()
+    });
+  </script>
 
 </body>
 

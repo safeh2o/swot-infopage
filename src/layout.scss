@@ -1,0 +1,30 @@
+html,
+body {
+	// scroll-behavior: smooth;
+	min-height: 100vh;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	overflow-y: scroll;
+
+	&.hidden {
+		overflow: hidden;
+	}
+	> main,
+	> article {
+		flex: 1;
+
+		display: grid;
+		justify-items: center;
+		background-color: $col-3;
+		grid-template-columns: minmax(0%, 100%);
+		grid-auto-rows: minmax(0%, max-content);
+
+		> * {
+			width: 100%;
+		}
+	}
+}
