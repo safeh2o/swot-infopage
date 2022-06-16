@@ -1064,14 +1064,14 @@ ul.menu-main-ul .dropdown > span {
   flex-wrap: wrap;
 }
 .site-footer .logos a {
-  margin: 1rem;
+  margin: 1rem 1.25rem;
 }
 .site-footer .logos img {
   max-width: 70px;
 }
 @media (min-width: 960px) {
   .site-footer .logos img {
-    max-width: 100px;
+    max-width: 80px;
   }
 }
 .site-footer .logos img.dwb,
@@ -1084,6 +1084,16 @@ ul.menu-main-ul .dropdown > span {
 .site-footer .logos img.dwb,
 .site-footer .logos img.grandchallenges {
   height: 65px;
+}
+.site-footer .logos img.wide {
+  width: auto;
+  max-width: none;
+  height: 70px;
+}
+.site-footer .logos img.yorku {
+  width: auto;
+  max-width: none;
+  max-height: 90px;
 }
 .site-footer .social-networks {
   display: flex;
@@ -1111,6 +1121,10 @@ ul.menu-main-ul .dropdown > span {
   border-radius: 5rem;
 }
 .site-footer .nav-legal {
+  max-width: none;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 1rem;
   font-size: 15px;
   line-height: 1.85;
 }
@@ -1118,47 +1132,36 @@ ul.menu-main-ul .dropdown > span {
   margin: 0.25rem 0.5rem;
 }
 .site-footer .nav-legal a {
-  text-decoration: underline dotted;
+  text-decoration: underline rgba(255, 255, 255, 0.1);
 }
 
 .site-cookie-policy {
-  position: sticky;
+  position: fixed;
   bottom: 0;
+  left: 0;
   z-index: 100;
-  color: #fff;
-  background: #272d37;
-  padding: calc(var(--line-height) * 0.5rem) calc(var(--line-height) * 2rem);
+  max-width: 100%;
+  padding: calc(var(--line-height) * 0.5rem);
 }
 .site-cookie-policy .wrap {
   display: grid;
-  grid-auto-flow: column;
+  grid-auto-flow: row;
+  align-items: center;
   justify-content: center;
   gap: 0.75rem;
-  max-width: 880px;
-  margin: 0 auto;
-}
-@media (min-width: 960px) {
-  .site-cookie-policy .wrap {
-    justify-content: space-between;
-    align-items: center;
-  }
-}
-@media (max-width: 960px) {
-  .site-cookie-policy .wrap {
-    text-align: center;
-    grid-auto-flow: row;
-    grid-auto-rows: minmax(0, max-content);
-  }
-  .site-cookie-policy .wrap .user-input {
-    justify-content: center;
-  }
+  color: #fff;
+  background: #272d37;
+  border-radius: 5px;
+  padding: calc(var(--line-height) * 0.35rem);
+  margin: auto;
 }
 .site-cookie-policy p {
+  padding-right: 3rem;
   margin: 0;
 }
 .site-cookie-policy a {
   color: inherit;
-  text-decoration: underline 1px dotted rgba(255, 255, 255, 0.35);
+  text-decoration: underline 1px rgba(255, 255, 255, 0.35);
 }
 .site-cookie-policy .user-input {
   display: grid;
@@ -1173,7 +1176,7 @@ ul.menu-main-ul .dropdown > span {
 }
 .site-cookie-policy button,
 .site-cookie-policy button.MuiButton-root {
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 0.75rem;
   border-radius: 2px;
   text-transform: capitalize;
   white-space: nowrap;
@@ -1197,7 +1200,12 @@ ul.menu-main-ul .dropdown > span {
   color: inherit;
   opacity: 0.6;
   background-color: transparent;
-  text-decoration: underline 1px dotted rgba(255, 255, 255, 0.35);
+  text-decoration: underline 1px rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.site-cookie-policy button.needed:hover,
+.site-cookie-policy button.MuiButton-root.needed:hover {
+  text-decoration-color: #fff;
 }
 .site-cookie-policy button:hover,
 .site-cookie-policy button.MuiButton-root:hover {
@@ -1375,6 +1383,10 @@ ul.menu-main-ul .dropdown > span {
 .posts .posts-footer .pages a.active {
   font-weight: 500;
   background-color: #bec5ce;
+}
+
+[id*=page-] > section:last-child {
+  padding-bottom: 5rem;
 }
 
 section .section-wrap {
@@ -2304,6 +2316,9 @@ footer.clear svg.svg-wave-footer {
   text-align: center;
   background-color: #c4cad3;
 }
+#supporters h2 {
+  margin: 2rem 0;
+}
 #supporters .group {
   display: flex;
   align-items: center;
@@ -2318,7 +2333,7 @@ footer.clear svg.svg-wave-footer {
 }
 @media (min-width: 960px) {
   #supporters .group img {
-    max-width: 120px;
+    max-width: 100px;
   }
 }
 #supporters .group img.dwb,
@@ -2333,9 +2348,9 @@ footer.clear svg.svg-wave-footer {
   height: 65px;
 }
 #supporters .group img.wide {
-  max-width: 100%;
-  height: 85px;
   width: auto;
+  max-width: none;
+  height: 70px;
 }
 
 #articles-content {
