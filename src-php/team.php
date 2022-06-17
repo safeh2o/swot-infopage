@@ -60,7 +60,7 @@
               <img src="/public/assets/team/ngqabutho_zondo.png" alt="swot team member" />
             </figure>
             <h1 class="title h3">Ngqabutho Zondo</h1>
-            <span class="title-sub small">Graphic Design &amp; Frontend</span>
+            <span class="title-sub small">Graphic Design, Frontend</span>
           </div>
           <div class="team-member">
             <figure class="portrait">

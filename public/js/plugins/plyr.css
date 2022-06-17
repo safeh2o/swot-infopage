@@ -653,7 +653,7 @@ a.plyr__control:before {
   z-index: 1;
 }
 .plyr--stopped.plyr__poster-enabled .plyr__poster {
-  opacity: 1;
+  opacity: 0.8;
 }
 .plyr--youtube.plyr--paused.plyr__poster-enabled:not(.plyr--stopped)
   .plyr__poster {
