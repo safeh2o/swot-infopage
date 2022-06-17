@@ -477,21 +477,44 @@
 
 #case-studies {
 	.intro {
-		padding-bottom: 2rem;
+		padding-bottom: 1rem;
+
+		ul {
+			margin-bottom: 0;
+		}
+		li::before {
+			color: #f7cb37;
+			transform: scale(4);
+			pointer-events: none;
+		}
 	}
 }
 
 #case-studies-map {
 	display: flex;
+	// width: auto;
 	padding: 0rem;
-	pointer-events: none;
+	background-color: #fff;
 
-	background-color: indianred;
 	img {
 		width: auto;
-		max-height: 720px;
+		max-height: 840px;
 		pointer-events: none;
+		margin: 0;
+		background-color: #fff;
+		overflow: hidden;
+		max-width: 100%;
 		margin: 0 auto;
+	}
+
+	@media (min-width: 1340px) {
+		// max-width: 1340px;
+
+		img {
+			max-width: 1340px;
+			// border-radius: 60rem;
+			// margin: 0 2rem 4rem;
+		}
 	}
 }
 
