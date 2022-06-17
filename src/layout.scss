@@ -1,8 +1,13 @@
 html,
 body {
 	// scroll-behavior: smooth;
+	scroll-padding: 4rem;
 	min-height: 100vh;
 	margin: 0;
+
+	@media (min-width: $sm) {
+		scroll-padding: 7rem;
+	}
 }
 
 body {

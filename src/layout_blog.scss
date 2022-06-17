@@ -83,7 +83,7 @@
 		grid-auto-flow: row;
 		gap: 1rem;
 
-		@media (min-width: $md) {
+		@media (min-width: $sm) {
 			justify-content: flex-start;
 			grid-auto-flow: column;
 		}
@@ -98,6 +98,7 @@
 	figure {
 		height: auto;
 		width: 150px;
+		transition: all 0.3s ease;
 
 		@media (min-width: $sm) {
 			grid-column: 1/2;
