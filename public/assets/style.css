@@ -1401,7 +1401,7 @@ ul.menu-main-ul .dropdown > span {
   padding-bottom: 5rem;
 }
 
-section .section-wrap {
+.section-wrap {
   position: relative;
   display: grid;
   grid-auto-rows: minmax(0%, max-content);
@@ -1414,15 +1414,16 @@ section .section-wrap {
   max-width: 720px;
 }
 @media (min-width: 960px) {
-  section .section-wrap {
+  .section-wrap {
     max-width: 960px;
   }
 }
-section .section-wrap.compact {
+.section-wrap.compact {
   max-width: 720px;
 }
-section .section-title,
-section .section-subtitle {
+
+.section-title,
+.section-subtitle {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
   font-size: 2.25rem;
@@ -1432,30 +1433,19 @@ section .section-subtitle {
   margin-top: calc(var(--line-height) * 2rem);
 }
 @media (min-width: 960px) {
-  section .section-title,
-section .section-subtitle {
+  .section-title,
+.section-subtitle {
     font-size: 2.5rem;
   }
 }
-section .section-subtitle {
+
+.section-subtitle {
   font-size: 2rem;
 }
 @media (min-width: 960px) {
-  section .section-subtitle {
+  .section-subtitle {
     font-size: 2.25rem;
   }
-}
-
-.section-title,
-.section-header {
-  font-family: "Roboto Condensed", sans-serif;
-  margin-bottom: 1rem;
-  font-size: 20px;
-  font-weight: "400";
-  line-height: "1.2";
-  letter-spacing: "-0.02em";
-  color: "#747e87";
-  margin: "5px 0 10px 8px";
 }
 
 #intro {
