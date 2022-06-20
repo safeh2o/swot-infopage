@@ -321,14 +321,14 @@
       <a href="https://live.safeh2o.app/cookie-policy.php"><span>Cookie Policy</span></a>
     </nav>
   </footer>
-  <div class="site-cookie-policy small">
+  <div class="site-cookie-policy small" id="cookie-banner">
     <div class="wrap">
       <p>This website uses cookies.<br />To learn more, visit our <a href="https://live.safeh2o.app/cookie-policy">
           Cookie
           Policy</a>.</p>
       <span class="user-input">
-        <button class="needed"><span>Accept Nessesary</span></button>
-        <button class="accept btn"><span>Accept All</span></Button>
+        <button class="needed" id="reject-all-cookies-btn"><span>Accept Necessary</span></button>
+        <button class="accept btn" id="accept-all-cookies-btn"><span>Accept All</span></Button>
       </span>
     </div>
   </div>
@@ -390,6 +390,7 @@
       init()
     });
   </script>
+  <script async="false" src="/cookies.js"></script>
 
 </body>
 
