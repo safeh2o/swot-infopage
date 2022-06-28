@@ -54,7 +54,7 @@
   <div class="wrap">
     <p>This website uses cookies. To learn more, visit our <a href="https://live.safeh2o.app/cookie-policy"> Cookie Policy</a>.</p>
     <span class="user-input">
-      <button class="needed"><span>Accept Nessesary</span></button>
+      <button class="needed"><span>Accept Necessary</span></button>
       <button class="accept btn"><span>Accept All</span></Button>
     </span>
   </div>
