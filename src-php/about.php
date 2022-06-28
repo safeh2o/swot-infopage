@@ -253,15 +253,15 @@
         <div class="logos">
           <div>
             <a target="_blank" href="http://dighr.yorku.ca/" rel="noreferrer">
-              <img src="./public/assets/organisations/dighr.svg" alt=" logo" width="200" height="200" />
+              <img src="/public/assets/organisations/dighr.svg" alt=" logo" width="200" height="200" />
             </a>
             <a class="wide" target="_blank" href="https://www.doctorswithoutborders.ca/" rel="noreferrer">
-              <img src="./public/assets/organisations/dwb.svg" alt=" logo" width="1599.6" height="465.8" />
+              <img src="/public/assets/organisations/dwb_full.svg" alt=" logo" width="1600" height="466" />
             </a>
           </div>
           <div>
             <a target="_blank" href="https://humanitariangrandchallenge.org/" rel="noreferrer">
-              <img src="./public/assets/organisations/hgc.svg" alt=" logo" width="540" height="540" />
+              <img src="/public/assets/organisations/hgc.svg" alt=" logo" width="540" height="540" />
             </a>
           </div>
         </div>
@@ -271,10 +271,10 @@
         <div class="project-funding">
           <div>
             <a class="wide" target="_blank" href="https://www.grandchallenges.ca/programs/creating-hope-conflict/" rel="noreferrer">
-              <img src="./public/assets/organisations/grandchallenges.svg" alt=" logo" width="321.7" height="97.5" />
+              <img src="/public/assets/organisations/grandchallenges.svg" alt=" logo" width="321.7" height="97.5" />
             </a>
             <a class="wide" target="_blank" href="https://www.achmea.nl/en/foundation" rel="noreferrer">
-              <img src="./public/assets/organisations/achmea.svg" alt=" logo" width="560" height="106" />
+              <img src="/public/assets/organisations/achmea.svg" alt=" logo" width="560" height="106" />
             </a>
           </div>
         </div>

@@ -144,7 +144,7 @@
         </header>
         <div class="milestone full row swot-birth">
           <figure>
-            <div class="media clear"><img class="logo" src="./public/assets/swot_logo.svg" /></div>
+            <div class="media clear"><img class="logo" src="/public/assets/swot_logo.svg" /></div>
             <figcaption class="">SWOT Branding - Rizwan Ali</figcaption>
           </figure>
           <div class="rte">We figure out we can actually do this, simply by putting our post-distribution chlorine decay modelling tools on the cloud and allowing field workers anywhere in the world to upload their local water quality monitoring data and generate a site-specific, evidence-based water chlorination target. The Safe Water Optimization Tool is born! </div>

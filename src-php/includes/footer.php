@@ -7,13 +7,13 @@
     <h2>A free and open-source tool by</h2>
     <div class="logos">
       <a target="_blank" href="http://yorku.ca/" rel="noreferrer">
-        <img src="./public/assets/organisations/YorkULogo_DIGITAL_Ver_RGB_REV.png" alt=" logo" width="200" height="200" />
+        <img src="/public/assets/organisations/YorkULogo_DIGITAL_Ver_RGB_REV.png" alt=" logo" width="200" height="200" />
       </a>
       <a target="_blank" href="http://dighr.yorku.ca/" rel="noreferrer">
-        <img src="./public/assets/organisations/dighr_black_on_white.png" alt=" logo" width="200" height="200" />
+        <img src="/public/assets/organisations/dighr_black_on_white.png" alt=" logo" width="200" height="200" />
       </a>
       <a target="_blank" href="https://www.doctorswithoutborders.ca/" rel="noreferrer">
-        <img src="./public/assets/organisations/dwb_compact.svg" alt=" logo" width="1599.6" height="465.8" />
+        <img src="/public/assets/organisations/dwb_compact.svg" alt=" logo" width="1600" height="466" />
       </a>
     </div>
   </section>

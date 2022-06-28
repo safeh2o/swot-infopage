@@ -1,12 +1,40 @@
 html,
 body {
 	// scroll-behavior: smooth;
-	scroll-padding: 4rem;
+	scroll-padding: 7rem;
 	min-height: 100vh;
 	margin: 0;
 
 	@media (min-width: $sm) {
-		scroll-padding: 7rem;
+		scroll-padding: 10rem;
+	}
+
+	@keyframes fade {
+		0% {
+			opacity: 1;
+		}
+		100% {
+			opacity: 0;
+		}
+	}
+
+	.team-member:target {
+		position: relative;
+		z-index: 2;
+		&::before {
+			content: "";
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			z-index: -1;
+			transform: translate(-50%, -50%);
+
+			width: 110%;
+			height: 115%;
+			background: rgba(beige, 0.6);
+
+			animation: fade 2s ease 2s 1 forwards;
+		}
 	}
 }
 

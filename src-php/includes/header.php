@@ -1,12 +1,12 @@
 <header class="site-header">
   <!-- Navigation -->
-  <nav role="navigation">
+  <nav>
     <a class="menu-brand" href="/">
-      <img src="./public/assets/swot_logo.svg" class="large" />
-      <img src="./public/assets/swot_logo_compact.svg" class="compact" />
+      <img src="/public/assets/swot_logo.svg" class="large" alt="SWOT logo by Rizwan Ali" />
+      <img src="/public/assets/swot_logo_compact.svg" class="compact" alt="SWOT Water Drop by Rizwan Ali" />
     </a>
 
-    <button class="menu-open" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="menu-open" aria-controls="menu-main" aria-expanded="false" aria-label="Toggle navigation">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path fill="none" stroke="currentColor" stroke-width="3" stroke-miterlimit="10" d="M7 5.7h18M7 26.3h18M7 16h18" />
         <path fill="none" d="M0 0h32v32H0V0z" />

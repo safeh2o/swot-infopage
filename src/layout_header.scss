@@ -347,7 +347,6 @@ ul[class*="menu-"] {
 			padding: 1.5rem 0 3rem;
 
 			transform: translateX(-100%);
-			transition: transform 0.3s ease-in-out;
 
 			pointer-events: all;
 			overflow-y: auto;
@@ -390,6 +389,7 @@ ul[class*="menu-"] {
 				box-shadow: -3px 0px 10px 0px rgba($col-5, 0.35);
 				box-shadow: -3px 0px 10px 0px rgba($col-5, 0.35),
 					inset 0px -5px 3px rgba($col-5, 0.6);
+				transition: transform 0.3s ease-in-out;
 			}
 
 			button.menu-close {

@@ -1,7 +1,7 @@
 .site-footer {
 	text-align: center;
 	color: #fff;
-	background-color: #294f93;
+	background-color: #4371bc;
 	margin-top: auto;
 
 	h2 {
@@ -9,7 +9,8 @@
 	}
 
 	> svg {
-		fill: #294f93;
+		display: none;
+		fill: #4371bc;
 		background-color: #dbdfe4;
 	}
 
@@ -19,10 +20,9 @@
 		max-width: $max-width;
 		margin: 0 auto;
 
-		@media (min-width: $md) {
-			padding: 2rem;
-			padding-top: 0;
-		}
+		// @media (min-width: $md) {
+		// 	padding: 2rem;
+		// }
 	}
 
 	.title {
@@ -78,7 +78,7 @@
 			$size: 2.25rem;
 
 			display: block;
-			color: #294f93;
+			color: #4371bc;
 			line-height: $size;
 			width: $size;
 			height: $size;

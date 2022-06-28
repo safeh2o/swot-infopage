@@ -38,6 +38,7 @@ fiveserver.config.js
 # grunt-html-validation
 validation-status.json
 validation-report.json
+server.json
 
 # Folders to ignore
 node_modules

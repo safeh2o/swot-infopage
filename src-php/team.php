@@ -95,35 +95,35 @@
         <div>
           <div class="group ">
             <a target="_blank" href="https://humanitariangrandchallenge.org/" rel="noreferrer">
-              <img src="./public/assets/organisations/hgc.svg" alt=" logo" width="540" height="540" />
+              <img src="/public/assets/organisations/hgc.svg" alt=" logo" width="540" height="540" />
             </a>
             <a target="_blank" href="https://www.grandchallenges.ca/programs/creating-hope-conflict/" rel="noreferrer">
-              <img class="grandchallenges" src="./public/assets/organisations/grandchallenges.svg" alt=" logo" width="321.7" height="97.5" />
+              <img class="grandchallenges" src="/public/assets/organisations/grandchallenges.svg" alt=" logo" width="321.7" height="97.5" />
             </a>
             <a target="_blank" href="https://www.achmea.nl/en/foundation" rel="noreferrer">
-              <img class="achmea" src="./public/assets/organisations/achmea.svg" alt=" logo" width="560" height="106" />
+              <img class="achmea" src="/public/assets/organisations/achmea.svg" alt=" logo" width="560" height="106" />
             </a>
           </div>
           <h2>In-Kind Support</h2>
           <div class="group supporters">
             <a target="_blank" href="http://dighr.yorku.ca/" rel="noreferrer">
-              <img src="./public/assets/organisations/dighr_white_on_blue.png" alt=" logo" width="200" height="200" />
+              <img src="/public/assets/organisations/dighr_white_on_blue.png" alt=" logo" width="200" height="200" />
             </a>
           </div>
           <h2>Field Partners</h2>
           <div class="group partners">
             <a target="_blank" href="https://www.doctorswithoutborders.ca/" rel="noreferrer">
-              <img class="wide" src="./public/assets/organisations/dwb.svg" alt="Doctors without Borders logo" width="1599.6" height="465.8" />
+              <img class="wide" src="/public/assets/organisations/dwb_full.svg" alt="Doctors without Borders logo" width="1600" height="466" />
             </a>
             <!--  -->
             <a target="_blank" href="https://" rel="noreferrer">
-              <img class="" src="./public/assets/organisations/.svg" alt="Norwegian Refugee Council logo" width="" height="" />
+              <img class="" src="/public/assets/organisations/.svg" alt="Norwegian Refugee Council logo" width="" height="" />
             </a>
             <a target="_blank" href="https://" rel="noreferrer">
-              <img class="" src="./public/assets/organisations/.svg" alt="si logo" width="" height="" />
+              <img class="" src="/public/assets/organisations/.svg" alt="si logo" width="" height="" />
             </a>
             <a target="_blank" href="https://" rel="noreferrer">
-              <img class="" src="./public/assets/organisations/oxfarm-logo.svg" alt="oxfarm logo" width="" height="" />
+              <img class="" src="/public/assets/organisations/oxfarm-logo.svg" alt="oxfarm logo" width="" height="" />
             </a>
           </div>
         </div>

@@ -18,7 +18,7 @@
         <div class="image">
           <figure>
             <div class="media">
-              <img src="./public/assets/intro.png" alt="" width="1080px" height="960px" />
+              <img src="/public/assets/intro.png" alt="" width="1080px" height="960px" />
             </div>
           </figure>
         </div>
@@ -45,7 +45,7 @@
         <div class="image-text how">
           <figure>
             <div class="media">
-              <img src="./public/assets//slice3.png" alt="" width="" height="" />
+              <img src="/public/assets//slice3.png" alt="" width="" height="" />
             </div>
           </figure>
           <div>
@@ -55,7 +55,7 @@
         </div>
         <div class="image-text how">
           <figure>
-            <div class="media"><img src="./public/assets//slice1.png" alt="" width="" height="" />
+            <div class="media"><img src="/public/assets//slice1.png" alt="" width="" height="" />
             </div>
           </figure>
           <div>
@@ -65,7 +65,7 @@
         </div>
         <div class="image-text how">
           <figure>
-            <div class="media"><img src="./public/assets//slice2.png" alt="" width="" height="" />
+            <div class="media"><img src="/public/assets//slice2.png" alt="" width="" height="" />
             </div>
           </figure>
           <div>
