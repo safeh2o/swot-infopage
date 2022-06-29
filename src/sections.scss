@@ -41,12 +41,6 @@
 		font-size: 2.5rem;
 	}
 }
-.section-title {
-	font-size: 2rem;
-	@media (min-width: $md) {
-		font-size: 2.25rem;
-	}
-}
 .banner-title {
 	font-size: 2.25rem;
 	@media (min-width: $md) {
@@ -249,12 +243,22 @@
 	}
 }
 
-#commisioned-video {
+#commissioned-video {
 	padding-bottom: 4rem;
 	background-color: #ebe9e5;
 
 	.section-wrap {
 		max-width: 1140px;
+	}
+	.section-title {
+		transition: all 0.3s ease;
+		@media (min-width: 1030px) {
+			max-width: $max-width;
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 2.5rem;
+			padding-right: 2.5rem;
+		}
 	}
 	.plyr__controls {
 		opacity: 0;
@@ -479,7 +483,7 @@
 	position: relative;
 
 	.intro {
-		margin-bottom: 1rem;
+		margin-bottom: 2.5rem;
 	}
 
 	svg {
@@ -489,7 +493,6 @@
 	.content {
 		border-bottom: 2px solid #b8bdc2;
 		padding-bottom: 3rem;
-		margin-bottom: 3rem;
 	}
 
 	article {
@@ -522,19 +525,29 @@
 		}
 	}
 	.downloads {
+		display: flex;
 		margin-bottom: 0rem;
+
 		article {
+			flex: 1;
+			padding-right: 1rem;
 			margin-bottom: 2rem;
 
 			strong {
 				display: inline-block;
+				width: 1rem;
 				color: $col-1;
-				transform: translateY(-2px) rotate(-15deg);
+				margin-right: 0.25rem;
+				// transform: translateY(-2px) rotate(-15deg);
+			}
+
+			.h3 {
+				white-space: nowrap;
 			}
 
 			footer {
-				// padding-left: 0.5rem;
-				margin-top: 0.25rem;
+				flex-basis: 100%;
+				padding-left: 0.5rem;
 				a {
 					text-decoration: underline;
 				}
@@ -726,8 +739,6 @@ footer.clear {
 }
 
 #our-story {
-	.section-title {
-	}
 	> section {
 		padding-top: 0;
 		padding-bottom: 0;
@@ -743,20 +754,8 @@ footer.clear {
 				padding-bottom: 2rem;
 			}
 		}
-		@media (min-width: $sm) {
-			padding: 0 1rem 0 2.5rem;
-		}
 	}
 	.intro {
-	}
-	.section-wrap {
-		padding-left: 1.5rem;
-		margin-left: 1.5rem;
-		border-left: 2px solid $col-1;
-		@media (min-width: $sm) {
-			padding-left: 2.5rem;
-			margin-left: auto;
-		}
 	}
 	section.page-title {
 		padding-top: 0;
@@ -768,25 +767,28 @@ footer.clear {
 			// text-decoration: underline 2px solid $col-1;
 			text-underline-offset: 3px;
 			margin-bottom: 0;
-
-			&::before {
-				content: "";
-				position: absolute;
-				top: 50%;
-				left: -1.5rem;
-				width: 1rem;
-				height: 2px;
-				background-color: $col-1;
-
-				@media (min-width: $sm) {
-					left: -2.5rem;
-					width: 2rem;
-				}
-			}
 		}
 	}
 	section.period {
 		.section-wrap {
+			&:before {
+				content: "";
+				position: absolute;
+				top: 6rem;
+				left: calc(0.25rem + 1px);
+				width: 4px;
+				height: 100%;
+				background-color: $col-1;
+
+				@media (min-width: $md) {
+					top: 7rem;
+					left: calc(3.5rem - 2px);
+				}
+			}
+			@media (min-width: $md) {
+				padding-left: 5.5rem;
+				margin-left: auto;
+			}
 			gap: 3rem 1.5rem;
 			padding-top: 2rem;
 
@@ -806,7 +808,7 @@ footer.clear {
 				content: "";
 				position: absolute;
 				top: 50%;
-				left: -1.5rem;
+				left: -2rem;
 				transform: translateX(-50%) translateX(-1px) translateY(-50%);
 
 				width: 1.5rem;
@@ -816,8 +818,6 @@ footer.clear {
 				border: 2px solid $col-1;
 
 				@media (min-width: $sm) {
-					left: -2.5rem;
-
 					width: 2rem;
 					height: 2rem;
 				}
@@ -827,12 +827,12 @@ footer.clear {
 			@media (min-width: $sm) {
 				grid-column: 1/5;
 			}
-			h1 {
+			.h1 {
 				font-weight: 400;
 				margin: 2rem 0 0;
 				time {
 					display: inline-block;
-					font-size: 0.8em;
+					font-size: 0.9em;
 					font-weight: 400;
 					color: #8c939b;
 					margin-left: 0.3em;
@@ -900,7 +900,7 @@ footer.clear {
 		}
 		.center {
 			@media (min-width: $md) {
-				grid-column: 2/-3;
+				grid-column: 2/6;
 			}
 		}
 		.mb {
@@ -1081,7 +1081,6 @@ footer.clear {
 #team {
 	.section-wrap {
 		gap: 2rem;
-		max-width: 880px;
 	}
 
 	.intro {
@@ -1319,4 +1318,10 @@ footer.clear {
 			color: rgba(black, 0.1);
 		}
 	}
+}
+
+.end-page {
+	display: flex;
+	padding: 2rem;
+	justify-content: center;
 }
