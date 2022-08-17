@@ -169,7 +169,7 @@ html {
 }
 
 .con {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Acumin", sans-serif;
   font-weight: 400;
 }
 
@@ -202,10 +202,10 @@ h6 b {
 
 h1,
 .h1 {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Acumin", sans-serif;
   font-weight: 400;
   font-size: 2rem;
-  letter-spacing: -0.021em;
+  letter-spacing: -0.01em;
   line-height: 1.316em;
   margin-top: calc(var(--line-height) * 0.75rem);
   margin-bottom: calc(var(--line-height) * 0.45rem);
@@ -219,11 +219,11 @@ h1,
 
 h2,
 .h2 {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Acumin", sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 1.316em;
-  letter-spacing: -0.019em;
+  letter-spacing: -0.01em;
 }
 @media (min-width: 960px) {
   h2,
@@ -234,11 +234,11 @@ h2,
 
 h3,
 .h3 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 400;
+  font-family: "Acumin", sans-serif;
+  font-weight: 500;
   font-size: 1.35rem;
   line-height: 1.316em;
-  letter-spacing: -0.019em;
+  letter-spacing: -0.01em;
 }
 @media (min-width: 960px) {
   h3,
@@ -255,7 +255,7 @@ h6 {
 }
 
 .txt-condensed {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Acumin", sans-serif;
   font-weight: 400;
 }
 
@@ -314,8 +314,8 @@ strong {
 .post-text h4,
 .post-text h5,
 .post-text h6 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 400;
+  font-family: "Acumin", sans-serif;
+  font-weight: 500;
 }
 .rte h4,
 .rte h5,
@@ -323,7 +323,7 @@ strong {
 .post-text h4,
 .post-text h5,
 .post-text h6 {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Acumin", sans-serif;
   font-weight: 500;
   margin-top: calc(0.75rem * var(--line-height));
   margin-bottom: calc(0.75rem * var(--line-height));
@@ -572,7 +572,7 @@ body.overflow-hidden {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Acumin", sans-serif;
   font-size: 1.45rem;
   color: #fff;
   margin-right: auto;
@@ -1069,6 +1069,7 @@ ul.menu-main-ul .dropdown > span {
   text-align: center;
   color: #fff;
   background-color: #4371bc;
+  padding-top: 1.5rem;
   margin-top: auto;
 }
 .site-footer h2 {
@@ -1100,6 +1101,9 @@ ul.menu-main-ul .dropdown > span {
 .site-footer .logos a {
   margin: 1rem 1.25rem;
 }
+.site-footer .logos a:last-child {
+  align-self: center;
+}
 .site-footer .logos img {
   max-width: 70px;
 }
@@ -1129,6 +1133,11 @@ ul.menu-main-ul .dropdown > span {
   max-width: none;
   max-height: 90px;
 }
+.site-footer .logos img.dwb {
+  width: auto;
+  max-width: none;
+  height: 50px;
+}
 .site-footer .social-networks {
   display: flex;
   align-items: center;
@@ -1153,10 +1162,12 @@ ul.menu-main-ul .dropdown > span {
 }
 .site-footer .social-networks .youtube,
 .site-footer .social-networks .linkedin,
-.site-footer .social-networks .twitter,
-.site-footer .social-networks .github {
+.site-footer .social-networks .twitter {
   background-color: #fff;
   border-radius: 5rem;
+}
+.site-footer .social-networks .github {
+  color: #fff;
 }
 .site-footer .nav-legal {
   max-width: none;
@@ -1361,6 +1372,9 @@ ul.menu-main-ul .dropdown > span {
   margin-top: calc(var(--line-height) * 0.25rem);
   margin-bottom: 0;
 }
+.posts .post-title a {
+  border: none;
+}
 .posts .post-text {
   display: block;
   margin-top: 0.5rem;
@@ -1452,7 +1466,7 @@ ul.menu-main-ul .dropdown > span {
 .banner-title,
 .section-title,
 .section-subtitle {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Acumin", sans-serif;
   font-weight: 700;
   font-size: 2rem;
   line-height: 1.1;
@@ -1541,7 +1555,7 @@ ul.menu-main-ul .dropdown > span {
   }
   #intro .image {
     order: 2;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 }
 #intro .try-it-now {
@@ -1647,11 +1661,10 @@ ul.menu-main-ul .dropdown > span {
 }
 
 #commissioned-video {
-  padding-bottom: 4rem;
-  background-color: #ebe9e5;
+  padding: 4rem 0;
 }
 #commissioned-video .section-wrap {
-  max-width: 1140px;
+  max-width: 1280px;
 }
 #commissioned-video .section-title {
   transition: all 0.3s ease;
@@ -1673,10 +1686,8 @@ ul.menu-main-ul .dropdown > span {
 }
 #commissioned-video .plyr__control--overlaid {
   opacity: 1;
-  color: #365996;
   width: 6rem;
   height: 6rem;
-  background-color: #e2e6ed;
   border-radius: 4rem;
 }
 #commissioned-video .plyr__control--overlaid svg {
@@ -1712,11 +1723,17 @@ ul.menu-main-ul .dropdown > span {
     padding-right: 0rem;
   }
 }
+#learn-more .section-title {
+  grid-column: 1/-1;
+  text-align: center;
+  margin-bottom: calc(var(--line-height) * 0rem);
+  margin-top: calc(var(--line-height) * 0rem);
+}
 #learn-more .point {
   display: grid;
   gap: 1rem;
   grid-template-columns: minmax(0%, 100%);
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   width: 100%;
 }
@@ -1760,6 +1777,7 @@ ul.menu-main-ul .dropdown > span {
 #learn-more .point-img {
   position: relative;
   overflow: hidden;
+  margin-bottom: auto;
 }
 #learn-more .point-img img {
   display: grid;
@@ -1774,10 +1792,11 @@ ul.menu-main-ul .dropdown > span {
   width: 100%;
 }
 #learn-more .point-content .btn {
-  max-width: 80%;
-  margin: auto;
-  margin-top: 0.5rem;
-  margin-bottom: 2rem;
+  display: block;
+  max-width: 300px;
+  margin: 0.5rem auto 0rem;
+  padding: 1rem 1.75rem;
+  text-align: center;
 }
 
 #process {
@@ -2462,20 +2481,24 @@ footer.clear svg.svg-wave-footer {
 }
 #team .title-sub {
   display: block;
-  font-weight: 300;
-  letter-spacing: 0.05em;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  opacity: 0.6;
 }
 
 #supporters {
   text-align: center;
   background-color: #c4cad3;
 }
+#supporters .section-wrap {
+  max-width: 1440px;
+}
 #supporters h1 {
   margin-bottom: calc(var(--line-height) * 1.5rem);
   margin-top: calc(var(--line-height) * 2.5rem);
 }
 #supporters h2 {
-  margin: 4rem 0 0rem 0;
+  margin: 6rem 0 0rem 0;
 }
 #supporters .group {
   display: flex;
@@ -2510,6 +2533,16 @@ footer.clear svg.svg-wave-footer {
   max-width: none;
   height: 70px;
 }
+#supporters .group.funders img.hif-elrha {
+  width: auto;
+  max-width: none;
+  max-height: 70px;
+}
+@media (min-width: 960px) {
+  #supporters .group.funders img.hif-elrha {
+    max-height: 90px;
+  }
+}
 #supporters .group.partners img {
   max-width: 50px;
 }
@@ -2530,16 +2563,24 @@ footer.clear svg.svg-wave-footer {
     max-height: 50px;
   }
 }
-#supporters .group.partners img.nrc,
-#supporters .group.partners img.hif-elrha {
+#supporters .group.partners img.nrc {
   width: auto;
   max-width: none;
-  max-height: 60px;
+  max-height: 70px;
 }
 @media (min-width: 960px) {
-  #supporters .group.partners img.nrc,
-#supporters .group.partners img.hif-elrha {
-    max-height: 70px;
+  #supporters .group.partners img.nrc {
+    max-height: 80px;
+  }
+}
+#supporters .group.partners img.brac {
+  width: auto;
+  max-width: none;
+  max-height: 20px;
+}
+@media (min-width: 960px) {
+  #supporters .group.partners img.brac {
+    max-height: 30px;
   }
 }
 

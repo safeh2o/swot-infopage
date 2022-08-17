@@ -4,6 +4,7 @@
 	text-align: center;
 	color: #fff;
 	background-color: #4371bc;
+	padding-top: 1.5rem;
 	margin-top: auto;
 
 	h2 {
@@ -42,6 +43,9 @@
 		a {
 			margin: 1rem 1.25rem;
 		}
+		a:last-child {
+			align-self: center;
+		}
 		img {
 			max-width: 70px;
 
@@ -70,6 +74,11 @@
 			max-width: none;
 			max-height: 90px;
 		}
+		img.dwb {
+			width: auto;
+			max-width: none;
+			height: 50px;
+		}
 	}
 
 	.social-networks {
@@ -97,10 +106,12 @@
 		}
 		.youtube,
 		.linkedin,
-		.twitter,
-		.github {
+		.twitter {
 			background-color: #fff;
 			border-radius: 5rem;
+		}
+		.github {
+			color: #fff;
 		}
 	}
 

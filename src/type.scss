@@ -62,7 +62,7 @@ html {
 }
 
 .con {
-	font-family: "Roboto Condensed", sans-serif;
+	font-family: "Acumin", sans-serif;
 	font-weight: 400;
 }
 
@@ -86,10 +86,10 @@ h6 {
 
 h1,
 .h1 {
-	font-family: "Roboto Condensed", sans-serif;
+	font-family: "Acumin", sans-serif;
 	font-weight: 400;
 	font-size: 2rem;
-	letter-spacing: -0.021em;
+	letter-spacing: -0.01em;
 	line-height: 1.316em;
 	margin-top: calc(var(--line-height) * 0.75rem);
 	margin-bottom: calc(var(--line-height) * 0.45rem);
@@ -101,11 +101,11 @@ h1,
 
 h2,
 .h2 {
-	font-family: "Roboto Condensed", sans-serif;
+	font-family: "Acumin", sans-serif;
 	font-weight: 700;
 	font-size: 1.5rem;
 	line-height: 1.316em;
-	letter-spacing: -0.019em;
+	letter-spacing: -0.01em;
 
 	@media (min-width: $md) {
 		font-size: 1.6rem;
@@ -114,11 +114,11 @@ h2,
 
 h3,
 .h3 {
-	font-family: "Roboto Condensed", sans-serif;
-	font-weight: 400;
+	font-family: "Acumin", sans-serif;
+	font-weight: 500;
 	font-size: 1.35rem;
 	line-height: 1.316em;
-	letter-spacing: -0.019em;
+	letter-spacing: -0.01em;
 
 	@media (min-width: $md) {
 		font-size: 1.45rem;
@@ -133,7 +133,7 @@ h6 {
 }
 
 .txt-condensed {
-	font-family: "Roboto Condensed", sans-serif;
+	font-family: "Acumin", sans-serif;
 	font-weight: 400;
 }
 
@@ -181,13 +181,13 @@ strong {
 	h4,
 	h5,
 	h6 {
-		font-family: "Roboto Condensed", sans-serif;
-		font-weight: 400;
+		font-family: "Acumin", sans-serif;
+		font-weight: 500;
 	}
 	h4,
 	h5,
 	h6 {
-		font-family: "Roboto Condensed", sans-serif;
+		font-family: "Acumin", sans-serif;
 		font-weight: 500;
 
 		margin-top: calc(0.75rem * var(--line-height));
