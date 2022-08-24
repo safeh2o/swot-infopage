@@ -1,0 +1,271 @@
+#our-story-2,
+#our-story-3 {
+	display: block;
+	flex: auto;
+
+	.section-title {
+		text-align: center;
+		margin-bottom: 0;
+
+		&.timeline {
+			margin-bottom: 3rem;
+		}
+	}
+	.section-subtitle {
+		font-weight: 600;
+		margin: 0;
+	}
+
+	#masonry {
+		&:not(.initialized) {
+			section {
+				opacity: 0;
+			}
+		}
+	}
+
+	#masonry,
+	#rows {
+		section {
+			transition: opacity 0.25s ease;
+			&:nth-child(odd) {
+				background-color: darken($col-3, 5%);
+			}
+		}
+		&.initialized {
+			max-width: 1080px;
+			margin: 0 auto;
+
+			@media (min-width: 720px) {
+				position: relative;
+
+				&::before {
+					content: "";
+					display: block;
+					position: absolute;
+					left: 50%;
+					z-index: 2;
+					transform: translateX(-50%);
+					width: 4px;
+					height: 100%;
+					background-color: $col-1;
+				}
+
+				section {
+					position: relative;
+					background-color: transparent;
+					opacity: 1;
+
+					@for $i from 1 to 12r {
+						&:nth-child(#{$i}) {
+							transition-delay: #{0.05s * $i};
+						}
+					}
+
+					&::before {
+						content: "";
+						position: absolute;
+						top: 0;
+						z-index: 2;
+
+						width: 10px;
+						height: 4px;
+						background-color: $col-1;
+					}
+
+					&:nth-child(odd) {
+						&::before {
+							right: 0;
+						}
+
+						figure {
+							margin: 0 -1.5rem 0 -1.5rem;
+						}
+					}
+					&:nth-child(even) {
+						&::before {
+							left: 0;
+						}
+
+						figure {
+							margin: 0 -1.5rem 0 -1.5rem;
+						}
+					}
+				}
+
+				.section-subtitle {
+					margin: 3rem 0 0.5rem;
+				}
+
+				.section-wrap {
+					gap: 0;
+					padding: 0 2.5rem 2.5rem;
+				}
+
+				#hepatitis-e-outbreak-south-sudan {
+				}
+				#global-refugee-camp-water-quality-study {
+					padding-top: 300px;
+					&::before {
+						top: 300px;
+					}
+				}
+				#modelling-post-distribution-chlorine-decay {
+					padding-top: 100px;
+					&::before {
+						top: 100px;
+					}
+				}
+				#evidence-based-water-chlorination-targets {
+					padding-top: 200px;
+					&::before {
+						top: 200px;
+					}
+				}
+				#building-the-swot-prototype {
+					padding-top: 600px;
+					&::before {
+						top: 600px;
+					}
+				}
+				#refining-the-swot {
+					padding-top: 400px;
+					&::before {
+						top: 400px;
+					}
+				}
+				#building-the-evidence-base-and-global-scale-up {
+					padding-top: 300px;
+					padding-bottom: 100px;
+					&::before {
+						top: 300px;
+					}
+				}
+			}
+		}
+
+		.section-wrap {
+			padding: 2.5rem;
+		}
+
+		img {
+			width: 100%;
+		}
+
+		p {
+			margin-bottom: calc(0.5rem * var(--line-height));
+		}
+
+		.btn {
+			display: block;
+			text-align: center;
+			max-width: 80%;
+			margin: 0 auto 1.5rem;
+		}
+
+		time {
+			font-weight: 500;
+			margin-left: 0.5rem;
+			opacity: 0.5;
+		}
+
+		ul {
+			--width: 20px;
+			list-style: none !important;
+
+			li::before {
+			}
+		}
+	}
+	#hepatitis-e-outbreak-south-sudan {
+		img {
+			height: 350px;
+			object-fit: cover;
+			object-position: center;
+		}
+	}
+	#global-refugee-camp-water-quality-study {
+		img {
+			height: 350px;
+			object-fit: cover;
+			object-position: center right;
+		}
+	}
+	#modelling-post-distribution-chlorine-decay {
+		img {
+			height: 350px;
+			object-fit: cover;
+			object-position: center;
+		}
+	}
+	#evidence-based-water-chlorination-targets {
+		img {
+			padding-left: 0;
+		}
+	}
+	#building-the-swot-prototype {
+		.media {
+			display: flex;
+			height: 350px;
+			background-color: $col-1;
+
+			img {
+				max-width: 250px;
+				margin: auto;
+				object-fit: scale-down;
+			}
+		}
+	}
+	#refining-the-swot {
+		.media {
+			display: flex;
+			background-color: #681c33;
+			height: 350px;
+			img {
+				margin: auto;
+				max-height: 250px;
+				object-fit: contain;
+			}
+		}
+	}
+	#building-the-evidence-base-and-global-scale-up {
+		.media {
+			display: flex;
+			height: 350px;
+			background-color: #b9c3d3;
+
+			img {
+				max-height: 150px;
+				margin: auto;
+				object-fit: scale-down;
+			}
+		}
+	}
+	#supporters {
+		position: relative;
+		background-color: #ffffff;
+		padding: 5rem 1.5rem 9rem 1.5rem;
+
+		@media (min-width: 720px) {
+			&::before {
+				content: "";
+
+				position: absolute;
+				top: 0;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				z-index: 2;
+
+				width: 1.45rem;
+				height: 1.45rem;
+				border-radius: 2rem;
+				background-color: $col-4;
+				border: 7px $col-1 solid;
+			}
+			.rte {
+				max-width: 480px;
+				margin: 0 auto 1rem;
+			}
+		}
+	}
+}

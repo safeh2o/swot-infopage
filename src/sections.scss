@@ -41,6 +41,13 @@
 		font-size: 2.5rem;
 	}
 }
+.section-subtitle {
+	margin-bottom: calc(var(--line-height) * 0.5rem);
+
+	@media (min-width: $md) {
+		font-size: 2rem;
+	}
+}
 .banner-title {
 	font-size: 2.25rem;
 	@media (min-width: $md) {
@@ -95,7 +102,7 @@
 
 	@media (max-width: #{$md - 0.1px}) {
 		text-align: center;
-		padding-bottom: 5rem;
+		padding-bottom: 0;
 		br {
 			display: none;
 		}
@@ -104,9 +111,19 @@
 		}
 		.image {
 			order: 1;
+			max-width: 520px;
+			margin-top: 3rem;
 		}
 		.text {
 			order: 3;
+		}
+		header,
+		.text {
+			max-width: 480px;
+		}
+		.section-wrap {
+			gap: 0;
+			padding-bottom: 1rem;
 		}
 	}
 
@@ -130,15 +147,16 @@
 		.media {
 			position: relative;
 			width: 100%;
-			padding-top: 56.25%;
+			padding-top: 65%;
 
 			img {
 				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-				object-fit: cover;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				// width: 100%;
+				// height: 100%;
+				// object-fit: cover;
 			}
 		}
 	}
@@ -209,6 +227,7 @@
 
 			h2 {
 				margin-top: 0.5rem;
+				margin-bottom: calc(var(--line-height) * 0.25rem);
 			}
 		}
 
@@ -234,6 +253,7 @@
 	}
 	footer {
 		text-align: center;
+		padding-bottom: 4rem;
 
 		.btn {
 			width: 100%;
@@ -421,7 +441,7 @@
 		margin: 1rem auto;
 	}
 	strong {
-		font-weight: 500;
+		font-weight: 600;
 	}
 	svg.asterix {
 		position: relative;
@@ -533,7 +553,7 @@
 			align-items: flex-start;
 		}
 		.post-title {
-			font-weight: 400;
+			font-weight: 500;
 		}
 		.authors {
 			order: -1;
@@ -634,6 +654,7 @@ footer.clear {
 
 	.section-wrap {
 		max-width: 840px;
+		padding-top: 2rem;
 	}
 
 	.sign-up {
@@ -738,8 +759,6 @@ footer.clear {
 			padding: 0.7em 1.35em;
 			margin: 0.25rem;
 			border: none;
-			font-size: 0.875rem;
-			line-height: 1.7;
 		}
 
 		input[type="email"] {
@@ -1193,12 +1212,15 @@ footer.clear {
 		font-weight: 500;
 		letter-spacing: 0.01em;
 		opacity: 0.6;
+		margin-top: -3px;
 	}
 }
 
-#supporters {
+#supporters,
+#partners {
 	text-align: center;
 	background-color: darken($col-3, 8%);
+	padding-bottom: 4rem;
 
 	.section-wrap {
 		max-width: 1440px;
@@ -1296,6 +1318,16 @@ footer.clear {
 	}
 }
 
+#partners {
+	position: relative;
+	background-color: #ffffff;
+	padding: 3rem 1.5rem 3rem;
+
+	h2 {
+		margin: 0rem 0 0rem 0;
+	}
+}
+
 #articles-content {
 	padding-bottom: calc(var(--line-height) * 4rem);
 }
@@ -1319,7 +1351,7 @@ footer.clear {
 		width: 100%;
 
 		thead {
-			font-weight: 500;
+			font-weight: 600;
 
 			td {
 				border-bottom: 3px solid #ccc;

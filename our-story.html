@@ -556,6 +556,7 @@
   <!-- partial -->
   <script src="public/js/intersect.js"></script>
   <script src="public/js/media-audio-video.js"></script>
+  <script src="public/js/macy.min.js"></script>
   <script>
     const init = () => {
       const body = document.body;
@@ -583,8 +584,6 @@
         toggleNav();
       });
 
-
-
       // Scroll JS
       var scrollObject = {};
       document.addEventListener('scroll', () => {
@@ -605,6 +604,21 @@
           document.body.classList.remove('scrolling');
         }
       }
+
+      // Masonry
+      var macy = Macy({
+        container: '#macy-container',
+        trueOrder: false,
+        waitForImages: false,
+        margin: 24,
+        columns: 6,
+        breakAt: {
+          1200: 5,
+          940: 3,
+          520: 2,
+          400: 1
+        }
+      });
     }
     window.addEventListener('DOMContentLoaded', () => {
       init()
