@@ -79,9 +79,30 @@
 	}
 	//
 	article {
+		position: relative;
 		display: grid;
 		grid-auto-flow: row;
 		gap: 1.5rem;
+
+		> * {
+			position: relative;
+			z-index: 1;
+		}
+
+		&:nth-child(odd) {
+			&::before {
+				content: "";
+
+				position: absolute;
+				top: -1rem;
+				right: -1rem;
+				bottom: -1rem;
+				left: -1rem;
+				z-index: 0;
+
+				background-color: rgba(255, 255, 255, 0.25);
+			}
+		}
 
 		@media (min-width: $sm) {
 			justify-content: flex-start;
@@ -114,6 +135,8 @@
 		}
 	}
 	.post-title {
+		font-weight: 600;
+		// color: $col-1;
 		margin-top: calc(var(--line-height) * 0.25rem);
 		margin-bottom: 0;
 

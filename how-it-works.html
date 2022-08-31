@@ -148,12 +148,15 @@
           <!-- <h1 class="section-title">How it Works</h1> -->
           <figure class="video-wrapper">
             <video class="custom" playsinline loop preload disablePictureInPicture
-              data-poster="/public/assets/how-it-works/MuddyWaters.jpg">
+              data-poster="/public/assets/how-it-works/swot-video-poster.png">
               <source src="/public/video/what-is-the-swot-01-intro.mp4" type="video/mp4" />
               <source src="/public/video/what-is-the-swot-01-intro.webm" type="video/webm" />
             </video>
           </figure>
         </div>
+      </div>
+      <div class="blob">
+        <div class="rte">Watch the video to learn more about the SWOT Process</div>
       </div>
       </div>
     </section>
@@ -317,61 +320,8 @@
   <!-- partial -->
   <script src="public/js/intersect.js"></script>
   <script src="public/js/media-audio-video.js"></script>
-  <script>
-    const init = () => {
-      const body = document.body;
-      const mainNav = document.getElementById('menu-main');
-      const openButton = document.getElementsByClassName('menu-open')[0];
-      const closeButton = document.getElementsByClassName('menu-close')[0];
-
-      let actionBuffer = false
-      const toggleNav = (fn) => {
-        if (!actionBuffer) {
-          actionBuffer = true
-          body.classList.toggle('overflow-hidden')
-          mainNav.classList.toggle('show-mobile-nav')
-          setTimeout(() => {
-            actionBuffer = false
-          }, 300)
-        }
-      }
-
-      openButton.addEventListener('click', () => {
-        toggleNav();
-      });
-
-      closeButton.addEventListener('click', () => {
-        toggleNav();
-      });
-
-
-
-      // Scroll JS
-      var scrollObject = {};
-      document.addEventListener('scroll', () => {
-        requestAnimationFrame(() => {
-          scrollPos();
-        });
-      }, true);
-
-      const scrollPos = () => {
-        scrollObject = {
-          x: window.pageXOffset,
-          y: window.pageYOffset
-        }
-        // If you want to check distance
-        if (scrollObject.y > 100) {
-          document.body.classList.add('scrolling');
-        } else {
-          document.body.classList.remove('scrolling');
-        }
-      }
-    }
-    window.addEventListener('DOMContentLoaded', () => {
-      init()
-    });
-  </script>
-  <script async="false" src="/cookies.js"></script>
+  <script src="public/js/util.js"></script>
+  <script async="false" src="public/js/cookies.js"></script>
 
 </body>
 

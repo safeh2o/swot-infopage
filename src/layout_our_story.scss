@@ -1,5 +1,4 @@
-#our-story-2,
-#our-story-3 {
+#our-story {
 	display: block;
 	flex: auto;
 
@@ -129,16 +128,16 @@
 					}
 				}
 				#refining-the-swot {
-					padding-top: 400px;
+					padding-top: 500px;
 					&::before {
-						top: 400px;
+						top: 500px;
 					}
 				}
 				#building-the-evidence-base-and-global-scale-up {
-					padding-top: 300px;
+					padding-top: 200px;
 					padding-bottom: 100px;
 					&::before {
-						top: 300px;
+						top: 200px;
 					}
 				}
 			}
@@ -177,26 +176,27 @@
 			}
 		}
 	}
+	figure {
+		.media {
+			height: 350px;
+			img {
+				height: 350px;
+				object-fit: cover;
+				object-position: center;
+			}
+		}
+	}
 	#hepatitis-e-outbreak-south-sudan {
 		img {
-			height: 350px;
-			object-fit: cover;
 			object-position: center;
 		}
 	}
 	#global-refugee-camp-water-quality-study {
 		img {
-			height: 350px;
-			object-fit: cover;
 			object-position: center right;
 		}
 	}
 	#modelling-post-distribution-chlorine-decay {
-		img {
-			height: 350px;
-			object-fit: cover;
-			object-position: center;
-		}
 	}
 	#evidence-based-water-chlorination-targets {
 		img {
@@ -205,8 +205,6 @@
 	}
 	#building-the-swot-prototype {
 		.media {
-			display: flex;
-			height: 350px;
 			background-color: $col-1;
 
 			img {
@@ -218,25 +216,20 @@
 	}
 	#refining-the-swot {
 		.media {
-			display: flex;
 			background-color: #681c33;
-			height: 350px;
 			img {
-				margin: auto;
-				max-height: 250px;
-				object-fit: contain;
+				object-position: center;
+				object-fit: scale-down;
+				padding: 2.5rem;
 			}
 		}
 	}
 	#building-the-evidence-base-and-global-scale-up {
 		.media {
-			display: flex;
-			height: 350px;
 			background-color: #b9c3d3;
 
 			img {
-				max-height: 150px;
-				margin: auto;
+				object-position: center;
 				object-fit: scale-down;
 			}
 		}
@@ -244,7 +237,7 @@
 	#supporters {
 		position: relative;
 		background-color: #ffffff;
-		padding: 5rem 1.5rem 9rem 1.5rem;
+		padding: 5rem 1.5rem 0rem 1.5rem;
 
 		@media (min-width: 720px) {
 			&::before {

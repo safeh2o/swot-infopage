@@ -258,16 +258,16 @@
             <a target="_blank" href="https://www.achmea.nl/en/foundation" rel="noreferrer">
               <img class="achmea" src="/public/assets/organisations/achmea.svg" alt=" logo" width="560" height="106" />
             </a>
+            <a target="_blank" href="https://" rel="noreferrer">
+              <img class="hif-elrha" src="/public/assets/organisations/hif_elrha.png" alt="HIF elrha logo" width=""
+                height="" />
+            </a>
             <a target="_blank" href="https://humanitariangrandchallenge.org/" rel="noreferrer">
               <img src="/public/assets/organisations/hgc.svg" alt=" logo" width="540" height="540" />
             </a>
             <a target="_blank" href="https://www.grandchallenges.ca/programs/creating-hope-conflict/" rel="noreferrer">
               <img class="grandchallenges" src="/public/assets/organisations/grandchallenges.svg" alt=" logo"
                 width="321.7" height="97.5" />
-            </a>
-            <a target="_blank" href="https://" rel="noreferrer">
-              <img class="hif-elrha" src="/public/assets/organisations/hif_elrha.png" alt="HIF elrha logo" width=""
-                height="" />
             </a>
           </div>
           <!-- <h2>Field Partners</h2>
@@ -303,7 +303,9 @@
     <section id="partners">
       <div class="section-wrap">
         <div>
-          <h2>Field Partners</h2>
+          <div class="intro">
+            <h2 class="section-subtitle">Field Partners</h2>
+          </div>
           <div class="group partners">
             <a target="_blank" href="https://www.doctorswithoutborders.ca/" rel="noreferrer">
               <img class="wide" src="/public/assets/organisations/dwb_full_black.svg" alt="Doctors without Borders logo"
@@ -413,61 +415,8 @@
   <!-- partial -->
   <script src="public/js/intersect.js"></script>
   <script src="public/js/media-audio-video.js"></script>
-  <script>
-    const init = () => {
-      const body = document.body;
-      const mainNav = document.getElementById('menu-main');
-      const openButton = document.getElementsByClassName('menu-open')[0];
-      const closeButton = document.getElementsByClassName('menu-close')[0];
-
-      let actionBuffer = false
-      const toggleNav = (fn) => {
-        if (!actionBuffer) {
-          actionBuffer = true
-          body.classList.toggle('overflow-hidden')
-          mainNav.classList.toggle('show-mobile-nav')
-          setTimeout(() => {
-            actionBuffer = false
-          }, 300)
-        }
-      }
-
-      openButton.addEventListener('click', () => {
-        toggleNav();
-      });
-
-      closeButton.addEventListener('click', () => {
-        toggleNav();
-      });
-
-
-
-      // Scroll JS
-      var scrollObject = {};
-      document.addEventListener('scroll', () => {
-        requestAnimationFrame(() => {
-          scrollPos();
-        });
-      }, true);
-
-      const scrollPos = () => {
-        scrollObject = {
-          x: window.pageXOffset,
-          y: window.pageYOffset
-        }
-        // If you want to check distance
-        if (scrollObject.y > 100) {
-          document.body.classList.add('scrolling');
-        } else {
-          document.body.classList.remove('scrolling');
-        }
-      }
-    }
-    window.addEventListener('DOMContentLoaded', () => {
-      init()
-    });
-  </script>
-  <script async="false" src="/cookies.js"></script>
+  <script src="public/js/util.js"></script>
+  <script async="false" src="public/js/cookies.js"></script>
 
 </body>
 

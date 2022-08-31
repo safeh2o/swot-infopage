@@ -3,7 +3,7 @@
 	z-index: 10;
 	text-align: center;
 	color: #fff;
-	background-color: #4371bc;
+	background-color: $col-1;
 	padding-top: 1.5rem;
 	margin-top: auto;
 
@@ -14,7 +14,7 @@
 
 	> svg {
 		display: none;
-		fill: #4371bc;
+		fill: $col-1;
 		background-color: #dbdfe4;
 	}
 
@@ -30,7 +30,7 @@
 	}
 
 	.title {
-		font-weight: 700;
+		font-weight: 600;
 		letter-spacing: -0.01em;
 		margin-bottom: 0.5rem;
 	}
@@ -90,7 +90,7 @@
 			$size: 2.25rem;
 
 			display: block;
-			color: #4371bc;
+			color: $col-1;
 			line-height: $size;
 			width: $size;
 			height: $size;

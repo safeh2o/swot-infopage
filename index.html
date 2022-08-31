@@ -191,7 +191,7 @@
             </div>
           </figure>
           <div>
-            <h2>Routine data</h2>
+            <h2>Routine Data</h2>
             <p>The SWOT helps pull out life-preserving information from the routine water quality monitoring data you
               already collect</p>
           </div>
@@ -202,7 +202,7 @@
             </div>
           </figure>
           <div>
-            <h2>Actionable insights</h2>
+            <h2>Actionable Insights</h2>
             <p>The SWOT generates site-specific water chlorination guidance that helps keep water safe, all the way to
               the last drop.</p>
           </div>
@@ -218,7 +218,7 @@
             <img src="/public/assets/view-2.jpg" alt="Person holding water sample" />
           </div>
           <div class="sign-up-content">
-            <h1 class="section-subtitle">Get Started</h1>
+            <h1 class="section-title">Get Started</h1>
             <p>Our team is standing by to provide training and support to your team today. Let's get safe water to the
               people who need it.</p>
             <a class="btn" href="https://live.safeh2o.app/contact" target="_blank"><span>Request an Account</span></a>
@@ -233,7 +233,7 @@
         <form action="https://app.us2.list-manage.com/subscribe/post?u=4e51b95811143b5dba0fbb5c3&amp;id=fb6ca52d01"
           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
           target="_blank" novalidate="">
-          <h2 class="section-subtitle">Newsletter</h2>
+          <h2 class="section-title">Newsletter</h2>
 
           <div class="form-wrap">
             <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="enter email"
@@ -329,61 +329,8 @@
   <!-- partial -->
   <script src="public/js/intersect.js"></script>
   <script src="public/js/media-audio-video.js"></script>
-  <script>
-    const init = () => {
-      const body = document.body;
-      const mainNav = document.getElementById('menu-main');
-      const openButton = document.getElementsByClassName('menu-open')[0];
-      const closeButton = document.getElementsByClassName('menu-close')[0];
-
-      let actionBuffer = false
-      const toggleNav = (fn) => {
-        if (!actionBuffer) {
-          actionBuffer = true
-          body.classList.toggle('overflow-hidden')
-          mainNav.classList.toggle('show-mobile-nav')
-          setTimeout(() => {
-            actionBuffer = false
-          }, 300)
-        }
-      }
-
-      openButton.addEventListener('click', () => {
-        toggleNav();
-      });
-
-      closeButton.addEventListener('click', () => {
-        toggleNav();
-      });
-
-
-
-      // Scroll JS
-      var scrollObject = {};
-      document.addEventListener('scroll', () => {
-        requestAnimationFrame(() => {
-          scrollPos();
-        });
-      }, true);
-
-      const scrollPos = () => {
-        scrollObject = {
-          x: window.pageXOffset,
-          y: window.pageYOffset
-        }
-        // If you want to check distance
-        if (scrollObject.y > 100) {
-          document.body.classList.add('scrolling');
-        } else {
-          document.body.classList.remove('scrolling');
-        }
-      }
-    }
-    window.addEventListener('DOMContentLoaded', () => {
-      init()
-    });
-  </script>
-  <script async="false" src="/cookies.js"></script>
+  <script src="public/js/util.js"></script>
+  <script async="false" src="public/js/cookies.js"></script>
 
 </body>
 

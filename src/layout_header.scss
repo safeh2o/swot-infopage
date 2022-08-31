@@ -22,7 +22,7 @@ body.overflow-hidden {
 		box-shadow: 0px 3px 0px 0px rgba(39, 45, 55, 0.22);
 	}
 
-	@media (min-width: $md) {
+	@media (min-width: $sm) {
 		padding-left: 2rem;
 		padding-right: 2rem;
 	}
@@ -34,12 +34,14 @@ body.overflow-hidden {
 		justify-content: space-between;
 
 		font-family: "Acumin", sans-serif;
-		font-size: 1.45rem;
+		font-size: 1.485rem;
+		line-height: 1;
+		letter-spacing: normal;
 		color: #fff;
 		margin-right: auto;
 		margin-left: auto;
 
-		@media (min-width: $md) {
+		@media (min-width: $sm) {
 			position: relative;
 			align-items: flex-end;
 		}
@@ -112,7 +114,7 @@ body.overflow-hidden {
 		margin: auto;
 	}
 
-	@media (min-width: $md) {
+	@media (min-width: $sm) {
 		display: none;
 	}
 
@@ -135,7 +137,7 @@ ul[class*="menu-"] {
 	margin: 0;
 	flex-direction: column;
 
-	@media (min-width: $md) {
+	@media (min-width: $sm) {
 		flex-direction: row;
 		margin-left: auto;
 	}
@@ -148,7 +150,6 @@ ul[class*="menu-"] {
 		> span {
 			display: grid;
 			gap: 0.25rem;
-			align-items: center;
 			justify-content: space-between;
 			grid-auto-columns: minmax(0, max-content);
 			grid-auto-flow: column;
@@ -160,10 +161,6 @@ ul[class*="menu-"] {
 			color: white;
 			padding: 0.8rem 1rem;
 			white-space: nowrap;
-
-			@media (min-width: $md) {
-				gap: 0.5rem;
-			}
 		}
 		&:hover {
 			> a,
@@ -196,7 +193,7 @@ ul[class*="menu-"] {
 			height: 1.25rem;
 			margin: 0;
 
-			@media (min-width: $md) {
+			@media (min-width: $sm) {
 				display: block;
 			}
 		}
@@ -210,7 +207,7 @@ ul[class*="menu-"] {
 
 	.dropdown {
 		text-align: center;
-		@media (min-width: $md) {
+		@media (min-width: $sm) {
 			position: relative;
 			> span {
 				cursor: default;
@@ -234,7 +231,8 @@ ul[class*="menu-"] {
 					background-color: $col-1;
 
 					transform: translateY(-100%);
-					transition: all 0.25s ease;
+					transition-duration: 0.2s;
+					transition-property: transform;
 
 					li {
 						white-space: nowrap;
@@ -248,6 +246,7 @@ ul[class*="menu-"] {
 					}
 					a {
 						font-size: 1.3rem;
+						line-height: 1.65;
 						font-weight: 400;
 						letter-spacing: 0.0095em;
 						text-transform: capitalize;
@@ -287,7 +286,7 @@ ul[class*="menu-"] {
 			text-transform: capitalize;
 			text-decoration: underline 1px dotted rgba(#fff, 0.4);
 		}
-		@media (min-width: $md) {
+		@media (min-width: $sm) {
 			order: 2;
 			margin-left: 0.5rem;
 			&::before {
@@ -318,7 +317,7 @@ ul[class*="menu-"] {
 			background-color: rgba(0, 0, 0, 0.03);
 		}
 	}
-	@media (max-width: #{$md - 0.1px}) {
+	@media (max-width: #{$sm - 0.1px}) {
 		display: flex;
 		position: fixed;
 		right: 0;
@@ -407,7 +406,7 @@ ul[class*="menu-"] {
 }
 
 ul.menu-main-ul {
-	@media (min-width: $md) {
+	@media (min-width: $sm) {
 		> li {
 			> .active,
 			&:hover > :not(ul):not(div) {
@@ -422,7 +421,7 @@ ul.menu-main-ul {
 			}
 		}
 	}
-	@media (max-width: #{$md - 0.1px}) {
+	@media (max-width: #{$sm - 0.1px}) {
 		position: relative;
 		z-index: 2;
 		width: 100vw;
@@ -539,19 +538,19 @@ ul.menu-main-ul {
 			span {
 				line-height: 1;
 				border-bottom: 1px dotted;
-				@media (min-width: $md) {
+				@media (min-width: $sm) {
 					margin: auto 0 0.125em;
 				}
 			}
 		}
-		@media (max-width: #{$md - 0.1px}) {
+		@media (max-width: #{$sm - 0.1px}) {
 			span {
 				display: block;
 			}
 		}
 	}
 
-	@media (min-width: $md) {
+	@media (min-width: $sm) {
 		position: absolute;
 		top: 1rem;
 		right: 0.5rem;
@@ -562,7 +561,7 @@ ul.menu-main-ul {
 		}
 	}
 
-	@media (max-width: #{$md - 0.1px}) {
+	@media (max-width: #{$sm - 0.1px}) {
 		$btnSize: 2.5rem;
 		height: 3rem;
 		margin: auto 1.5rem 0 0;

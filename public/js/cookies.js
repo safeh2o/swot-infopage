@@ -4,8 +4,8 @@ const TWO_WEEKS = 14 * 24 * 60 * 60 * 1000;
 
 let currentConsent = userHasConsented();
 
-if (currentConsent) {
-    hideCookieBanner();
+if (!currentConsent) {
+    showCookieBanner();
 }
 
 document.getElementById("reject-all-cookies-btn").addEventListener("click", () => {
@@ -15,37 +15,42 @@ document.getElementById("accept-all-cookies-btn").addEventListener("click", () =
     acceptCookies();
 })
 
-function hideCookieBanner() {
-	const cookieBanner = document.getElementById("cookie-banner");
+function hideCookieBanner () {
+    const cookieBanner = document.getElementById("cookie-banner");
     cookieBanner.style.display = 'none';
 }
 
-function acceptCookies() {
-	const d = new Date();
-	d.setTime(d.getTime() + TWO_WEEKS);
-	let expires = "expires=" + d.toUTCString();
-	document.cookie = COOKIE_NAME + "=true;" + expires + ";path=/";
+function showCookieBanner () {
+    const cookieBanner = document.getElementById("cookie-banner");
+    cookieBanner.style.display = 'block';
+}
+
+function acceptCookies () {
+    const d = new Date();
+    d.setTime(d.getTime() + TWO_WEEKS);
+    let expires = "expires=" + d.toUTCString();
+    document.cookie = COOKIE_NAME + "=true;" + expires + ";path=/";
     hideCookieBanner();
 }
 
-function rejectCookies() {
+function rejectCookies () {
     window[`ga-disable-${GA_MEASUREMENT_ID}`] = true;
     hideCookieBanner();
 }
 
-function getCookie() {
+function getCookie () {
     const allCookies = document.cookie.split('; ');
     for (const cookieString of allCookies) {
         const firstEqual = cookieString.indexOf('=');
         if (cookieString.substring(0, firstEqual) === COOKIE_NAME) {
-            return cookieString.substring(firstEqual+1);
+            return cookieString.substring(firstEqual + 1);
         }
     }
 
     return null;
 }
 
-function userHasConsented() {
+function userHasConsented () {
     const consentCookie = getCookie();
     return consentCookie?.toLowerCase() === 'true';
 }
