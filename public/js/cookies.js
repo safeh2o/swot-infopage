@@ -6,6 +6,8 @@ let currentConsent = userHasConsented();
 
 if (!currentConsent) {
     showCookieBanner();
+} else {
+    hideCookieBanner();
 }
 
 document.getElementById("reject-all-cookies-btn").addEventListener("click", () => {
