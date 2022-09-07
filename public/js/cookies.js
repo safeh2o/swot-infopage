@@ -1,4 +1,4 @@
-const GA_MEASUREMENT_ID = 'UA-151594790-1';
+const GA_MEASUREMENT_ID = 'G-NRRPW9FG7Z';
 const COOKIE_NAME = 'cookie_consent';
 const TWO_WEEKS = 14 * 24 * 60 * 60 * 1000;
 
