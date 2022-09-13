@@ -1461,17 +1461,9 @@ ul.menu-main-ul .dropdown > span {
   background-color: #365996;
 }
 #our-story #building-the-swot-prototype .media img {
-  max-width: 250px;
+  max-width: 60%;
   margin: auto;
   object-fit: scale-down;
-}
-#our-story #refining-the-swot .media {
-  background-color: #681c33;
-}
-#our-story #refining-the-swot .media img {
-  object-position: center;
-  object-fit: scale-down;
-  padding: 2.5rem;
 }
 #our-story #building-the-evidence-base-and-global-scale-up .media {
   background-color: #b9c3d3;
@@ -2201,7 +2193,6 @@ ul.menu-main-ul .dropdown > span {
   background-color: #fff;
 }
 #case-studies .intro {
-  padding-top: 1rem;
   padding-bottom: 1rem;
 }
 #case-studies .intro ul {
@@ -2231,10 +2222,9 @@ ul.menu-main-ul .dropdown > span {
 }
 #case-studies .downloads article strong {
   display: inline-block;
-  width: 1rem;
   color: #365996;
+  margin-left: calc(var(--line-height) * -0.5rem);
   margin-right: 0.25rem;
-  display: none;
 }
 #case-studies .downloads article .h3 {
   font-weight: 600;

@@ -571,7 +571,6 @@
 	text-align: center;
 	background-color: #fff;
 	.intro {
-		padding-top: 1rem;
 		padding-bottom: 1rem;
 
 		ul {
@@ -602,10 +601,9 @@
 
 			strong {
 				display: inline-block;
-				width: 1rem;
 				color: $col-1;
+				margin-left: calc(var(--line-height) * -0.5rem);
 				margin-right: 0.25rem;
-				display: none;
 			}
 
 			.h3 {

@@ -208,19 +208,9 @@
 			background-color: $col-1;
 
 			img {
-				max-width: 250px;
+				max-width: 60%;
 				margin: auto;
 				object-fit: scale-down;
-			}
-		}
-	}
-	#refining-the-swot {
-		.media {
-			background-color: #681c33;
-			img {
-				object-position: center;
-				object-fit: scale-down;
-				padding: 2.5rem;
 			}
 		}
 	}
