@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .plyr {
   --plyr-color-main: $col-1;
   --plyr-control-icon-size: 2em;
@@ -380,7 +379,6 @@ section ul,
 section ol {
   --space: 0.5em;
   --width: 30px;
-  list-style: none;
   list-style-position: outside;
   padding-left: var(--width);
   margin-bottom: calc(0.25rem * var(--line-height));
@@ -400,41 +398,11 @@ section ul li:not(:last-child),
 section ol li:not(:last-child) {
   margin-bottom: calc(0.25rem * var(--line-height));
 }
-section ul li::before,
-section ol li::before {
-  display: inline-block;
-  position: absolute;
-  right: 100%;
-  text-align: center;
-  width: var(--width);
-  height: var(--lineHeight);
+section ul {
+  list-style: square;
 }
-section ul li,
-section ol li {
-  counter-increment: ol-counter;
-  position: relative;
-  padding: 0;
-  margin-left: 0em;
-  margin-bottom: calc(0.5rem * var(--line-height));
-}
-section ul li::before,
-section ol li::before {
-  display: inline-block;
-  position: absolute;
-  right: 100%;
-  text-align: center;
-  width: var(--width);
-  height: var(--lineHeight);
-}
-section ul li::before {
-  content: "▪";
-  font-size: 1.5em;
-  line-height: calc(var(--line-height) * 1rem);
-}
-section ol li::before {
-  content: counter(ol-counter) ". ";
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
+section ol {
+  list-style: decimal;
 }
 
 [class*=svg-wave] {
@@ -1386,11 +1354,11 @@ ul.menu-main-ul .dropdown > span {
   }
   #our-story #masonry.initialized #building-the-swot-prototype,
 #our-story #rows.initialized #building-the-swot-prototype {
-    padding-top: 600px;
+    padding-top: 170px;
   }
   #our-story #masonry.initialized #building-the-swot-prototype::before,
 #our-story #rows.initialized #building-the-swot-prototype::before {
-    top: 600px;
+    top: 170px;
   }
   #our-story #masonry.initialized #refining-the-swot,
 #our-story #rows.initialized #refining-the-swot {
@@ -1429,16 +1397,9 @@ ul.menu-main-ul .dropdown > span {
   max-width: 80%;
   margin: 0 auto 1.5rem;
 }
-#our-story #masonry time,
-#our-story #rows time {
-  font-weight: 500;
-  margin-left: 0.5rem;
-  opacity: 0.5;
-}
 #our-story #masonry ul,
 #our-story #rows ul {
   --width: 20px;
-  list-style: none !important;
 }
 #our-story figure .media {
   height: 350px;
@@ -1495,6 +1456,17 @@ ul.menu-main-ul .dropdown > span {
     max-width: 480px;
     margin: 0 auto 1rem;
   }
+}
+#our-story .building-up .partners {
+  filter: saturate(0%) grayscale(100%);
+}
+#our-story .building-up .h1.section-subtitle {
+  margin: 0rem 0 0.5rem;
+}
+#our-story time {
+  font-weight: 500;
+  margin-left: 0.5rem;
+  opacity: 0.5;
 }
 
 #page-blog {
@@ -2498,15 +2470,6 @@ footer.clear svg.svg-wave-footer {
   max-width: 1440px;
   padding-bottom: 2rem;
 }
-#supporters h1,
-#partners h1 {
-  margin-bottom: calc(var(--line-height) * 1.5rem);
-  margin-top: calc(var(--line-height) * 2.5rem);
-}
-#supporters h2,
-#partners h2 {
-  margin: 6rem 0 0rem 0;
-}
 #supporters .group,
 #partners .group {
   display: flex;
@@ -2562,27 +2525,32 @@ footer.clear svg.svg-wave-footer {
     max-height: 90px;
   }
 }
+@supports (filter: saturate(0)) and (mix-blend-mode: multiply) {
+  #supporters .group.partners,
+#partners .group.partners {
+    filter: saturate(0) brightness(100%);
+    mix-blend-mode: multiply;
+  }
+}
 #supporters .group.partners img,
 #partners .group.partners img {
-  max-width: 65px;
-}
-@media (min-width: 960px) {
-  #supporters .group.partners img,
-#partners .group.partners img {
-    max-width: 80px;
-  }
+  max-height: 65px;
+  max-width: 80px;
 }
 #supporters .group.partners img.wide,
 #partners .group.partners img.wide {
-  width: auto;
   max-width: none;
-  max-height: 40px;
+  height: 50px;
 }
-@media (min-width: 960px) {
-  #supporters .group.partners img.wide,
-#partners .group.partners img.wide {
-    max-height: 60px;
-  }
+
+body:not(.home) #partners h1,
+body:not(.home) #supporters h1 {
+  margin-bottom: calc(var(--line-height) * 1.5rem);
+  margin-top: calc(var(--line-height) * 2.5rem);
+}
+body:not(.home) #partners h2,
+body:not(.home) #supporters h2 {
+  margin: 6rem 0 0rem 0;
 }
 
 #partners {
@@ -2593,8 +2561,17 @@ footer.clear svg.svg-wave-footer {
 #partners .section-wrap {
   padding: 2.5rem;
 }
-#partners h2 {
+
+body:not(.home) #partners h2 {
   margin: 0rem 0 0rem 0;
+}
+
+.home #partners {
+  background-color: #dbdfe4;
+}
+.home #partners .section-wrap {
+  padding-top: 0;
+  padding-bottom: 3.5rem;
 }
 
 #articles-content {

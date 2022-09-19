@@ -83,7 +83,6 @@ section {
 	ol {
 		--space: 0.5em;
 		--width: 30px;
-		list-style: none;
 		list-style-position: outside;
 		padding-left: var(--width);
 		margin-bottom: calc(0.25rem * var(--line-height));
@@ -98,56 +97,13 @@ section {
 			&:not(:last-child) {
 				margin-bottom: calc(0.25rem * var(--line-height));
 			}
-			&::before {
-				display: inline-block;
-
-				position: absolute;
-				right: 100%;
-
-				text-align: center;
-				width: var(--width);
-				height: var(--lineHeight);
-			}
-		}
-	}
-	ul,
-	ol {
-		li {
-			counter-increment: ol-counter;
-			position: relative;
-			padding: 0;
-			margin-left: 0em;
-			margin-bottom: calc(0.5rem * var(--line-height));
-			&::before {
-				display: inline-block;
-
-				position: absolute;
-				right: 100%;
-
-				text-align: center;
-				width: var(--width);
-				height: var(--lineHeight);
-			}
 		}
 	}
 	ul {
-		li {
-			&::before {
-				content: "▪";
-				font-size: 1.5em;
-				line-height: calc(var(--line-height) * 1rem);
-			}
-		}
+		list-style: square;
 	}
-
 	ol {
-		li {
-			&::before {
-				content: counter(ol-counter) ". ";
-				font-weight: 600;
-				font-variant-numeric: tabular-nums;
-			}
-		}
+		list-style: decimal;
 	}
 }
 

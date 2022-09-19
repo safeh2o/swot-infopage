@@ -122,9 +122,9 @@
 					}
 				}
 				#building-the-swot-prototype {
-					padding-top: 600px;
+					padding-top: 170px;
 					&::before {
-						top: 600px;
+						top: 170px;
 					}
 				}
 				#refining-the-swot {
@@ -162,18 +162,8 @@
 			margin: 0 auto 1.5rem;
 		}
 
-		time {
-			font-weight: 500;
-			margin-left: 0.5rem;
-			opacity: 0.5;
-		}
-
 		ul {
 			--width: 20px;
-			list-style: none !important;
-
-			li::before {
-			}
 		}
 	}
 	figure {
@@ -250,5 +240,19 @@
 				margin: 0 auto 1rem;
 			}
 		}
+	}
+	.building-up {
+		.partners {
+			filter: saturate(0%) grayscale(100%);
+		}
+
+		.h1.section-subtitle {
+			margin: 0rem 0 0.5rem;
+		}
+	}
+	time {
+		font-weight: 500;
+		margin-left: 0.5rem;
+		opacity: 0.5;
 	}
 }
