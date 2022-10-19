@@ -15,7 +15,7 @@ body.overflow-hidden {
 	padding-right: 1rem;
 	margin: 0;
 
-	background-color: $col-1;
+	background-color: var(--col-1);
 
 	.scrolling & {
 		transition: box-shadow 0.4s ease;
@@ -110,7 +110,7 @@ body.overflow-hidden {
 		width: 80%;
 		height: 80%;
 		vertical-align: middle;
-		color: $col-1;
+		color: var(--col-1);
 		margin: auto;
 	}
 
@@ -228,7 +228,7 @@ ul[class*="menu-"] {
 				ul {
 					display: block;
 					padding: 0rem 0.5rem 0.5rem;
-					background-color: $col-1;
+					background-color: var(--col-1);
 
 					transform: translateY(-100%);
 					transition-duration: 0.2s;
@@ -505,7 +505,7 @@ ul.menu-main-ul {
 
 					display: block;
 					font-size: 1rem;
-					color: $col-1;
+					color: var(--col-1);
 					background-color: #fff;
 					padding: 0 0.5rem;
 

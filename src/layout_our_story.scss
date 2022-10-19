@@ -47,7 +47,7 @@
 					transform: translateX(-50%);
 					width: 4px;
 					height: 100%;
-					background-color: $col-1;
+					background-color: var(--col-1);
 				}
 
 				section {
@@ -69,7 +69,7 @@
 
 						width: 10px;
 						height: 4px;
-						background-color: $col-1;
+						background-color: var(--col-1);
 					}
 
 					&:nth-child(odd) {
@@ -195,7 +195,7 @@
 	}
 	#building-the-swot-prototype {
 		.media {
-			background-color: $col-1;
+			background-color: var(--col-1);
 
 			img {
 				max-width: 60%;
@@ -210,7 +210,6 @@
 
 			img {
 				object-position: center;
-				object-fit: scale-down;
 			}
 		}
 	}
@@ -233,7 +232,7 @@
 				height: 1.45rem;
 				border-radius: 2rem;
 				background-color: $col-4;
-				border: 7px $col-1 solid;
+				border: 7px var(--col-1) solid;
 			}
 			.rte {
 				max-width: 480px;
@@ -245,7 +244,8 @@
 		.partners {
 			padding-top: 1rem;
 			padding-bottom: 1rem;
-			filter: saturate(0%) grayscale(100%);
+			filter: unset !important;
+			mix-blend-mode: unset !important;
 		}
 
 		.h1.section-subtitle {
