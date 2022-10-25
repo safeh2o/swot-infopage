@@ -1993,6 +1993,9 @@ ul.menu-main-ul .dropdown > span {
   max-width: 450px;
   margin: 0 auto;
 }
+#learn-more .ellipsis {
+  letter-spacing: 0.04em;
+}
 #learn-more .point {
   display: grid;
   gap: 1rem;
@@ -2263,7 +2266,7 @@ footer.clear svg.svg-wave-footer {
 }
 #signup .section-wrap {
   max-width: 840px;
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 #signup .sign-up {
   display: grid;
@@ -2341,8 +2344,8 @@ footer.clear svg.svg-wave-footer {
 #newsletter {
   text-align: center;
   background-color: #dbdfe4;
-  padding-top: calc(var(--line-height) * 1rem);
-  padding-bottom: calc(var(--line-height) * 2rem);
+  padding-top: calc(var(--line-height) * 0rem);
+  padding-bottom: calc(var(--line-height) * 4rem);
 }
 #newsletter .form-wrap {
   display: flex;
@@ -2537,13 +2540,6 @@ footer.clear svg.svg-wave-footer {
     max-height: 90px;
   }
 }
-@supports (filter: saturate(0)) and (mix-blend-mode: multiply) {
-  #supporters .group.partners,
-#partners .group.partners {
-    filter: saturate(0) brightness(100%);
-    mix-blend-mode: multiply;
-  }
-}
 #supporters .group.partners img,
 #partners .group.partners img {
   max-height: 65px;
@@ -2572,17 +2568,26 @@ body:not(.home) #supporters h2 {
 #partners .section-wrap {
   padding: 2.5rem;
 }
+#partners .section-title {
+  color: #fff;
+}
+@supports (filter: saturate(0)) and (mix-blend-mode: multiply) {
+  #partners .section-title,
+#partners .partners {
+    filter: saturate(0) brightness(100%);
+  }
+}
 
 body:not(.home) #partners h2 {
   margin: 0rem 0 0rem 0;
 }
 
 .home #partners {
-  background-color: #dbdfe4;
+  background-color: #92a4c4;
 }
 .home #partners .section-wrap {
-  padding-top: 0;
-  padding-bottom: 3.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 5rem;
 }
 
 #articles-content {

@@ -346,6 +346,10 @@
 		margin: 0 auto;
 	}
 
+	.ellipsis {
+		letter-spacing: 0.04em;
+	}
+
 	.point {
 		display: grid;
 		gap: 1rem;
@@ -667,7 +671,7 @@ footer.clear {
 
 	.section-wrap {
 		max-width: 840px;
-		padding-top: 2rem;
+		padding-top: 4rem;
 	}
 
 	.sign-up {
@@ -748,8 +752,8 @@ footer.clear {
 	text-align: center;
 	background-color: #dbdfe4;
 
-	padding-top: calc(var(--line-height) * 1rem);
-	padding-bottom: calc(var(--line-height) * 2rem);
+	padding-top: calc(var(--line-height) * 0rem);
+	padding-bottom: calc(var(--line-height) * 4rem);
 
 	.form-wrap {
 		display: flex;
@@ -949,11 +953,6 @@ footer.clear {
 		}
 
 		&.partners {
-			@supports (filter: saturate(0)) and (mix-blend-mode: multiply) {
-				filter: saturate(0) brightness(100%);
-				mix-blend-mode: multiply;
-			}
-
 			img {
 				max-height: 65px;
 				max-width: 80px;
@@ -989,6 +988,17 @@ body:not(.home) {
 	.section-wrap {
 		padding: 2.5rem;
 	}
+
+	.section-title {
+		color: #fff;
+	}
+
+	.section-title,
+	.partners {
+		@supports (filter: saturate(0)) and (mix-blend-mode: multiply) {
+			filter: saturate(0) brightness(100%);
+		}
+	}
 }
 body:not(.home) #partners {
 	h2 {
@@ -997,11 +1007,11 @@ body:not(.home) #partners {
 }
 
 .home #partners {
-	background-color: #dbdfe4;
+	background-color: #92a4c4;
 
 	.section-wrap {
-		padding-top: 0;
-		padding-bottom: 3.5rem;
+		padding-top: 1.5rem;
+		padding-bottom: 5rem;
 	}
 }
 
