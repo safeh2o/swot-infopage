@@ -1973,6 +1973,26 @@ ul.menu-main-ul .dropdown > span {
 
 #page-how-it-works {
   background-color: #dbdfe4;
+  margin-top: calc(var(--line-height) * 2rem);
+}
+#page-how-it-works .banner-title {
+  font-size: 2.25rem;
+}
+@media (min-width: 960px) {
+  #page-how-it-works .banner-title {
+    font-size: 2.75rem;
+    font-weight: 900;
+    max-width: 720px;
+    margin-top: calc(var(--line-height) * 2.75rem);
+  }
+}
+@media (min-width: 1280px) {
+  #page-how-it-works .banner-title {
+    font-size: 3.15rem;
+    font-weight: 900;
+    max-width: 720px;
+    margin-top: calc(var(--line-height) * 3.5rem);
+  }
 }
 #page-how-it-works ~ .site-footer > svg {
   background-color: #dbdfe4;
