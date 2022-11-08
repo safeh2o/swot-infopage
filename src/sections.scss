@@ -323,6 +323,23 @@
 #page-how-it-works {
 	background-color: #dbdfe4;
 	// background-color: #f3f6f9;
+	margin-top: calc(var(--line-height) * 2rem);
+
+	.banner-title {
+		font-size: 2.25rem;
+		@media (min-width: $md) {
+			font-size: 2.75rem;
+			font-weight: 900;
+			max-width: 720px;
+			margin-top: calc(var(--line-height) * 2.75rem);
+		}
+		@media (min-width: $lg) {
+			font-size: 3.15rem;
+			font-weight: 900;
+			max-width: 720px;
+			margin-top: calc(var(--line-height) * 3.5rem);
+		}
+	}
 	& ~ .site-footer > svg {
 		background-color: #dbdfe4;
 	}
