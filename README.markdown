@@ -1,5 +1,9 @@
-# swot landing
+# SWOT Landing Page
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/bhekuwenza/pen/wvPmOeK](https://codepen.io/bhekuwenza/pen/wvPmOeK).
+Safe Water Optimization Tool
+Leveraging routine water quality data to guarantee safe water supply.
 
+## License
 
+Open sourced under the [GNU GPL v3 license](LICENSE.md).
+<3
