@@ -507,7 +507,6 @@ body.overflow-hidden {
   align-items: center;
   justify-content: space-between;
   font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
-  font-weight: 400;
   font-size: 1.485rem;
   line-height: 1;
   color: #fff;
@@ -1694,7 +1693,7 @@ ul[class*=menu-] .dropdown {
 .section-subtitle {
   font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 1.1;
   margin-top: calc(var(--line-height) * 2rem);
   margin-bottom: calc(var(--line-height) * 0.75rem);
@@ -1704,6 +1703,7 @@ ul[class*=menu-] .dropdown {
   .section-title,
   .section-subtitle {
     font-size: 3rem;
+    margin-top: calc(var(--line-height) * 3rem);
   }
 }
 
