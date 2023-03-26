@@ -16,113 +16,152 @@
   --plyr-control-radius: 0px;
 }
 
+/* reset */
+*,
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  font: inherit;
+  line-height: inherit;
+}
+
+a,
+abbr,
+acronym,
 address,
+applet,
 article,
 aside,
+audio,
+b,
+big,
 blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
 dd,
-div.highlighter-rouge,
+del,
+details,
+dfn,
+div,
 dl,
 dt,
+em,
+embed,
 fieldset,
+figcaption,
 figure,
+footer,
 form,
+grid,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
+header,
+hgroup,
+hr,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+main,
+mark,
+menu,
 nav,
+noscript,
+object,
 ol,
+output,
 p,
 pre,
-r-grid,
+q,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
 table,
+tbody,
+td,
 tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
 ul,
+var,
 video {
-  margin-top: var(--blockSpacingTop);
-  margin-bottom: var(--blockSpacingBottom);
-}
-
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
   margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
 }
 
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role=list],
-ol[role=list] {
-  list-style: none;
+blockquote,
+q {
+  quotes: none;
 }
 
-/* Set core root defaults */
-html:focus-within {
-  scroll-behavior: smooth;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-a {
-  color: inherit;
+a,
+a:active,
+a:visited {
   text-decoration: none;
 }
 
-/* Make images easier to work with */
-img,
-picture {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* Inherit fonts for inputs and buttons */
 input,
-button,
 textarea,
-select {
-  font: inherit;
-  border: none;
-}
-
+select,
 button {
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  background-color: transparent;
   border: none;
 }
 
-/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-    scroll-behavior: auto;
-  }
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
+button * {
+  pointer-events: none;
 }
+
 /* Type + Scaling */
 :root {
   --icon-outline-url: url("data:image/svg+xml;charset=utf-8,%3Csvg width='18' height='18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='1.75' y='1.75' width='14.5' height='14.5' rx='.5' stroke='%23000' stroke-width='1.5'/%3E%3C/svg%3E");
@@ -509,6 +548,7 @@ body.overflow-hidden {
   font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
   font-size: 1.485rem;
   line-height: 1;
+  font-weight: 400;
   color: #fff;
   margin-right: auto;
   margin-left: auto;
@@ -886,114 +926,6 @@ ul[class*=menu-] .dropdown {
   }
 }
 
-#menu-actions {
-  font-size: 1.2rem;
-}
-#menu-actions ul {
-  flex-direction: row;
-}
-#menu-actions ul > li:not(.sign-in):not(:hover) a > span:first-child,
-#menu-actions ul > li:not(.sign-in):not(:hover) button > span:first-child {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: auto;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  white-space: nowrap;
-}
-#menu-actions ul > li:not(.sign-in):hover a,
-#menu-actions ul > li:not(.sign-in):hover button {
-  position: relative;
-  opacity: 1;
-}
-#menu-actions ul > li:not(.sign-in):hover a > span,
-#menu-actions ul > li:not(.sign-in):hover button > span {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%) translateY(8px);
-  display: block;
-  font-size: 1rem;
-  color: var(--col-1);
-  background-color: #fff;
-  padding: 0 0.5rem;
-}
-#menu-actions ul > li:not(.sign-in):hover a > span::before,
-#menu-actions ul > li:not(.sign-in):hover button > span::before {
-  content: "";
-  position: absolute;
-  top: -4px;
-  left: 50%;
-  transform: translateX(-50%) rotate(-45deg);
-  width: 8px;
-  height: 8px;
-  background-color: inherit;
-}
-#menu-actions a,
-#menu-actions button {
-  cursor: pointer;
-  border: none;
-  background-color: transparent;
-}
-#menu-actions a i,
-#menu-actions button i {
-  display: grid;
-}
-#menu-actions .sign-in a span {
-  line-height: 1;
-  border-bottom: 1px dotted;
-}
-@media (min-width: 720px) {
-  #menu-actions .sign-in a span {
-    margin: auto 0 0.125em;
-  }
-}
-@media (max-width: 719.9px) {
-  #menu-actions .sign-in span {
-    display: block;
-  }
-}
-@media (min-width: 720px) {
-  #menu-actions {
-    position: absolute;
-    top: 1rem;
-    right: 0.5rem;
-    margin: 0;
-  }
-  #menu-actions a,
-  #menu-actions button {
-    padding: 0.4rem;
-  }
-}
-@media (max-width: 719.9px) {
-  #menu-actions {
-    height: 3rem;
-    margin: auto 1.5rem 0 0;
-  }
-  #menu-actions a,
-  #menu-actions button {
-    padding: 0;
-  }
-  #menu-actions a > span,
-  #menu-actions button > span {
-    display: none;
-  }
-  #menu-actions a i,
-  #menu-actions button i {
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-  #menu-actions a i svg,
-  #menu-actions button i svg {
-    width: 65%;
-    height: 65%;
-    margin: auto;
-  }
-}
-
 .site-footer {
   position: relative;
   z-index: 10;
@@ -1019,7 +951,7 @@ ul[class*=menu-] .dropdown {
   margin: 0 auto;
 }
 .site-footer .title {
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 0.5rem;
 }
 .site-footer .logos {
@@ -1048,9 +980,6 @@ ul[class*=menu-] .dropdown {
   width: auto;
   max-width: none;
   height: 33px;
-}
-.site-footer .logos img.dighr-logo {
-  max-width: 95px;
 }
 .site-footer .logos img.dwb,
 .site-footer .logos img.grandchallenges {
@@ -1692,9 +1621,10 @@ ul[class*=menu-] .dropdown {
 .section-title,
 .section-subtitle {
   font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
-  font-weight: 500;
-  font-size: 2.5rem;
+  font-weight: 600;
+  font-size: 2.25rem;
   line-height: 1.1;
+  letter-spacing: -0.02em;
   margin-top: calc(var(--line-height) * 2rem);
   margin-bottom: calc(var(--line-height) * 0.75rem);
 }
@@ -1702,7 +1632,7 @@ ul[class*=menu-] .dropdown {
   .banner-title,
   .section-title,
   .section-subtitle {
-    font-size: 3rem;
+    font-size: 2.75rem;
     margin-top: calc(var(--line-height) * 3rem);
   }
 }

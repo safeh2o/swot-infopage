@@ -29,15 +29,16 @@
 .section-title,
 .section-subtitle {
 	font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
-	font-weight: 500;
-	font-size: 2.5rem;
+	font-weight: 600;
+	font-size: 2.25rem;
 	line-height: 1.1;
+	letter-spacing: -0.02em;
 
 	margin-top: calc(var(--line-height) * 2rem);
 	margin-bottom: calc(var(--line-height) * 0.75rem);
 
 	@media (min-width: $md) {
-		font-size: 3rem;
+		font-size: 2.75rem;
 		margin-top: calc(var(--line-height) * 3rem);
 	}
 }
