@@ -66,8 +66,8 @@ html {
 }
 
 .con {
-	font-family: "Acumin Pro Ex Cond Bd", "Roboto Condensed", sans-serif;
-	font-weight: 500;
+	font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
+	font-weight: 400;
 }
 
 h1,
@@ -90,8 +90,7 @@ h6 {
 
 h2,
 .h2 {
-	font-family: "Acumin Pro Ex Cond Bd", "Roboto Condensed", sans-serif;
-	font-weight: 500;
+	font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
 	font-size: 1.5rem;
 	line-height: 1.316em;
 
@@ -102,8 +101,7 @@ h2,
 
 h2,
 .h2 {
-	font-family: "Acumin Pro Ex Cond Bd", sans-serif;
-	font-weight: 700;
+	font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
 	font-size: 1.5rem;
 	line-height: 1.316em;
 
@@ -114,8 +112,7 @@ h2,
 
 h3,
 .h3 {
-	font-family: "Acumin Pro Ex Cond Bd", "Roboto Condensed", sans-serif;
-	font-weight: 500;
+	font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
 	font-size: 1.35rem;
 	line-height: 1.316em;
 
@@ -128,12 +125,10 @@ h4,
 h5,
 h6 {
 	font-size: 1.15rem;
-	font-weight: 500;
 }
 
 .txt-condensed {
-	font-family: "Acumin Pro Ex Cond Semi Bd", "Roboto Condensed", sans-serif;
-	font-weight: 500;
+	font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
 }
 
 p {
@@ -180,14 +175,12 @@ strong {
 	h4,
 	h5,
 	h6 {
-		font-family: "Acumin Pro Ex Cond Bd", "Roboto Condensed", sans-serif;
-		font-weight: 500;
+		font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
 	}
 	h4,
 	h5,
 	h6 {
-		font-family: "Acumin Pro Ex Cond Bd", "Roboto Condensed", sans-serif;
-		font-weight: 500;
+		font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
 
 		margin-top: calc(0.75rem * var(--line-height));
 		margin-bottom: calc(0.75rem * var(--line-height));

@@ -115,8 +115,8 @@ button {
     scroll-behavior: auto;
   }
   *,
-*::before,
-*::after {
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
@@ -171,8 +171,8 @@ html {
 }
 
 .con {
-  font-family: "Acumin Pro Ex Cond Bd", "Roboto Condensed", sans-serif;
-  font-weight: 500;
+  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
+  font-weight: 400;
 }
 
 h1,
@@ -204,42 +204,39 @@ h6 b {
 
 h2,
 .h2 {
-  font-family: "Acumin Pro Ex Cond Bd", "Roboto Condensed", sans-serif;
-  font-weight: 500;
+  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
   font-size: 1.5rem;
   line-height: 1.316em;
 }
 @media (min-width: 960px) {
   h2,
-.h2 {
+  .h2 {
     font-size: 1.6rem;
   }
 }
 
 h2,
 .h2 {
-  font-family: "Acumin Pro Ex Cond Bd", sans-serif;
-  font-weight: 700;
+  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
   font-size: 1.5rem;
   line-height: 1.316em;
 }
 @media (min-width: 960px) {
   h2,
-.h2 {
+  .h2 {
     font-size: 1.6rem;
   }
 }
 
 h3,
 .h3 {
-  font-family: "Acumin Pro Ex Cond Bd", "Roboto Condensed", sans-serif;
-  font-weight: 500;
+  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
   font-size: 1.35rem;
   line-height: 1.316em;
 }
 @media (min-width: 960px) {
   h3,
-.h3 {
+  .h3 {
     font-size: 1.45rem;
   }
 }
@@ -248,12 +245,10 @@ h4,
 h5,
 h6 {
   font-size: 1.15rem;
-  font-weight: 500;
 }
 
 .txt-condensed {
-  font-family: "Acumin Pro Ex Cond Semi Bd", "Roboto Condensed", sans-serif;
-  font-weight: 500;
+  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
 }
 
 p:not(:last-child) {
@@ -287,9 +282,9 @@ strong {
 }
 @media (min-width: 960px) {
   .rte h2,
-.rte .h2,
-.post-text h2,
-.post-text .h2 {
+  .rte .h2,
+  .post-text h2,
+  .post-text .h2 {
     font-size: 1.75rem;
   }
 }
@@ -311,8 +306,7 @@ strong {
 .post-text h4,
 .post-text h5,
 .post-text h6 {
-  font-family: "Acumin Pro Ex Cond Bd", "Roboto Condensed", sans-serif;
-  font-weight: 500;
+  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
 }
 .rte h4,
 .rte h5,
@@ -320,8 +314,7 @@ strong {
 .post-text h4,
 .post-text h5,
 .post-text h6 {
-  font-family: "Acumin Pro Ex Cond Bd", "Roboto Condensed", sans-serif;
-  font-weight: 500;
+  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
   margin-top: calc(0.75rem * var(--line-height));
   margin-bottom: calc(0.75rem * var(--line-height));
 }
@@ -431,7 +424,7 @@ body {
 }
 @media (min-width: 720px) {
   html,
-body {
+  body {
     scroll-padding: 10rem;
   }
 }
@@ -514,7 +507,8 @@ body.overflow-hidden {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
-  font-family: "Acumin Pro Ex Cond Semi Bd", "Roboto Condensed", sans-serif;
+  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
+  font-weight: 400;
   font-size: 1.485rem;
   line-height: 1;
   letter-spacing: 0.03em;
@@ -803,19 +797,19 @@ ul[class*=menu-] .dropdown {
     overflow-y: auto;
   }
   #menu-main > ul a,
-#menu-main > ul li > span {
+  #menu-main > ul li > span {
     padding: 1.25rem 1.4rem;
     border-top: 1px solid #b5bbc7;
   }
   #menu-main > ul > li:first-child > a,
-#menu-main > ul > li:first-child > span {
+  #menu-main > ul > li:first-child > span {
     border-color: transparent;
   }
   #menu-main > ul .dropdown a {
     padding: 0.5rem 1.4rem;
   }
   #menu-main > ul .dropdown > a,
-#menu-main > ul .dropdown > span {
+  #menu-main > ul .dropdown > span {
     padding-top: 1.25rem;
   }
   #menu-main > ul .dropdown ul {
@@ -871,19 +865,19 @@ ul[class*=menu-] .dropdown {
     overflow-y: auto;
   }
   ul.menu-main-ul a,
-ul.menu-main-ul li > span {
+  ul.menu-main-ul li > span {
     padding: 1.25rem 1.4rem;
     border-top: 1px solid #b5bbc7;
   }
   ul.menu-main-ul > li:first-child > a,
-ul.menu-main-ul > li:first-child > span {
+  ul.menu-main-ul > li:first-child > span {
     border-color: transparent;
   }
   ul.menu-main-ul .dropdown a {
     padding: 0.5rem 1.4rem;
   }
   ul.menu-main-ul .dropdown > a,
-ul.menu-main-ul .dropdown > span {
+  ul.menu-main-ul .dropdown > span {
     padding-top: 1.25rem;
   }
   ul.menu-main-ul .dropdown ul {
@@ -973,7 +967,7 @@ ul.menu-main-ul .dropdown > span {
     margin: 0;
   }
   #menu-actions a,
-#menu-actions button {
+  #menu-actions button {
     padding: 0.4rem;
   }
 }
@@ -983,20 +977,20 @@ ul.menu-main-ul .dropdown > span {
     margin: auto 1.5rem 0 0;
   }
   #menu-actions a,
-#menu-actions button {
+  #menu-actions button {
     padding: 0;
   }
   #menu-actions a > span,
-#menu-actions button > span {
+  #menu-actions button > span {
     display: none;
   }
   #menu-actions a i,
-#menu-actions button i {
+  #menu-actions button i {
     width: 2.5rem;
     height: 2.5rem;
   }
   #menu-actions a i svg,
-#menu-actions button i svg {
+  #menu-actions button i svg {
     width: 65%;
     height: 65%;
     margin: auto;
@@ -1237,11 +1231,11 @@ ul.menu-main-ul .dropdown > span {
 }
 @media (min-width: 720px) {
   #our-story #masonry.initialized,
-#our-story #rows.initialized {
+  #our-story #rows.initialized {
     position: relative;
   }
   #our-story #masonry.initialized::before,
-#our-story #rows.initialized::before {
+  #our-story #rows.initialized::before {
     content: "";
     display: block;
     position: absolute;
@@ -1253,57 +1247,57 @@ ul.menu-main-ul .dropdown > span {
     background-color: var(--col-1);
   }
   #our-story #masonry.initialized section,
-#our-story #rows.initialized section {
+  #our-story #rows.initialized section {
     position: relative;
     background-color: transparent;
     opacity: 1;
   }
   #our-story #masonry.initialized section:nth-child(1),
-#our-story #rows.initialized section:nth-child(1) {
+  #our-story #rows.initialized section:nth-child(1) {
     transition-delay: 0.05s;
   }
   #our-story #masonry.initialized section:nth-child(2),
-#our-story #rows.initialized section:nth-child(2) {
+  #our-story #rows.initialized section:nth-child(2) {
     transition-delay: 0.1s;
   }
   #our-story #masonry.initialized section:nth-child(3),
-#our-story #rows.initialized section:nth-child(3) {
+  #our-story #rows.initialized section:nth-child(3) {
     transition-delay: 0.15s;
   }
   #our-story #masonry.initialized section:nth-child(4),
-#our-story #rows.initialized section:nth-child(4) {
+  #our-story #rows.initialized section:nth-child(4) {
     transition-delay: 0.2s;
   }
   #our-story #masonry.initialized section:nth-child(5),
-#our-story #rows.initialized section:nth-child(5) {
+  #our-story #rows.initialized section:nth-child(5) {
     transition-delay: 0.25s;
   }
   #our-story #masonry.initialized section:nth-child(6),
-#our-story #rows.initialized section:nth-child(6) {
+  #our-story #rows.initialized section:nth-child(6) {
     transition-delay: 0.3s;
   }
   #our-story #masonry.initialized section:nth-child(7),
-#our-story #rows.initialized section:nth-child(7) {
+  #our-story #rows.initialized section:nth-child(7) {
     transition-delay: 0.35s;
   }
   #our-story #masonry.initialized section:nth-child(8),
-#our-story #rows.initialized section:nth-child(8) {
+  #our-story #rows.initialized section:nth-child(8) {
     transition-delay: 0.4s;
   }
   #our-story #masonry.initialized section:nth-child(9),
-#our-story #rows.initialized section:nth-child(9) {
+  #our-story #rows.initialized section:nth-child(9) {
     transition-delay: 0.45s;
   }
   #our-story #masonry.initialized section:nth-child(10),
-#our-story #rows.initialized section:nth-child(10) {
+  #our-story #rows.initialized section:nth-child(10) {
     transition-delay: 0.5s;
   }
   #our-story #masonry.initialized section:nth-child(11),
-#our-story #rows.initialized section:nth-child(11) {
+  #our-story #rows.initialized section:nth-child(11) {
     transition-delay: 0.55s;
   }
   #our-story #masonry.initialized section::before,
-#our-story #rows.initialized section::before {
+  #our-story #rows.initialized section::before {
     content: "";
     position: absolute;
     top: 0;
@@ -1313,77 +1307,77 @@ ul.menu-main-ul .dropdown > span {
     background-color: var(--col-1);
   }
   #our-story #masonry.initialized section:nth-child(odd)::before,
-#our-story #rows.initialized section:nth-child(odd)::before {
+  #our-story #rows.initialized section:nth-child(odd)::before {
     right: 0;
   }
   #our-story #masonry.initialized section:nth-child(odd) figure,
-#our-story #rows.initialized section:nth-child(odd) figure {
+  #our-story #rows.initialized section:nth-child(odd) figure {
     margin: 0 -1.5rem 0 -1.5rem;
   }
   #our-story #masonry.initialized section:nth-child(even)::before,
-#our-story #rows.initialized section:nth-child(even)::before {
+  #our-story #rows.initialized section:nth-child(even)::before {
     left: 0;
   }
   #our-story #masonry.initialized section:nth-child(even) figure,
-#our-story #rows.initialized section:nth-child(even) figure {
+  #our-story #rows.initialized section:nth-child(even) figure {
     margin: 0 -1.5rem 0 -1.5rem;
   }
   #our-story #masonry.initialized .section-subtitle,
-#our-story #rows.initialized .section-subtitle {
+  #our-story #rows.initialized .section-subtitle {
     margin: 3rem 0 0.5rem;
   }
   #our-story #masonry.initialized .section-wrap,
-#our-story #rows.initialized .section-wrap {
+  #our-story #rows.initialized .section-wrap {
     gap: 0;
     padding: 0 2.5rem 2.5rem;
   }
   #our-story #masonry.initialized #global-refugee-camp-water-quality-study,
-#our-story #rows.initialized #global-refugee-camp-water-quality-study {
+  #our-story #rows.initialized #global-refugee-camp-water-quality-study {
     padding-top: 300px;
   }
   #our-story #masonry.initialized #global-refugee-camp-water-quality-study::before,
-#our-story #rows.initialized #global-refugee-camp-water-quality-study::before {
+  #our-story #rows.initialized #global-refugee-camp-water-quality-study::before {
     top: 300px;
   }
   #our-story #masonry.initialized #modelling-post-distribution-chlorine-decay,
-#our-story #rows.initialized #modelling-post-distribution-chlorine-decay {
+  #our-story #rows.initialized #modelling-post-distribution-chlorine-decay {
     padding-top: 100px;
   }
   #our-story #masonry.initialized #modelling-post-distribution-chlorine-decay::before,
-#our-story #rows.initialized #modelling-post-distribution-chlorine-decay::before {
+  #our-story #rows.initialized #modelling-post-distribution-chlorine-decay::before {
     top: 100px;
   }
   #our-story #masonry.initialized #evidence-based-water-chlorination-targets,
-#our-story #rows.initialized #evidence-based-water-chlorination-targets {
+  #our-story #rows.initialized #evidence-based-water-chlorination-targets {
     padding-top: 200px;
   }
   #our-story #masonry.initialized #evidence-based-water-chlorination-targets::before,
-#our-story #rows.initialized #evidence-based-water-chlorination-targets::before {
+  #our-story #rows.initialized #evidence-based-water-chlorination-targets::before {
     top: 200px;
   }
   #our-story #masonry.initialized #building-the-swot-prototype,
-#our-story #rows.initialized #building-the-swot-prototype {
+  #our-story #rows.initialized #building-the-swot-prototype {
     padding-top: 170px;
   }
   #our-story #masonry.initialized #building-the-swot-prototype::before,
-#our-story #rows.initialized #building-the-swot-prototype::before {
+  #our-story #rows.initialized #building-the-swot-prototype::before {
     top: 170px;
   }
   #our-story #masonry.initialized #refining-the-swot,
-#our-story #rows.initialized #refining-the-swot {
+  #our-story #rows.initialized #refining-the-swot {
     padding-top: 40px;
   }
   #our-story #masonry.initialized #refining-the-swot::before,
-#our-story #rows.initialized #refining-the-swot::before {
+  #our-story #rows.initialized #refining-the-swot::before {
     top: 40px;
   }
   #our-story #masonry.initialized #building-the-evidence-base-and-global-scale-up,
-#our-story #rows.initialized #building-the-evidence-base-and-global-scale-up {
+  #our-story #rows.initialized #building-the-evidence-base-and-global-scale-up {
     padding-top: 50px;
     padding-bottom: 100px;
   }
   #our-story #masonry.initialized #building-the-evidence-base-and-global-scale-up::before,
-#our-story #rows.initialized #building-the-evidence-base-and-global-scale-up::before {
+  #our-story #rows.initialized #building-the-evidence-base-and-global-scale-up::before {
     top: 50px;
   }
 }
@@ -1701,8 +1695,8 @@ ul.menu-main-ul .dropdown > span {
 .banner-title,
 .section-title,
 .section-subtitle {
-  font-family: "Acumin Pro Ex Cond Bd", "Roboto Condensed", sans-serif;
-  font-weight: 700;
+  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
+  font-weight: 500;
   font-size: 2rem;
   line-height: 1.1;
   margin-top: calc(var(--line-height) * 2rem);
@@ -1710,8 +1704,8 @@ ul.menu-main-ul .dropdown > span {
 }
 @media (min-width: 960px) {
   .banner-title,
-.section-title,
-.section-subtitle {
+  .section-title,
+  .section-subtitle {
     font-size: 2.5rem;
   }
 }
@@ -1794,7 +1788,7 @@ ul.menu-main-ul .dropdown > span {
     order: 3;
   }
   #intro header,
-#intro .text {
+  #intro .text {
     max-width: 480px;
   }
   #intro .section-wrap {
@@ -2043,7 +2037,7 @@ ul.menu-main-ul .dropdown > span {
 }
 @media (max-width: 719.9px) {
   #learn-more .point .point-img,
-#learn-more .point .point-content {
+  #learn-more .point .point-content {
     margin: 0 auto;
   }
 }
@@ -2477,13 +2471,12 @@ footer.clear svg.svg-wave-footer {
 }
 #team .title {
   display: block;
-  font-weight: 600;
   margin-top: 0.75rem;
   margin-bottom: 0;
 }
 #team .title-sub {
   display: block;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.01em;
   opacity: 0.6;
   margin-top: -3px;
@@ -2516,7 +2509,7 @@ footer.clear svg.svg-wave-footer {
 }
 @media (min-width: 960px) {
   #supporters .group img,
-#partners .group img {
+  #partners .group img {
     max-width: 100px;
   }
 }
@@ -2550,7 +2543,7 @@ footer.clear svg.svg-wave-footer {
 }
 @media (min-width: 960px) {
   #supporters .group.funders img.hif-elrha,
-#partners .group.funders img.hif-elrha {
+  #partners .group.funders img.hif-elrha {
     max-height: 90px;
   }
 }
@@ -2587,7 +2580,7 @@ body:not(.home) #supporters h2 {
 }
 @supports (filter: saturate(0)) and (mix-blend-mode: multiply) {
   #partners .section-title,
-#partners .partners {
+  #partners .partners {
     filter: saturate(0) brightness(100%);
   }
 }
