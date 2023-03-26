@@ -324,7 +324,6 @@ strong {
   display: inline-block;
   font-size: 0.875rem;
   font-weight: 600;
-  letter-spacing: -0.01em;
   text-transform: uppercase;
   color: inherit;
   background-color: #f2c148;
@@ -511,7 +510,6 @@ body.overflow-hidden {
   font-weight: 400;
   font-size: 1.485rem;
   line-height: 1;
-  letter-spacing: 0.03em;
   color: #fff;
   margin-right: auto;
   margin-left: auto;
@@ -1023,7 +1021,6 @@ ul[class*=menu-] .dropdown {
 }
 .site-footer .title {
   font-weight: 600;
-  letter-spacing: -0.01em;
   margin-bottom: 0.5rem;
 }
 .site-footer .logos {
@@ -1706,7 +1703,7 @@ ul[class*=menu-] .dropdown {
   .banner-title,
   .section-title,
   .section-subtitle {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 
@@ -1715,7 +1712,7 @@ ul[class*=menu-] .dropdown {
 }
 @media (min-width: 960px) {
   .section-subtitle {
-    font-size: 2rem;
+    font-size: 2.75rem;
   }
 }
 
@@ -1724,7 +1721,7 @@ ul[class*=menu-] .dropdown {
 }
 @media (min-width: 960px) {
   .banner-title {
-    font-size: 3rem;
+    font-size: 3.75rem;
     margin-top: calc(var(--line-height) * 3.5rem);
   }
 }
