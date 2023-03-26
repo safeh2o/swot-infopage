@@ -54,9 +54,6 @@ html {
 	font-weight: var(--font-weight, 400);
 }
 
-.headline {
-}
-
 .medium {
 	font-size: 0.95rem;
 }
@@ -76,10 +73,10 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: $sans;
-	font-weight: 500;
+	font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
+	font-weight: 400;
 	line-height: var(--line-height, 1.375);
-	letter-spacing: normal;
+	letter-spacing: -0.01em;
 	margin-bottom: 0;
 
 	strong,
@@ -90,18 +87,6 @@ h6 {
 
 h2,
 .h2 {
-	font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
-	font-size: 1.5rem;
-	line-height: 1.316em;
-
-	@media (min-width: $md) {
-		font-size: 1.6rem;
-	}
-}
-
-h2,
-.h2 {
-	font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
 	font-size: 1.5rem;
 	line-height: 1.316em;
 
@@ -112,7 +97,6 @@ h2,
 
 h3,
 .h3 {
-	font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
 	font-size: 1.35rem;
 	line-height: 1.316em;
 
@@ -125,10 +109,6 @@ h4,
 h5,
 h6 {
 	font-size: 1.15rem;
-}
-
-.txt-condensed {
-	font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
 }
 
 p {
@@ -169,19 +149,9 @@ strong {
 		margin-bottom: calc(0.25rem * var(--line-height));
 	}
 
-	h1,
-	h2,
-	h3,
 	h4,
 	h5,
 	h6 {
-		font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
-	}
-	h4,
-	h5,
-	h6 {
-		font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
-
 		margin-top: calc(0.75rem * var(--line-height));
 		margin-bottom: calc(0.75rem * var(--line-height));
 	}

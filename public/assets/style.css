@@ -220,10 +220,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Inter", "Helvetica", Arial, sans-serif;
-  font-weight: 500;
+  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
+  font-weight: 400;
   line-height: var(--line-height, 1.375);
-  letter-spacing: normal;
+  letter-spacing: -0.01em;
   margin-bottom: 0;
 }
 h1 strong,
@@ -243,20 +243,6 @@ h6 b {
 
 h2,
 .h2 {
-  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
-  font-size: 1.5rem;
-  line-height: 1.316em;
-}
-@media (min-width: 960px) {
-  h2,
-  .h2 {
-    font-size: 1.6rem;
-  }
-}
-
-h2,
-.h2 {
-  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
   font-size: 1.5rem;
   line-height: 1.316em;
 }
@@ -269,7 +255,6 @@ h2,
 
 h3,
 .h3 {
-  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
   font-size: 1.35rem;
   line-height: 1.316em;
 }
@@ -284,10 +269,6 @@ h4,
 h5,
 h6 {
   font-size: 1.15rem;
-}
-
-.txt-condensed {
-  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
 }
 
 p:not(:last-child) {
@@ -333,27 +314,12 @@ strong {
 .post-text .h3 {
   margin-bottom: calc(0.25rem * var(--line-height));
 }
-.rte h1,
-.rte h2,
-.rte h3,
-.rte h4,
-.rte h5,
-.rte h6,
-.post-text h1,
-.post-text h2,
-.post-text h3,
-.post-text h4,
-.post-text h5,
-.post-text h6 {
-  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
-}
 .rte h4,
 .rte h5,
 .rte h6,
 .post-text h4,
 .post-text h5,
 .post-text h6 {
-  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
   margin-top: calc(0.75rem * var(--line-height));
   margin-bottom: calc(0.75rem * var(--line-height));
 }
@@ -439,19 +405,6 @@ section ul {
 }
 section ol {
   list-style: decimal;
-}
-
-[class*=svg-wave] {
-  width: 100%;
-  height: 100px;
-}
-[class*=svg-wave][class*=-how-it-works] {
-  fill: #e3e4e6;
-  background-color: #92a4c4;
-}
-[class*=svg-wave][class*=-signup] {
-  fill: #dbdfe4;
-  background-color: #e3e4e6;
 }
 
 img {
@@ -2191,11 +2144,6 @@ ul[class*=menu-] .dropdown {
   #case-studies-map img {
     max-width: 1340px;
   }
-}
-
-footer.clear svg.svg-wave-footer {
-  background: transparent;
-  margin-top: -3rem;
 }
 
 #on-the-field {
