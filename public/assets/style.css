@@ -454,6 +454,11 @@ section ol {
   background-color: #e3e4e6;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 html,
 body {
   scroll-padding: 7rem;
@@ -967,6 +972,7 @@ ul[class*=menu-] .dropdown {
   align-self: center;
 }
 .site-footer .logos img {
+  display: block;
   max-width: 70px;
 }
 @media (min-width: 960px) {

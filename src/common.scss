@@ -12,19 +12,6 @@
 
 	transition: all 0.25s ease;
 
-	// &::before {
-	// 	content: "";
-	// 	position: absolute;
-	// 	top: 0;
-	// 	left: 0;
-	// 	z-index: 0;
-	// 	width: 100%;
-	// 	height: 100%;
-	// 	background-color: inherit;
-	// 	border-radius: inherit;
-
-	// 	transition: all 0.25s ease 0.015s;
-	// }
 	&:hover {
 		box-shadow: 0 0 0 3px $col-4;
 		&::before {
@@ -119,4 +106,9 @@ section {
 		fill: #dbdfe4;
 		background-color: #e3e4e6;
 	}
+}
+
+img {
+	max-width: 100%;
+	height: auto;
 }
