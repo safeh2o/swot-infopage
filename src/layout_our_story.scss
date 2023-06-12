@@ -155,10 +155,9 @@
 		}
 
 		.btn {
-			display: block;
+			display: inline-block;
 			text-align: center;
-			max-width: 80%;
-			margin: 0 auto 1.5rem;
+			margin: 0 auto calc(0.5rem * var(--line-height));
 		}
 
 		ul {
@@ -197,7 +196,6 @@
 			background-color: var(--col-1);
 
 			img {
-				max-width: 60%;
 				margin: auto;
 				object-fit: scale-down;
 			}
@@ -240,6 +238,10 @@
 		}
 	}
 	.building-up {
+		header h2 {
+			margin-bottom: 0.5rem;
+		}
+
 		.partners {
 			padding-top: 1rem;
 			padding-bottom: 1rem;
@@ -252,8 +254,7 @@
 		}
 	}
 	time {
-		font-weight: 400;
-		margin-left: 0.5rem;
+		margin-left: 0.25rem;
 		opacity: 0.5;
 	}
 }

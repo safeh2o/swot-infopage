@@ -8,7 +8,6 @@
 	margin-top: auto;
 
 	h2 {
-		font-weight: 700;
 		margin: 0;
 	}
 
@@ -26,7 +25,6 @@
 	}
 
 	.title {
-		color: var(--col-4);
 		margin-bottom: 0.5rem;
 	}
 
@@ -117,8 +115,7 @@
 		border-top: 1px solid rgba(255, 255, 255, 0.2);
 		padding-bottom: 1rem;
 
-		font-size: 15px;
-		line-height: 1.85;
+		font-size: 13px;
 
 		.divider {
 			margin: 0.25rem 0.5rem;

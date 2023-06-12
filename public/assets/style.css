@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --col-1: #365996;
   --col-2: #92a4c4;
@@ -67,10 +68,6 @@ form,
 grid,
 h1,
 h2,
-h3,
-h4,
-h5,
-h6,
 header,
 hgroup,
 hr,
@@ -164,8 +161,6 @@ button * {
 
 /* Type + Scaling */
 :root {
-  --icon-outline-url: url("data:image/svg+xml;charset=utf-8,%3Csvg width='18' height='18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='1.75' y='1.75' width='14.5' height='14.5' rx='.5' stroke='%23000' stroke-width='1.5'/%3E%3C/svg%3E");
-  --icon-checkmark-url: url("data:image/svg+xml;charset=utf-8,%3Csvg width='18' height='18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.7 9.3l3.4 3.3 5.7-5.7-1.5-1.6-4.2 4.2-1.8-1.8-1.6 1.6z' fill='%23000'/%3E%3C/svg%3E");
   --font-size: 14px;
   --letter-spacing: -0.011em;
   --line-height: 1.375;
@@ -198,7 +193,7 @@ html {
   font-size: var(--font-size, 16px);
   letter-spacing: var(--letter-spacing, -0.011em);
   line-height: var(--line-height, 1.375);
-  font-weight: var(--font-weight, 400);
+  font-weight: var(--font-weight, 500);
 }
 
 .medium {
@@ -209,23 +204,26 @@ html {
   font-size: 0.9rem;
 }
 
-.con {
-  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
-  font-weight: 400;
-}
-
+.con,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
-  font-weight: 400;
-  line-height: var(--line-height, 1.375);
-  letter-spacing: -0.01em;
-  margin-bottom: 0;
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Barlow Condensed", "Roboto Condensed", sans-serif;
+  line-height: 1.1;
+  font-weight: 500;
+  letter-spacing: -0.007em;
 }
+.con strong,
+.con b,
 h1 strong,
 h1 b,
 h2 strong,
@@ -237,38 +235,44 @@ h4 b,
 h5 strong,
 h5 b,
 h6 strong,
-h6 b {
+h6 b,
+.h1 strong,
+.h1 b,
+.h2 strong,
+.h2 b,
+.h3 strong,
+.h3 b,
+.h4 strong,
+.h4 b,
+.h5 strong,
+.h5 b,
+.h6 strong,
+.h6 b {
   font-weight: inherit;
+}
+
+h1,
+h2 {
+  margin-bottom: 0;
 }
 
 h2,
 .h2 {
-  font-size: 1.5rem;
-  line-height: 1.316em;
-}
-@media (min-width: 960px) {
-  h2,
-  .h2 {
-    font-size: 1.6rem;
-  }
+  font-size: 2rem;
 }
 
 h3,
 .h3 {
-  font-size: 1.35rem;
-  line-height: 1.316em;
-}
-@media (min-width: 960px) {
-  h3,
-  .h3 {
-    font-size: 1.45rem;
-  }
+  font-size: 1.85rem;
 }
 
 h4,
+.h4,
 h5,
-h6 {
-  font-size: 1.15rem;
+.h5,
+h6,
+.h6 {
+  font-size: 1.45rem;
 }
 
 p:not(:last-child) {
@@ -281,13 +285,9 @@ a {
 
 b,
 strong {
-  font-weight: 600;
+  font-weight: 500;
 }
 
-.rte *:not(h1):not(h2):not(h3):not(h4),
-.post-text *:not(h1):not(h2):not(h3):not(h4) {
-  letter-spacing: -0.015em;
-}
 .rte a,
 .post-text a {
   text-decoration: underline 1px;
@@ -379,32 +379,35 @@ strong {
 
 section ul,
 section ol {
-  --space: 0.5em;
-  --width: 30px;
   list-style-position: outside;
-  padding-left: var(--width);
-  margin-bottom: calc(0.25rem * var(--line-height));
-}
-section ul ul,
-section ol ul {
-  margin-top: calc(0.25rem * var(--line-height));
+  padding-left: calc(1.5rem * var(--line-height));
+  margin-bottom: calc(1.5rem * var(--line-height));
 }
 section ul li,
 section ol li {
-  counter-increment: ol-counter;
-  position: relative;
   padding: 0;
   margin-left: 0em;
-}
-section ul li:not(:last-child),
-section ol li:not(:last-child) {
   margin-bottom: calc(0.25rem * var(--line-height));
 }
-section ul {
-  list-style: square;
-}
 section ol {
-  list-style: decimal;
+  list-style: none;
+  counter-reset: ol-counter;
+}
+section ol > li {
+  counter-increment: ol-counter;
+  position: relative;
+}
+section ol > li::before {
+  content: counter(ol-counter) ".  ";
+  position: absolute;
+  right: 100%;
+  width: auto;
+  height: auto;
+}
+section ul:not(.inline) {
+  list-style: square;
+  counter-reset: ol-counter;
+  padding-left: 1.5em;
 }
 
 img {
@@ -503,10 +506,6 @@ body.overflow-hidden {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
-  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
-  font-size: 1.485rem;
-  line-height: 1;
-  font-weight: 400;
   color: #fff;
   margin-right: auto;
   margin-left: auto;
@@ -590,7 +589,7 @@ body.overflow-hidden {
   }
 }
 
-[id*=menu-] {
+div[id*=menu-] {
   display: flex;
   -ms-flex-preferred-size: auto;
   flex-basis: auto;
@@ -677,10 +676,9 @@ ul[class*=menu-] .dropdown {
   ul[class*=menu-] .dropdown .children {
     position: absolute;
     top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
     pointer-events: none;
-    min-width: 230px;
+    min-width: 180px;
     overflow: hidden;
   }
   ul[class*=menu-] .dropdown .children.mobile {
@@ -688,7 +686,7 @@ ul[class*=menu-] .dropdown {
   }
   ul[class*=menu-] .dropdown .children ul {
     display: block;
-    padding: 0rem 0.5rem 0.5rem;
+    padding: 0;
     background-color: var(--col-1);
     transform: translateY(-100%);
     transition-duration: 0.2s;
@@ -704,12 +702,8 @@ ul[class*=menu-] .dropdown {
     background-color: #446fbc;
   }
   ul[class*=menu-] .dropdown .children ul a {
-    font-size: 1.3rem;
-    line-height: 1.65;
-    font-weight: 400;
-    letter-spacing: 0.0095em;
     text-transform: capitalize;
-    padding: 0.4rem 1rem;
+    padding: 0.65rem 1rem;
   }
   ul[class*=menu-] .dropdown .children ul a i svg {
     transform: scale(1.2);
@@ -836,6 +830,18 @@ ul[class*=menu-] .dropdown {
   }
 }
 
+ul.menu-main-ul {
+  list-style: none;
+  list-style-type: none;
+}
+ul.menu-main-ul > li > a,
+ul.menu-main-ul > li > span {
+  font-family: "Barlow Condensed", "Roboto Condensed", sans-serif;
+  font-size: 1.55rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.009em;
+}
 @media (min-width: 720px) {
   ul.menu-main-ul > li > .active, ul.menu-main-ul > li:hover > :not(ul):not(div) {
     box-shadow: 0px 7px 0 0 #f3c22b;
@@ -894,7 +900,6 @@ ul[class*=menu-] .dropdown {
   margin-top: auto;
 }
 .site-footer h2 {
-  font-weight: 700;
   margin: 0;
 }
 .site-footer > svg {
@@ -909,7 +914,6 @@ ul[class*=menu-] .dropdown {
   margin: 0 auto;
 }
 .site-footer .title {
-  color: var(--col-4);
   margin-bottom: 0.5rem;
 }
 .site-footer .logos {
@@ -995,8 +999,7 @@ ul[class*=menu-] .dropdown {
   padding-top: 1rem;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding-bottom: 1rem;
-  font-size: 15px;
-  line-height: 1.85;
+  font-size: 13px;
 }
 .site-footer .nav-legal .divider {
   margin: 0.25rem 0.5rem;
@@ -1278,10 +1281,9 @@ ul[class*=menu-] .dropdown {
 }
 #our-story #masonry .btn,
 #our-story #rows .btn {
-  display: block;
+  display: inline-block;
   text-align: center;
-  max-width: 80%;
-  margin: 0 auto 1.5rem;
+  margin: 0 auto calc(0.5rem * var(--line-height));
 }
 #our-story #masonry ul,
 #our-story #rows ul {
@@ -1308,7 +1310,6 @@ ul[class*=menu-] .dropdown {
   background-color: var(--col-1);
 }
 #our-story #building-the-swot-prototype .media img {
-  max-width: 60%;
   margin: auto;
   object-fit: scale-down;
 }
@@ -1342,6 +1343,9 @@ ul[class*=menu-] .dropdown {
     margin: 0 auto 1rem;
   }
 }
+#our-story .building-up header h2 {
+  margin-bottom: 0.5rem;
+}
 #our-story .building-up .partners {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1352,8 +1356,7 @@ ul[class*=menu-] .dropdown {
   margin: 0rem 0 0.5rem;
 }
 #our-story time {
-  font-weight: 400;
-  margin-left: 0.5rem;
+  margin-left: 0.25rem;
   opacity: 0.5;
 }
 
@@ -1427,7 +1430,7 @@ ul[class*=menu-] .dropdown {
 .posts .content {
   display: grid;
   grid-auto-columns: minmax(0%, max-content);
-  gap: 3.5rem 2rem;
+  gap: 4.5rem 2rem;
 }
 .posts article {
   position: relative;
@@ -1480,7 +1483,8 @@ ul[class*=menu-] .dropdown {
   padding-top: 0.5rem;
 }
 .posts .post-title {
-  font-weight: 600;
+  font-weight: 500;
+  color: var(--col-5);
   margin-top: calc(var(--line-height) * 0.25rem);
   margin-bottom: 0;
 }
@@ -1578,41 +1582,29 @@ ul[class*=menu-] .dropdown {
 .banner-title,
 .section-title,
 .section-subtitle {
-  font-family: "Roboto Condensed", "Acumin Cond", sans-serif;
   font-size: 2.25rem;
-  line-height: 1.1;
-  letter-spacing: -0.02em;
   margin-top: calc(var(--line-height) * 2rem);
   margin-bottom: calc(var(--line-height) * 0.75rem);
 }
-@media (min-width: 960px) {
-  .banner-title,
-  .section-title,
-  .section-subtitle {
-    font-size: 2.5rem;
-    margin-top: calc(var(--line-height) * 3rem);
-  }
-}
 
-.section-subtitle {
-  margin-bottom: calc(var(--line-height) * 0.5rem);
-}
-@media (min-width: 960px) {
-  .section-subtitle {
-    font-size: 2.5rem;
-  }
-}
-
-.banner-title {
-  font-size: 2.25rem;
-}
 @media (min-width: 960px) {
   .banner-title {
-    font-size: 3.75rem;
+    font-size: 4.5rem;
+    font-weight: 600;
     margin-top: calc(var(--line-height) * 3.5rem);
+    line-height: 1;
+    letter-spacing: -0.009em;
+  }
+  .section-title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: calc(var(--line-height) * 3rem);
+  }
+  .section-subtitle {
+    font-size: 2.5rem;
+    margin-top: calc(var(--line-height) * 2.5rem);
   }
 }
-
 #intro {
   position: relative;
   color: #fff;
@@ -1640,6 +1632,11 @@ ul[class*=menu-] .dropdown {
 #intro .image,
 #intro .text {
   width: 100%;
+}
+#intro header p:not(:last-child),
+#intro .image p:not(:last-child),
+#intro .text p:not(:last-child) {
+  margin-bottom: 0;
 }
 #intro header {
   grid-column: 1/-1;
@@ -1691,6 +1688,7 @@ ul[class*=menu-] .dropdown {
 #intro .try-it-now {
   display: inline-block;
   color: #1b2028;
+  margin-top: 2.5rem;
   margin-bottom: 1.5rem;
 }
 #intro figure .media {
@@ -1721,6 +1719,11 @@ ul[class*=menu-] .dropdown {
   justify-items: center;
   gap: 1.5rem;
 }
+@media (min-width: 720px) {
+  #how-it-works .section-wrap {
+    text-align: center;
+  }
+}
 @media (min-width: 960px) {
   #how-it-works .section-wrap {
     max-width: 1150px;
@@ -1749,6 +1752,7 @@ ul[class*=menu-] .dropdown {
   width: 100%;
   padding-top: 75%;
   background-color: #7481b2;
+  border: 10px solid #e2e6ed;
 }
 #how-it-works .section-wrap .image-text figure .media img {
   position: absolute;
@@ -1781,6 +1785,7 @@ ul[class*=menu-] .dropdown {
 }
 #how-it-works footer {
   text-align: center;
+  padding-top: calc(1rem * var(--line-height));
   padding-bottom: calc(2rem * var(--line-height));
 }
 #how-it-works footer .btn {
@@ -1859,7 +1864,6 @@ ul[class*=menu-] .dropdown {
 @media (min-width: 1280px) {
   #page-how-it-works .banner-title {
     font-size: 3.15rem;
-    font-weight: 400;
     max-width: 720px;
     margin-top: calc(var(--line-height) * 3.5rem);
   }
@@ -2066,9 +2070,13 @@ ul[class*=menu-] .dropdown {
 #research article .authors {
   order: -1;
 }
+#research hr {
+  border-top: 1px solid;
+  margin: 3rem 0 1rem;
+  opacity: 0.6;
+}
 
 #case-studies {
-  text-align: center;
   background-color: #fff;
 }
 #case-studies .intro {
@@ -2085,6 +2093,7 @@ ul[class*=menu-] .dropdown {
 #case-studies .downloads {
   display: flex;
   flex-direction: column;
+  text-align: center;
   margin: 0 -0.75rem;
 }
 @media (min-width: 720px) {
@@ -2094,10 +2103,16 @@ ul[class*=menu-] .dropdown {
 }
 #case-studies .downloads article {
   flex: 1;
-  padding: 0.75rem;
+}
+#case-studies .downloads article a {
+  display: block;
+  padding: 0.75rem 0.75rem 1.25rem 0.75rem;
   margin: 0.5rem;
   background-color: #f9fafb;
   border-radius: 0.5rem;
+}
+#case-studies .downloads article a:hover {
+  background-color: #d3dce6;
 }
 #case-studies .downloads article strong {
   display: inline-block;
@@ -2105,14 +2120,14 @@ ul[class*=menu-] .dropdown {
   margin-left: calc(var(--line-height) * -0.5rem);
   margin-right: 0.25rem;
 }
-#case-studies .downloads article .h3 {
-  font-weight: 600;
+#case-studies .downloads article .title {
   white-space: nowrap;
+  margin: 0.5rem 0 0.5rem;
 }
 #case-studies .downloads article footer {
   flex-basis: 100%;
 }
-#case-studies .downloads article footer a {
+#case-studies .downloads article footer span {
   text-decoration: underline;
 }
 
@@ -2129,7 +2144,12 @@ ul[class*=menu-] .dropdown {
   margin-top: calc(var(--line-height) * 4rem);
   margin-bottom: calc(var(--line-height) * 2rem);
 }
-#case-studies-map div {
+#case-studies-map .locations-title {
+  text-align: center;
+  color: #9ba1a7;
+  margin-top: 4rem;
+}
+#case-studies-map .section-map {
   flex: 1;
   width: 100%;
   max-width: 1440px;
@@ -2350,7 +2370,7 @@ ul[class*=menu-] .dropdown {
 #team .title {
   display: block;
   margin-top: 0.75rem;
-  margin-bottom: 0;
+  margin-bottom: 0.25rem;
 }
 #team .title-sub {
   display: block;
@@ -2364,6 +2384,7 @@ ul[class*=menu-] .dropdown {
 #partners {
   text-align: center;
   background-color: #c4cad3;
+  padding-bottom: 0rem;
 }
 #supporters .section-wrap,
 #partners .section-wrap {
@@ -2436,22 +2457,9 @@ ul[class*=menu-] .dropdown {
   height: 50px;
 }
 
-body:not(.home) #partners h1,
-body:not(.home) #supporters h1 {
-  margin-bottom: calc(var(--line-height) * 1.5rem);
-  margin-top: calc(var(--line-height) * 2.5rem);
-}
-body:not(.home) #partners h2,
-body:not(.home) #supporters h2 {
-  margin: 6rem 0 0rem 0;
-}
-
 #partners {
   position: relative;
-  padding-bottom: 0;
-}
-#partners .section-wrap {
-  padding: 2.5rem;
+  padding-bottom: 2rem;
 }
 #partners .section-title {
   color: #fff;
@@ -2469,10 +2477,6 @@ body:not(.home) #partners h2 {
 
 .home #partners {
   background-color: #92a4c4;
-}
-.home #partners .section-wrap {
-  padding-top: 1.5rem;
-  padding-bottom: 5rem;
 }
 
 #articles-content {
