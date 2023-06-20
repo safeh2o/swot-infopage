@@ -28,31 +28,32 @@
 .banner-title,
 .section-title,
 .section-subtitle {
-	font-family: "Acumin", sans-serif;
-	font-weight: 700;
-	font-size: 2rem;
-	line-height: 1.1;
-	letter-spacing: -0.0175em;
+	font-size: 2.25rem;
 
 	margin-top: calc(var(--line-height) * 2rem);
 	margin-bottom: calc(var(--line-height) * 0.75rem);
-
-	@media (min-width: $md) {
-		font-size: 2.5rem;
-	}
 }
-.section-subtitle {
-	margin-bottom: calc(var(--line-height) * 0.5rem);
 
-	@media (min-width: $md) {
-		font-size: 2rem;
-	}
-}
-.banner-title {
-	font-size: 2.25rem;
-	@media (min-width: $md) {
-		font-size: 3rem;
+@media (min-width: $md) {
+	.banner-title {
+		font-size: 4.5rem;
+		font-weight: 600;
+
 		margin-top: calc(var(--line-height) * 3.5rem);
+		line-height: 1;
+		letter-spacing: -0.009em;
+	}
+
+	.section-title {
+		font-size: 3rem;
+		font-weight: 600;
+
+		margin-top: calc(var(--line-height) * 3rem);
+	}
+
+	.section-subtitle {
+		font-size: 2.5rem;
+		margin-top: calc(var(--line-height) * 2.5rem);
 	}
 }
 
@@ -86,6 +87,10 @@
 	.image,
 	.text {
 		width: 100%;
+
+		p:not(:last-child) {
+			margin-bottom: 0;
+		}
 	}
 
 	header {
@@ -139,6 +144,7 @@
 	.try-it-now {
 		display: inline-block;
 		color: #1b2028;
+		margin-top: 2.5rem;
 		margin-bottom: 1.5rem;
 	}
 
@@ -179,6 +185,10 @@
 
 		gap: 1.5rem;
 
+		@media (min-width: $sm) {
+			text-align: center;
+		}
+
 		@media (min-width: $md) {
 			max-width: 1150px;
 		}
@@ -208,6 +218,7 @@
 					width: 100%;
 					padding-top: 75%;
 					background-color: #7481b2;
+					border: 10px solid #e2e6ed;
 
 					img {
 						position: absolute;
@@ -248,6 +259,7 @@
 	}
 	footer {
 		text-align: center;
+		padding-top: calc(1rem * var(--line-height));
 		padding-bottom: calc(2rem * var(--line-height));
 
 		.btn {
@@ -267,7 +279,7 @@
 
 		.rte {
 			text-align: center;
-			max-width: 480px;
+			max-width: 500px;
 			margin: 1rem auto 0;
 		}
 	}
@@ -322,20 +334,16 @@
 
 #page-how-it-works {
 	background-color: #dbdfe4;
-	// background-color: #f3f6f9;
-	margin-top: calc(var(--line-height) * 2rem);
 
 	.banner-title {
 		font-size: 2.25rem;
 		@media (min-width: $md) {
 			font-size: 2.75rem;
-			font-weight: 900;
 			max-width: 720px;
 			margin-top: calc(var(--line-height) * 2.75rem);
 		}
 		@media (min-width: $lg) {
 			font-size: 3.15rem;
-			font-weight: 900;
 			max-width: 720px;
 			margin-top: calc(var(--line-height) * 3.5rem);
 		}
@@ -359,7 +367,7 @@
 		grid-column: 1/-1;
 		text-align: center;
 
-		max-width: 450px;
+		max-width: 480px;
 		margin: 0 auto;
 
 		color: #3a6184;
@@ -584,10 +592,15 @@
 			order: -1;
 		}
 	}
+
+	hr {
+		border-top: 1px solid;
+		margin: 3rem 0 1rem;
+		opacity: 0.6;
+	}
 }
 
 #case-studies {
-	text-align: center;
 	background-color: #fff;
 	.intro {
 		padding-bottom: 1rem;
@@ -604,6 +617,7 @@
 	.downloads {
 		display: flex;
 		flex-direction: column;
+		text-align: center;
 		margin: 0 -0.75rem;
 
 		@media (min-width: 720px) {
@@ -612,11 +626,19 @@
 
 		article {
 			flex: 1;
-			padding: 0.75rem;
-			margin: 0.5rem;
 
-			background-color: #f9fafb;
-			border-radius: 0.5rem;
+			a {
+				display: block;
+				padding: 0.75rem 0.75rem 1.25rem 0.75rem;
+				margin: 0.5rem;
+
+				background-color: #f9fafb;
+				border-radius: 0.5rem;
+
+				&:hover {
+					background-color: #d3dce6;
+				}
+			}
 
 			strong {
 				display: inline-block;
@@ -625,14 +647,14 @@
 				margin-right: 0.25rem;
 			}
 
-			.h3 {
-				font-weight: 600;
+			.title {
 				white-space: nowrap;
+				margin: 0.5rem 0 0.5rem;
 			}
 
 			footer {
 				flex-basis: 100%;
-				a {
+				span {
 					text-decoration: underline;
 				}
 			}
@@ -654,7 +676,13 @@
 		margin-bottom: calc(var(--line-height) * 2rem);
 	}
 
-	div {
+	.locations-title {
+		text-align: center;
+		color: #9ba1a7;
+		margin-top: 4rem;
+	}
+
+	.section-map {
 		flex: 1;
 		width: 100%;
 		max-width: 1440px;
@@ -664,20 +692,9 @@
 	}
 
 	@media (min-width: 1340px) {
-		// max-width: 1340px;
-
 		img {
 			max-width: 1340px;
-			// border-radius: 60rem;
-			// margin: 0 2rem 4rem;
 		}
-	}
-}
-
-footer.clear {
-	svg.svg-wave-footer {
-		background: transparent;
-		margin-top: -3rem;
 	}
 }
 
@@ -904,14 +921,13 @@ footer.clear {
 
 	.title {
 		display: block;
-		font-weight: 600;
 		margin-top: 0.75rem;
-		margin-bottom: 0;
+		margin-bottom: 0.25rem;
 	}
 
 	.title-sub {
 		display: block;
-		font-weight: 500;
+		font-weight: 400;
 		letter-spacing: 0.01em;
 		opacity: 0.6;
 		margin-top: -3px;
@@ -922,6 +938,7 @@ footer.clear {
 #partners {
 	text-align: center;
 	background-color: darken($col-3, 8%);
+	padding-bottom: 0rem;
 
 	.section-wrap {
 		max-width: 1440px;
@@ -985,28 +1002,10 @@ footer.clear {
 	}
 }
 
-body:not(.home) {
-	#partners,
-	#supporters {
-		h1 {
-			margin-bottom: calc(var(--line-height) * 1.5rem);
-			margin-top: calc(var(--line-height) * 2.5rem);
-		}
-
-		h2 {
-			margin: 6rem 0 0rem 0;
-		}
-	}
-}
-
 #partners {
 	position: relative;
 	// background-color: #ffffff;
-	padding-bottom: 0;
-
-	.section-wrap {
-		padding: 2.5rem;
-	}
+	padding-bottom: 2rem;
 
 	.section-title {
 		color: #fff;
@@ -1027,11 +1026,6 @@ body:not(.home) #partners {
 
 .home #partners {
 	background-color: #92a4c4;
-
-	.section-wrap {
-		padding-top: 1.5rem;
-		padding-bottom: 5rem;
-	}
 }
 
 #articles-content {

@@ -3,7 +3,6 @@
 	display: inline-block;
 	font-size: 0.875rem;
 	font-weight: 600;
-	letter-spacing: -0.01em;
 	text-transform: uppercase;
 	color: inherit;
 	background-color: #f2c148;
@@ -13,19 +12,6 @@
 
 	transition: all 0.25s ease;
 
-	// &::before {
-	// 	content: "";
-	// 	position: absolute;
-	// 	top: 0;
-	// 	left: 0;
-	// 	z-index: 0;
-	// 	width: 100%;
-	// 	height: 100%;
-	// 	background-color: inherit;
-	// 	border-radius: inherit;
-
-	// 	transition: all 0.25s ease 0.015s;
-	// }
 	&:hover {
 		box-shadow: 0 0 0 3px $col-4;
 		&::before {
@@ -79,45 +65,47 @@
 }
 
 section {
+	$list-indentation: 1.5em;
+
 	ul,
 	ol {
-		--space: 0.5em;
-		--width: 30px;
 		list-style-position: outside;
-		padding-left: var(--width);
-		margin-bottom: calc(0.25rem * var(--line-height));
-		ul {
-			margin-top: calc(0.25rem * var(--line-height));
-		}
+		padding-left: calc(1.5rem * var(--line-height));
+		margin-bottom: calc(1.5rem * var(--line-height));
+
 		li {
-			counter-increment: ol-counter;
-			position: relative;
 			padding: 0;
 			margin-left: 0em;
-			&:not(:last-child) {
-				margin-bottom: calc(0.25rem * var(--line-height));
+			margin-bottom: calc(0.25rem * var(--line-height));
+		}
+	}
+
+	ol {
+		list-style: none;
+		counter-reset: ol-counter;
+
+		> li {
+			counter-increment: ol-counter;
+			position: relative;
+
+			&::before {
+				content: counter(ol-counter) ".\00a0\00a0";
+				position: absolute;
+				right: 100%;
+				width: auto;
+				height: auto;
 			}
 		}
 	}
-	ul {
+
+	ul:not(.inline) {
 		list-style: square;
-	}
-	ol {
-		list-style: decimal;
+		counter-reset: ol-counter;
+		padding-left: $list-indentation;
 	}
 }
 
-[class*="svg-wave"] {
-	width: 100%;
-	height: 100px;
-
-	&[class*="-how-it-works"] {
-		fill: #e3e4e6;
-		background-color: $col-2;
-	}
-
-	&[class*="-signup"] {
-		fill: #dbdfe4;
-		background-color: #e3e4e6;
-	}
+img {
+	max-width: 100%;
+	height: auto;
 }
