@@ -1,371 +1,735 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-NRRPW9FG7Z"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NRRPW9FG7Z"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
 
-    function gtag () {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+			gtag("config", "G-NRRPW9FG7Z");
+		</script>
 
-    gtag('config', 'G-NRRPW9FG7Z');
-  </script>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
 
+		<!-- Favicons -->
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="57x57"
+			href="public/apple-touch-icon-57x57.png"
+		/>
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="114x114"
+			href="public/apple-touch-icon-114x114.png"
+		/>
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="72x72"
+			href="public/apple-touch-icon-72x72.png"
+		/>
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="144x144"
+			href="public/apple-touch-icon-144x144.png"
+		/>
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="60x60"
+			href="public/apple-touch-icon-60x60.png"
+		/>
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="120x120"
+			href="public/apple-touch-icon-120x120.png"
+		/>
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="76x76"
+			href="public/apple-touch-icon-76x76.png"
+		/>
+		<link
+			rel="apple-touch-icon-precomposed"
+			sizes="152x152"
+			href="public/apple-touch-icon-152x152.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			href="public/favicon-196x196.png"
+			sizes="196x196"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			href="public/favicon-96x96.png"
+			sizes="96x96"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			href="public/favicon-32x32.png"
+			sizes="32x32"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			href="public/favicon-16x16.png"
+			sizes="16x16"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			href="public/favicon-128.png"
+			sizes="128x128"
+		/>
+		<meta name="application-name" content="&nbsp;" />
+		<meta name="msapplication-TileColor" content="#FFFFFF" />
+		<meta
+			name="msapplication-TileImage"
+			content="public/mstile-144x144.png"
+		/>
+		<meta
+			name="msapplication-square70x70logo"
+			content="public/mstile-70x70.png"
+		/>
+		<meta
+			name="msapplication-square150x150logo"
+			content="public/mstile-150x150.png"
+		/>
+		<meta
+			name="msapplication-wide310x150logo"
+			content="public/mstile-310x150.png"
+		/>
+		<meta
+			name="msapplication-square310x310logo"
+			content="public/mstile-310x310.png"
+		/>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- RSS -->
+		<link
+			rel="alternate"
+			type="application/rss+xml"
+			title="RSS"
+			href="/atom.xml"
+		/>
 
-  <!-- Favicons -->
-  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="public/apple-touch-icon-57x57.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="public/apple-touch-icon-114x114.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="public/apple-touch-icon-72x72.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/apple-touch-icon-144x144.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="public/apple-touch-icon-60x60.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="public/apple-touch-icon-120x120.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="public/apple-touch-icon-76x76.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="public/apple-touch-icon-152x152.png" />
-  <link rel="icon" type="image/png" href="public/favicon-196x196.png" sizes="196x196" />
-  <link rel="icon" type="image/png" href="public/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/png" href="public/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="public/favicon-16x16.png" sizes="16x16" />
-  <link rel="icon" type="image/png" href="public/favicon-128.png" sizes="128x128" />
-  <meta name="application-name" content="&nbsp;" />
-  <meta name="msapplication-TileColor" content="#FFFFFF" />
-  <meta name="msapplication-TileImage" content="public/mstile-144x144.png" />
-  <meta name="msapplication-square70x70logo" content="public/mstile-70x70.png" />
-  <meta name="msapplication-square150x150logo" content="public/mstile-150x150.png" />
-  <meta name="msapplication-wide310x150logo" content="public/mstile-310x150.png" />
-  <meta name="msapplication-square310x310logo" content="public/mstile-310x310.png" />
+		<!-- Mailchimp Subscribe -->
+		<script id="mcjs">
+			!(function (c, h, i, m, p) {
+				(m = c.createElement(h)),
+					(p = c.getElementsByTagName(h)[0]),
+					(m.async = 1),
+					(m.src = i),
+					p.parentNode.insertBefore(m, p);
+			})(
+				document,
+				"script",
+				"https://chimpstatic.com/mcjs-connected/js/users/4e51b95811143b5dba0fbb5c3/3e7c478778df15fa0f5ec1c8b.js"
+			);
+		</script>
 
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+		<!-- SEO -->
+		<title>Safe Water Optimization Tool</title>
+		<meta
+			name="description"
+			content="Safe Water Optimization Tool Leveraging routine water quality data to guarantee safe water supply."
+		/>
+		<meta name="author" content="SWOT Team" />
 
-  <!-- Mailchimp Subscribe -->
-  <script id="mcjs">
-    ! function (c, h, i, m, p) {
-      m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p)
-    }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/4e51b95811143b5dba0fbb5c3/3e7c478778df15fa0f5ec1c8b.js");
-  </script>
+		<!--OpenGraph Meta -->
+		<meta
+			property="og:description"
+			content="Safe Water Optimization Tool Leveraging routine water quality data to guarantee safe water supply."
+		/>
+		<meta property="og:title" content="The Safe Water Optimization Tool" />
+		<meta
+			property="og:image"
+			content="https://safeh2o.app/public/safe-water-optimization-tool-thumbnail.png"
+		/>
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://www.safeh2o.app/" />
 
-  <!-- SEO -->
-  <title>Safe Water Optimization Tool</title>
-  <meta name="description"
-    content="Safe Water Optimization Tool Leveraging routine water quality data to guarantee safe water supply.">
-  <meta name="author" content="SWOT Team">
+		<!--Meta for Twitter -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:creator" content="@safeh2oapp" />
+		<meta name="twitter:title" content="The Safe Water Optimization Tool" />
+		<meta
+			name="twitter:image"
+			content="https://safeh2o.app/public/safe-water-optimization-tool-thumbnail.png"
+		/>
+		<meta name="twitter:site" content="@safeh2oapp" />
+		<meta
+			name="twitter:description"
+			content="Safe Water Optimization Tool Leveraging routine water quality data to guarantee safe water supply."
+		/>
 
-  <!--OpenGraph Meta -->
-  <meta property="og:description"
-    content="Safe Water Optimization Tool Leveraging routine water quality data to guarantee safe water supply." />
-  <meta property="og:title" content="The Safe Water Optimization Tool" />
-  <meta property="og:image" content="https://safeh2o.app/public/safe-water-optimization-tool-thumbnail.png" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.safeh2o.app/" />
+		<!-- Fonts Google -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&family=Roboto+Condensed&display=swap"
+			rel="stylesheet"
+		/>
 
-  <!--Meta for Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:creator" content="@safeh2oapp">
-  <meta name="twitter:title" content="The Safe Water Optimization Tool">
-  <meta name="twitter:image" content="https://safeh2o.app/public/safe-water-optimization-tool-thumbnail.png">
-  <meta name="twitter:site" content="@safeh2oapp">
-  <meta name="twitter:description"
-    content="Safe Water Optimization Tool Leveraging routine water quality data to guarantee safe water supply.">
+		<link rel="stylesheet" href="/public/assets/normalize.css" />
+		<link rel="stylesheet" href="/public/assets/style.css" />
+		<link rel="stylesheet" href="/public/fonts/Inter/stylesheet.css" />
+	</head>
 
-  <!-- Fonts Google -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&family=Roboto+Condensed&display=swap"
-    rel="stylesheet">
+	<body class="home">
+		<!-- partial: -->
+		<header class="site-header">
+			<!-- Navigation -->
+			<nav>
+				<a class="menu-brand" href="/">
+					<img
+						src="/public/assets/swot_logo.svg"
+						class="large"
+						alt="SWOT logo by Rizwan Ali"
+					/>
+					<img
+						src="/public/assets/swot_logo_compact.svg"
+						class="compact"
+						alt="SWOT Water Drop by Rizwan Ali"
+					/>
+				</a>
 
-  <link rel="stylesheet" href="/public/assets/normalize.css">
-  <link rel="stylesheet" href="/public/assets/style.css">
-  <link rel="stylesheet" href="/public/fonts/Inter/stylesheet.css">
+				<button
+					class="menu-open"
+					aria-controls="menu-main"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+						<path
+							fill="none"
+							stroke="currentColor"
+							stroke-width="3"
+							stroke-miterlimit="10"
+							d="M7 5.7h18M7 26.3h18M7 16h18"
+						/>
+						<path fill="none" d="M0 0h32v32H0V0z" />
+					</svg>
+				</button>
 
-</head>
+				<div id="menu-main">
+					<ul class="menu-main-ul">
+						<li class="dropdown" tabindex="0">
+							<span>
+								<span>About</span>
+								<i class="select">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 32 32"
+									>
+										<path
+											fill="currentColor"
+											d="m7 16 9 9 9-9z"
+										/>
+										<path fill="none" d="M0 0h32v32H0z" />
+									</svg>
+								</i>
+							</span>
+							<div class="children">
+								<ul>
+									<li>
+										<a href="/how-it-works.html"
+											>How it Works</a
+										>
+									</li>
+									<li>
+										<a href="/research.html">Research</a>
+									</li>
+									<li>
+										<a href="/our-story.html">Our Story</a>
+									</li>
+									<li><a href="/team.html">Team</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="https://live.safeh2o.app/">Get Started</a>
+						</li>
+						<li>
+							<a href="https://live.safeh2o.app/contact"
+								>Contact</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://live.safeh2o.app/blog?category=Announcements"
+								>News</a
+							>
+						</li>
+					</ul>
+					<button class="menu-close"></button>
+				</div>
+			</nav>
+		</header>
 
-<body class="home">
+		<!-- partial: -->
+		<article>
+			<section id="intro">
+				<div class="section-wrap">
+					<header>
+						<h1 class="banner-title">
+							Keeping water safe to drink&nbsp;— <br />from the
+							tapstand to the last cup.
+						</h1>
+					</header>
+					<div class="image">
+						<figure>
+							<div class="media">
+								<img
+									src="/public/assets/intro.png"
+									alt=""
+									width="1080px"
+									height="960px"
+								/>
+							</div>
+						</figure>
+					</div>
+					<div class="text">
+						<p>
+							The Safe Water Optimization Tool (SWOT) is a water
+							quality modelling tool that generates
+							evidence-based, context-specific water chlorination
+							targets to help you ensure water is safe to drink in
+							emergencies.
+						</p>
+						<a
+							href="https://live.safeh2o.app/"
+							class="btn try-it-now"
+							><span>Get Started</span></a
+						>
+					</div>
+				</div>
+			</section>
 
-  <!-- partial: -->
-  <header class="site-header">
-    <!-- Navigation -->
-    <nav>
-      <a class="menu-brand" href="/">
-        <img src="/public/assets/swot_logo.svg" class="large" alt="SWOT logo by Rizwan Ali" />
-        <img src="/public/assets/swot_logo_compact.svg" class="compact" alt="SWOT Water Drop by Rizwan Ali" />
-      </a>
+			<section id="how-it-works">
+				<div class="section-wrap">
+					<header>
+						<h2 class="section-title">What is the SWOT?</h2>
+						<!-- <p>A tool to help you uncover the hidden message in your water quality data</p> -->
+					</header>
+				</div>
+				<div class="section-wrap points">
+					<div class="image-text how">
+						<figure>
+							<div class="media">
+								<img
+									src="/public/assets/slice1.png"
+									alt=""
+									width=""
+									height=""
+								/>
+							</div>
+						</figure>
+						<div>
+							<h2>Routine Data</h2>
+							<p>
+								The SWOT helps pull out life-preserving
+								information from the routine water quality
+								monitoring data you already collect.
+							</p>
+						</div>
+					</div>
+					<div class="image-text how">
+						<figure>
+							<div class="media">
+								<img
+									src="/public/assets/how-it-works/advanced-analytics.svg"
+									alt=""
+									width=""
+									height=""
+								/>
+							</div>
+						</figure>
+						<div>
+							<h2>Advanced Modelling</h2>
+							<p>
+								The SWOT uses advanced modelling to understand
+								chlorine decay between the tapstand and the
+								household.
+							</p>
+						</div>
+					</div>
+					<div class="image-text how">
+						<figure>
+							<div class="media">
+								<img
+									src="/public/assets/slice3.png"
+									alt=""
+									width=""
+									height=""
+								/>
+							</div>
+						</figure>
+						<div>
+							<h2>Actionable Insights</h2>
+							<p>
+								The SWOT generates site-specific water
+								chlorination guidance that helps keep water
+								safe, all the way to the last drop.
+							</p>
+						</div>
+					</div>
+				</div>
+				<footer>
+					<a class="btn" href="how-it-works.html"
+						><span>Learn More</span></a
+					>
+				</footer>
+			</section>
 
-      <button class="menu-open" aria-controls="menu-main" aria-expanded="false" aria-label="Toggle navigation">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-          <path fill="none" stroke="currentColor" stroke-width="3" stroke-miterlimit="10"
-            d="M7 5.7h18M7 26.3h18M7 16h18" />
-          <path fill="none" d="M0 0h32v32H0V0z" />
-        </svg>
-      </button>
+			<section id="signup">
+				<div class="section-wrap">
+					<div class="sign-up">
+						<div class="sign-up-img">
+							<img
+								src="/public/assets/view-2.jpg"
+								alt="Person holding water sample"
+							/>
+						</div>
+						<div class="sign-up-content">
+							<h2 class="section-title">Get Started</h2>
+							<p>
+								Our team is standing by to provide training and
+								support to your team today.
+							</p>
+							<a
+								class="btn"
+								href="https://live.safeh2o.app/contact"
+								target="_blank"
+								><span>Request an Account</span></a
+							>
+						</div>
+					</div>
+				</div>
+			</section>
 
-      <div id="menu-main">
-        <ul class="menu-main-ul">
+			<section id="newsletter">
+				<div class="section-wrap">
+					<!-- Begin Mailchimp Signup Form -->
+					<form
+						action="https://app.us2.list-manage.com/subscribe/post?u=4e51b95811143b5dba0fbb5c3&amp;id=fb6ca52d01"
+						method="post"
+						id="mc-embedded-subscribe-form"
+						name="mc-embedded-subscribe-form"
+						class="validate"
+						target="_blank"
+						novalidate=""
+					>
+						<h2 class="section-title">Newsletter</h2>
 
-          <li class="dropdown" tabIndex="0">
-            <span>
-              <span>About</span>
-              <i class="select">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                  <path fill="currentColor" d="m7 16 9 9 9-9z" />
-                  <path fill="none" d="M0 0h32v32H0z" />
-                </svg>
-              </i>
-            </span>
-            <div class="children">
-              <ul>
-                <li><a href="/how-it-works.html">How it Works</a></li>
-                <li><a href="/research.html">Research</a></li>
-                <li><a href="/our-story.html">Our Story</a></li>
-                <li><a href="/team.html">Team</a></li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a href="https://live.safeh2o.app/">Get Started</a>
-          </li>
-          <li>
-            <a href="https://live.safeh2o.app/contact">Contact</a>
-          </li>
-          <li>
-            <a href="https://live.safeh2o.app/blog?category=Announcements">News</a>
-          </li>
-        </ul>
-        <button class="menu-close"></button>
-      </div>
-    </nav>
-  </header>
+						<div class="form-wrap">
+							<input
+								type="email"
+								value=""
+								name="EMAIL"
+								class="email"
+								id="mce-EMAIL"
+								placeholder="enter email"
+								required=""
+							/>
+							<input
+								type="submit"
+								value="Subscribe"
+								name="subscribe"
+								id="mc-embedded-subscribe"
+								class="btn"
+							/>
+							<div class="credit small">
+								powered by
+								<a href="https://mailchimp.com" target="_blank"
+									>mailchimp</a
+								>
+							</div>
+						</div>
 
-  <!-- partial: -->
-  <article>
-    <section id="intro">
-      <div class="section-wrap">
-        <header>
-          <h1 class="banner-title">Keeping water safe to drink&nbsp;— <br />from the tapstand to the last cup. </h1>
-        </header>
-        <div class="image">
-          <figure>
-            <div class="media">
-              <img src="/public/assets/intro.png" alt="" width="1080px" height="960px" />
-            </div>
-          </figure>
-        </div>
-        <div class="text">
-          <p>The Safe Water Optimization Tool (SWOT) is a water quality modelling tool that generates evidence-based,
-            context-specific water
-            chlorination targets to
-            help you ensure water is safe to drink in emergencies.</p>
-          <a href="https://live.safeh2o.app/" class="btn try-it-now"><span>Get Started</span></a>
-        </div>
-      </div>
-    </section>
+						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						<div
+							style="position: absolute; left: -5000px"
+							aria-hidden="true"
+						>
+							<input
+								type="text"
+								name="b_4e51b95811143b5dba0fbb5c3_fb6ca52d01"
+								tabindex="-1"
+								value=""
+							/>
+						</div>
+					</form>
+					<!--End mc_embed_signup-->
+				</div>
+			</section>
 
-    <section id="how-it-works">
-      <div class="section-wrap">
-        <header>
-          <h2 class="section-title">What is the SWOT?</h2>
-          <!-- <p>A tool to help you uncover the hidden message in your water quality data</p> -->
-        </header>
-      </div>
-      <div class="section-wrap points">
-        <div class="image-text how">
-          <figure>
-            <div class="media"><img src="/public/assets/slice1.png" alt="" width="" height="" />
-            </div>
-          </figure>
-          <div>
-            <h2>Routine Data</h2>
-            <p>The SWOT helps pull out life-preserving information from the routine water quality monitoring data you
-              already collect.</p>
-          </div>
-        </div>
-        <div class="image-text how">
-          <figure>
-            <div class="media">
-              <img src="/public/assets/how-it-works/advanced-analytics.svg" alt="" width="" height="" />
-            </div>
-          </figure>
-          <div>
-            <h2>Advanced Modelling</h2>
-            <p>The SWOT uses advanced modelling to understand chlorine decay between the tapstand and the household.</p>
-          </div>
-        </div>
-        <div class="image-text how">
-          <figure>
-            <div class="media"><img src="/public/assets/slice3.png" alt="" width="" height="" />
-            </div>
-          </figure>
-          <div>
-            <h2>Actionable Insights</h2>
-            <p>The SWOT generates site-specific water chlorination guidance that helps keep water safe, all the way to
-              the last drop.</p>
-          </div>
-        </div>
-      </div>
-      <footer><a class="btn" href="how-it-works.html"><span>Learn More</span></a></footer>
-    </section>
+			<section id="partners">
+				<div class="section-wrap">
+					<div>
+						<div class="intro">
+							<h2 class="section-title">SWOT Implementers</h2>
+						</div>
+						<div class="group partners">
+							<a
+								target="_blank"
+								href="https://www.doctorswithoutborders.ca/"
+								rel="noreferrer"
+							>
+								<img
+									class="wide"
+									src="/public/assets/organisations/dwb_full_white.svg"
+									alt="Doctors without Borders logo"
+									width="1600"
+									height="466"
+								/>
+							</a>
+							<a
+								target="_blank"
+								href="https://www.unhcr.org/"
+								rel="noreferrer"
+							>
+								<img
+									src="/public/assets/organisations/unhcr-logo-white.svg"
+									alt="UNHCR logo"
+									class="wide" /></a
+							><a
+								target="_blank"
+								href="https://www.nrc.no/"
+								rel="noreferrer"
+							>
+								<img
+									class="wide"
+									src="/public/assets/organisations/norwegian-refugee-council-logo-white.svg"
+									alt="Norwegian Refugee Council logo"
+									width=""
+									height=""
+								/>
+							</a>
+							<a
+								target="_blank"
+								href="https://www.oxfam.org/en/what-we-do/issues/water-and-sanitation"
+								rel="noreferrer"
+							>
+								<img
+									class=""
+									src="/public/assets/organisations/oxfarm-logo-white.svg"
+									alt="oxfarm logo"
+									width=""
+									height=""
+								/> </a
+							><a
+								target="_blank"
+								href="http://www.brac.net/program/water-sanitation-hygiene/"
+								rel="noreferrer"
+							>
+								<img
+									class="wide"
+									src="/public/assets/organisations/brac-logo-white.svg"
+									alt="BRAC logo" /></a
+							><a
+								target="_blank"
+								href="https://www.solidarites.org/en/drinking-water/"
+								rel="noreferrer"
+							>
+								<img
+									class=""
+									src="/public/assets/organisations/solidarites-vertical-white.svg"
+									alt="si logo"
+									width=""
+									height=""
+								/>
+							</a>
+							<a
+								target="_blank"
+								href="https://aquaya.org/"
+								rel="noreferrer"
+							>
+								<img
+									src="/public/assets/organisations/aquaya-logo-white.svg"
+									alt="Aquaya logo"
+									class="wide"
+							/></a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</article>
 
-    <section id="signup">
-      <div class="section-wrap">
-        <div class="sign-up">
-          <div class="sign-up-img">
-            <img src="/public/assets/view-2.jpg" alt="Person holding water sample" />
-          </div>
-          <div class="sign-up-content">
-            <h2 class="section-title">Get Started</h2>
-            <p>Our team is standing by to provide training and support to your team today.</p>
-            <a class="btn" href="https://live.safeh2o.app/contact" target="_blank"><span>Request an Account</span></a>
-          </div>
-        </div>
-      </div>
-    </section>
+		<!-- partial -->
+		<footer class="site-footer">
+			<section class="rte">
+				<h2 class="title">A free and open-source tool by</h2>
+				<div class="logos">
+					<a target="_blank" href="http://yorku.ca/" rel="noreferrer">
+						<img
+							src="/public/assets/organisations/YorkULogo_Full_Format.png"
+							class="wide"
+							alt=" logo"
+							width="200"
+							height="200"
+						/>
+					</a>
+					<a
+						target="_blank"
+						href="http://dighr.yorku.ca/"
+						rel="noreferrer"
+					>
+						<img
+							src="/public/assets/organisations/dighr_black_on_white.png"
+							class="dighr-logo"
+							alt="dighr logo"
+							width="200"
+							height="200"
+						/>
+					</a>
+					<a
+						target="_blank"
+						href="https://www.doctorswithoutborders.ca/"
+						rel="noreferrer"
+					>
+						<img
+							src="/public/assets/organisations/dwb_full_white.svg"
+							alt=" logo"
+							width="1600"
+							height="466"
+							class="wide"
+						/>
+					</a>
+				</div>
+			</section>
+			<section class="rte">
+				<h2 class="title">Follow Us</h2>
+				<div class="social-networks">
+					<a
+						class="linkedin"
+						target="_blank"
+						href="http://linkedin.com/"
+						rel="noreferrer"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 32 32"
+							xml:space="preserve"
+							fill="currentColor"
+						>
+							<path
+								d="M7.8 13.1h3.5v11H7.8zM9.6 11.5c-1.1 0-2-.8-2-2s.9-2 2-2 2 .8 2 2-.9 2-2 2zM24 24h-3.5v-6c0-1.8-.8-2.3-1.7-2.3-1 0-2 .8-2 2.4v6h-3.5v-11h3.3v1.5c.3-.7 1.5-1.8 3.3-1.8 1.9 0 4 1.1 4 4.5V24z"
+							/>
+						</svg>
+					</a>
+					<a
+						class="twitter"
+						target="_blank"
+						href="https://twitter.com/safeh2oapp"
+						rel="noreferrer"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 192 192"
+							xml:space="preserve"
+						>
+							<path
+								fill="currentColor"
+								d="m154.7 72.6-14.9 14.9c-3 34.5-32.1 61.4-67 61.4-7.2 0-13.1-1.1-17.6-3.4-3.6-1.8-5.1-3.8-5.5-4.3-1.2-1.8-.7-4.3 1.1-5.5.3-.2.5-.3.8-.4.1 0 11.8-4.5 19.3-13-4.7-3.3-8.8-7.4-12.2-12.1-6.8-9.2-13.9-25.2-9.6-49 .3-1.4 1.3-2.6 2.7-3.1 1.4-.5 2.9-.1 4 .9.1.2 16.6 16.4 36.7 21.6v-3c.1-13.2 10.8-23.8 24-23.7 8.4.1 16.1 4.6 20.3 11.9h15c1.6 0 3 1 3.7 2.4.7 1.5.3 3.2-.8 4.4z"
+							/>
+						</svg>
+					</a>
+					<a
+						class="youtube"
+						target="_blank"
+						href="https://www.youtube.com/@safeh2oapp/videos"
+						rel="noreferrer"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 32 32"
+							xml:space="preserve"
+						>
+							<path
+								d="M12.3 22.5 23.6 16 12.3 9.5z"
+								fill="currentColor"
+							/>
+						</svg>
+					</a>
+					<a
+						class="github"
+						target="_blank"
+						href="https://github.com/safeh2o"
+						rel="noreferrer"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							xml:space="preserve"
+							viewBox="0 0 32 32"
+						>
+							<path
+								fill="currentColor"
+								d="M16,0.5C7.4,0.5,0.4,7.4,0.4,16 c0,6.9,4.5,12.7,10.6,14.8c0.8,0.1,1.1-0.3,1.1-0.7c0-0.4,0-1.6,0-2.9c-4.3,0.9-5.2-1.8-5.2-1.8C6.2,23.5,5.1,23,5.1,23 c-1.4-1,0.1-0.9,0.1-0.9c1.6,0.1,2.4,1.6,2.4,1.6c1.4,2.4,3.6,1.7,4.5,1.3c0.1-1,0.5-1.7,1-2.1c-3.5-0.4-7.1-1.7-7.1-7.7 c0-1.7,0.6-3.1,1.6-4.2c-0.2-0.4-0.7-2,0.2-4.1c0,0,1.3-0.4,4.3,1.6C13.3,8.2,14.7,8,16,8c1.3,0,2.7,0.2,3.9,0.5 c3-2,4.3-1.6,4.3-1.6c0.8,2.1,0.3,3.7,0.2,4.1c1,1.1,1.6,2.5,1.6,4.2c0,6-3.6,7.3-7.1,7.7c0.6,0.5,1.1,1.4,1.1,2.9 c0,2.1,0,3.8,0,4.3c0,0.4,0.3,0.9,1.1,0.7c6.2-2.1,10.6-7.9,10.6-14.8C31.6,7.4,24.6,0.5,16,0.5z"
+							/>
+						</svg>
+					</a>
+				</div>
+			</section>
+			<nav class="nav-legal">
+				<span>© </span><span id="copyright-year"></span
+				><span> Safe Water Optimization Tool</span>
+				<span class="divider">|</span>
+				<a href="https://live.safeh2o.app/pages/terms-of-use"
+					>Terms of Use</a
+				>
+				<span class="divider">|</span>
+				<a href="https://live.safeh2o.app/pages/privacy-policy"
+					>Privacy Policy</a
+				>
+				<span class="divider">|</span>
+				<a href="https://live.safeh2o.app/pages/cookie-policy"
+					>Cookie Policy</a
+				>
+			</nav>
+		</footer>
+		<div class="site-cookie-policy small" id="cookie-banner">
+			<div class="wrap">
+				<p>
+					This website uses cookies.<br />To learn more, visit our
+					<a href="https://live.safeh2o.app/cookie-policy">
+						Cookie Policy</a
+					>.
+				</p>
+				<span class="user-input">
+					<button class="needed" id="reject-all-cookies-btn">
+						<span>Accept Necessary</span>
+					</button>
+					<button class="accept btn" id="accept-all-cookies-btn">
+						<span>Accept All</span>
+					</button>
+				</span>
+			</div>
+		</div>
 
-    <section id="newsletter">
-      <div class="section-wrap">
-        <!-- Begin Mailchimp Signup Form -->
-        <form action="https://app.us2.list-manage.com/subscribe/post?u=4e51b95811143b5dba0fbb5c3&amp;id=fb6ca52d01"
-          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-          target="_blank" novalidate="">
-          <h2 class="section-title">Newsletter</h2>
+		<!-- partial -->
+		<script src="public/js/intersect.js"></script>
+		<script src="public/js/media-audio-video.js"></script>
+		<script src="public/js/util.js"></script>
+		<script async="false" src="public/js/cookies.js"></script>
 
-          <div class="form-wrap">
-            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="enter email"
-              required="">
-            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn">
-            <div class="credit small">
-              powered by <a href="https://mailchimp.com" target="_blank">mailchimp</a> </div>
-          </div>
-
-          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-              name="b_4e51b95811143b5dba0fbb5c3_fb6ca52d01" tabindex="-1" value=""></div>
-        </form>
-        <!--End mc_embed_signup-->
-      </div>
-    </section>
-
-    <section id="partners">
-      <div class="section-wrap">
-        <div>
-          <div class="intro">
-            <h2 class="section-title">SWOT Implementers</h2>
-          </div>
-          <div class="group partners">
-            <a target="_blank" href="https://www.doctorswithoutborders.ca/" rel="noreferrer">
-              <img class="wide" src="/public/assets/organisations/dwb_full_white.svg" alt="Doctors without Borders logo"
-                width="1600"
-                height="466">
-            </a>
-            <a target="_blank" href="https://www.unhcr.org/" rel="noreferrer">
-              <img src="/public/assets/organisations/unhcr-logo-white.svg" alt="UNHCR logo" class="wide"></a><a
-              target="_blank"
-              href="https://www.nrc.no/" rel="noreferrer">
-              <img class="wide" src="/public/assets/organisations/norwegian-refugee-council-logo-white.svg"
-                alt="Norwegian Refugee Council logo" width="" height="">
-            </a>
-            <a target="_blank" href="https://www.oxfam.org/en/what-we-do/issues/water-and-sanitation" rel="noreferrer">
-              <img class="" src="/public/assets/organisations/oxfarm-logo-white.svg" alt="oxfarm logo" width=""
-                height="">
-            </a><a target="_blank" href="http://www.brac.net/program/water-sanitation-hygiene/" rel="noreferrer">
-              <img class="wide" src="/public/assets/organisations/brac-logo-white.svg" alt="BRAC logo"></a><a
-              target="_blank"
-              href="https://www.solidarites.org/en/drinking-water/" rel="noreferrer">
-              <img class="" src="/public/assets/organisations/solidarites-vertical-white.svg" alt="si logo" width=""
-                height="">
-            </a>
-            <a target="_blank" href="https://aquaya.org/" rel="noreferrer">
-              <img src="/public/assets/organisations/aquaya-logo-white.svg" alt="Aquaya logo" class="wide"></a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </article>
-
-  <!-- partial -->
-  <footer class="site-footer">
-    <section class="rte">
-      <h2 class="title">A free and open-source tool by</h2>
-      <div class="logos">
-        <a target="_blank" href="http://yorku.ca/" rel="noreferrer">
-          <img src="/public/assets/organisations/YorkULogo_Full_Format.png" class="wide" alt=" logo"
-            width="200"
-            height="200" />
-        </a>
-        <a target="_blank" href="http://dighr.yorku.ca/" rel="noreferrer">
-          <img src="/public/assets/organisations/dighr_black_on_white.png" class="dighr-logo" alt="dighr logo"
-            width="200" height="200" />
-        </a>
-        <a target="_blank" href="https://www.doctorswithoutborders.ca/" rel="noreferrer">
-          <img src="/public/assets/organisations/dwb_full_white.svg" alt=" logo" width="1600" height="466"
-            class="wide" />
-        </a>
-      </div>
-    </section>
-    <section class="rte">
-      <h2 class="title">Follow Us</h2>
-      <div class="social-networks">
-        <a class="linkedin" target="_blank" href="http://linkedin.com/" rel="noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" xml:space="preserve" fill="currentColor">
-            <path
-              d="M7.8 13.1h3.5v11H7.8zM9.6 11.5c-1.1 0-2-.8-2-2s.9-2 2-2 2 .8 2 2-.9 2-2 2zM24 24h-3.5v-6c0-1.8-.8-2.3-1.7-2.3-1 0-2 .8-2 2.4v6h-3.5v-11h3.3v1.5c.3-.7 1.5-1.8 3.3-1.8 1.9 0 4 1.1 4 4.5V24z" />
-          </svg>
-        </a>
-        <a class="twitter" target="_blank" href="https://twitter.com/safeh2oapp" rel="noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" xml:space="preserve">
-            <path fill="currentColor"
-              d="m154.7 72.6-14.9 14.9c-3 34.5-32.1 61.4-67 61.4-7.2 0-13.1-1.1-17.6-3.4-3.6-1.8-5.1-3.8-5.5-4.3-1.2-1.8-.7-4.3 1.1-5.5.3-.2.5-.3.8-.4.1 0 11.8-4.5 19.3-13-4.7-3.3-8.8-7.4-12.2-12.1-6.8-9.2-13.9-25.2-9.6-49 .3-1.4 1.3-2.6 2.7-3.1 1.4-.5 2.9-.1 4 .9.1.2 16.6 16.4 36.7 21.6v-3c.1-13.2 10.8-23.8 24-23.7 8.4.1 16.1 4.6 20.3 11.9h15c1.6 0 3 1 3.7 2.4.7 1.5.3 3.2-.8 4.4z" />
-          </svg>
-        </a>
-        <a class="youtube" target="_blank" href="https://www.youtube.com/@safeh2oapp/videos"
-          rel="noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" xml:space="preserve">
-            <path d="M12.3 22.5 23.6 16 12.3 9.5z" fill="currentColor" />
-          </svg>
-        </a>
-        <a class="github" target="_blank" href="https://github.com/safeh2o"
-          rel="noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 32 32">
-            <path fill="currentColor"
-              d="M16,0.5C7.4,0.5,0.4,7.4,0.4,16 c0,6.9,4.5,12.7,10.6,14.8c0.8,0.1,1.1-0.3,1.1-0.7c0-0.4,0-1.6,0-2.9c-4.3,0.9-5.2-1.8-5.2-1.8C6.2,23.5,5.1,23,5.1,23 c-1.4-1,0.1-0.9,0.1-0.9c1.6,0.1,2.4,1.6,2.4,1.6c1.4,2.4,3.6,1.7,4.5,1.3c0.1-1,0.5-1.7,1-2.1c-3.5-0.4-7.1-1.7-7.1-7.7 c0-1.7,0.6-3.1,1.6-4.2c-0.2-0.4-0.7-2,0.2-4.1c0,0,1.3-0.4,4.3,1.6C13.3,8.2,14.7,8,16,8c1.3,0,2.7,0.2,3.9,0.5 c3-2,4.3-1.6,4.3-1.6c0.8,2.1,0.3,3.7,0.2,4.1c1,1.1,1.6,2.5,1.6,4.2c0,6-3.6,7.3-7.1,7.7c0.6,0.5,1.1,1.4,1.1,2.9 c0,2.1,0,3.8,0,4.3c0,0.4,0.3,0.9,1.1,0.7c6.2-2.1,10.6-7.9,10.6-14.8C31.6,7.4,24.6,0.5,16,0.5z" />
-          </svg>
-        </a>
-      </div>
-    </section>
-    <nav class="nav-legal">
-      <span>© Safe Water Optimization Tool</span>
-      <span class="divider">|</span>
-      <a href="https://live.safeh2o.app/pages/terms-of-use">Terms of Use</a>
-      <span class="divider">|</span>
-      <a href="https://live.safeh2o.app/pages/privacy-policy">Privacy Policy</a>
-      <span class="divider">|</span>
-      <a href="https://live.safeh2o.app/pages/cookie-policy">Cookie Policy</a>
-    </nav>
-  </footer>
-  <div class="site-cookie-policy small" id="cookie-banner">
-    <div class="wrap">
-      <p>This website uses cookies.<br />To learn more, visit our <a href="https://live.safeh2o.app/cookie-policy">
-          Cookie
-          Policy</a>.</p>
-      <span class="user-input">
-        <button class="needed" id="reject-all-cookies-btn"><span>Accept Necessary</span></button>
-        <button class="accept btn" id="accept-all-cookies-btn"><span>Accept All</span></Button>
-      </span>
-    </div>
-  </div>
-
-  <!-- partial -->
-  <script src="public/js/intersect.js"></script>
-  <script src="public/js/media-audio-video.js"></script>
-  <script src="public/js/util.js"></script>
-  <script async="false" src="public/js/cookies.js"></script>
-
-</body>
-
+		<script>
+			const copyrightYearSpan = document.getElementById("copyright-year");
+			const currentYear = new Date().getFullYear();
+			copyrightYearSpan.textContent = currentYear;
+			copyrightYearSpan.innerText = currentYear;
+		</script>
+	</body>
 </html>
