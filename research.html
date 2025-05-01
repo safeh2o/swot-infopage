@@ -512,54 +512,60 @@
       </div>
       <div class="section-wrap">
         <div class="downloads">
-
           <!-- updated 2025 -->
 
           <article>
             <a href="/public/downloads/Case-Study-Uganda-Kyaka-II-Refugee-Settlement-December-2023.pdf" target="_blank">
-              <h4 class="title"><strong>&#11042;</strong>Bangladesh | Kutupalong-Balukhali Refugee Settlement<span></span></h4>
-              <footer class="small"><span>Download (.pdf)</span></footer>
+              <div class="sub-title small">Groundwater, Piped Network</div>
+              <h4 class="title"><strong class="yellow">&#11042;</strong>Kutupalong-Balukhali Refugee Settlement | Bangladesh<span></span></h4>
+              <footer class="small"><span>Download (.PDF)</span></footer>
             </a>
           </article>
 
           <article>
             <a href="/public/downloads/Case-Study-Uganda-Kyaka-II-Refugee-Settlement-Piped-Water-System-December-2023.pdf" target="_blank">
-              <h4 class="title"><strong>&#11042;</strong>Uganda | Kyaka II Refugee Settlement (Piped Water System)<span></span></h4>
+              <div class="sub-title small">Surface Water, Piped Network</div>
+              <h4 class="title"><strong class="yellow">&#11042;</strong>Kyaka II Refugee Settlement | Uganda<span></span></h4>
               <footer class="small"><span>Download (.pdf)</span></footer>
             </a>
           </article>
 
           <article>
             <a href="/public/downloads/Case-Study-Uganda-Kyaka-II-Refugee-Settlement-Trucking-Water-System-December-2023.pdf" target="_blank">
-              <h4 class="title"><strong>&#11042;</strong>Uganda | Kyaka II Refugee Settlement (Trucking Water System)<span></span></h4>
+              <div class="sub-title small">Surface Water, Water Trucking System</div>
+              <h4 class="title"><strong class="yellow">&#11042;</strong>Kyaka II Refugee Settlement | Uganda<span></span></h4>
               <footer class="small"><span>Download (.pdf)</span></footer>
             </a>
           </article>
 
           <article>
             <a href="/public/downloads/Case-Study-Somaliland-Las-Anod-General-Hospital-December-2023.pdf" target="_blank">
-              <h4 class="title"><strong>&#11042;</strong>Somaliland | Las Anod General Hospital<span></span></h4>
+              <div class="sub-title small">Healthcare Facility/Institutional Water System</div>
+              <h4 class="title"><strong class="yellow">&#11042;</strong>Las Anod General Hospital | Somaliland<span></span></h4>
               <footer class="small"><span>Download (.pdf)</span></footer>
             </a>
           </article>
-
+          
           <!-- updated 2023 -->
 
           <article>
             <a href="/public/downloads/Field-Report-Mbawa.pdf" target="_blank">
-              <h4 class="title"><strong>&#11042;</strong> Nigeria | <span>Anka IDP Camp</span></h4>
+              <div class="sub-title small">Groundwater, Piped Network</div>
+              <h4 class="title"><strong>&#11042;</strong><span>Anka IDP Camp | Nigeria</span></h4>
               <footer class="small"><span>Download (.pdf)</span></footer>
             </a>
           </article>
           <article>
             <a href="/public/downloads/Field-Report-Nyarugusu.pdf" target="_blank">
-              <h4 class="title"><strong>&#11042;</strong> Tanzania | <span>Nyarugusu Refugee Camp</span></h4>
+              <div class="sub-title small">Groundwater and Surface Water, Piped Network</div>
+              <h4 class="title"><strong>&#11042;</strong><span>Nyarugusu Refugee Camp | Tanzania</span></h4>
               <footer class="small"><span>Download (.pdf)</span> </footer>
             </a>
           </article>
           <article>
             <a href="/public/downloads/Field-Report-Mbawa.pdf" target="_blank">
-              <h4 class="title"><strong>&#11042;</strong> Nigeria | <span>Mbawa IDP Camp</span></h4>
+              <div class="sub-title small">Groundwater, Piped Network</div>
+              <h4 class="title"><strong>&#11042;</strong><span>Mbawa IDP Camp | Nigeria</span></h4>
               <footer class="small"><span>Download (.pdf)</span></footer>
             </a>
           </article>
@@ -571,10 +577,35 @@
         <h3 class="locations-title">Implementation Locations</h3>
       </div>
       <div class="section-map">
-        <iframe title="SWOT Use and research" aria-label="Map" id="datawrapper-chart-6Bj0f"
-          src="https://datawrapper.dwcdn.net/6Bj0f/1/"
-          style="width: 0; min-width: 100% !important; border: none;" height="346"></iframe>
-        <script>!function () { "use strict"; window.addEventListener("message", (function (e) { if (void 0 !== e.data["datawrapper-height"]) { var t = document.querySelectorAll("iframe"); for (var a in e.data["datawrapper-height"]) for (var r = 0; r < t.length; r++) { if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px" } } })) }();
+        <iframe 
+          title="SWOT Use and research" 
+          aria-label="Map" 
+          id="datawrapper-chart-6Bj0f" 
+          src="https://datawrapper.dwcdn.net/6Bj0f/1/" 
+          style="width: 0; min-width: 100% !important; border: none; aspect-ratio: 16/9;" 
+          min-height="750px"
+        ></iframe>
+        <script>
+          (function () {
+            "use strict";
+            var resizeTimeout;
+          
+            window.addEventListener("message", function (e) {
+              if (e.data["datawrapper-height"] !== undefined) {
+                var iframes = document.querySelectorAll("iframe");
+                for (var chartId in e.data["datawrapper-height"]) {
+                  for (var i = 0; i < iframes.length; i++) {
+                    if (iframes[i].contentWindow === e.source) {
+                      clearTimeout(resizeTimeout);
+                      resizeTimeout = setTimeout(function () {
+                        iframes[i].style.height = e.data["datawrapper-height"][chartId] + "px";
+                      }, 100); // adjust the delay as needed
+                    }
+                  }
+                }
+              }
+            });
+          })();
         </script>
       </div>
     </section>

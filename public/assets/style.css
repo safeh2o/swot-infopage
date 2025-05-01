@@ -5,10 +5,10 @@
   --col-3: #dbdfe4;
   --col-4: #f3c22b;
   --col-5: #272d37;
+  --col-6: #679289;
   --col-text: #4f5e78;
   --col-text: #365996;
 }
-
 .plyr {
   --plyr-color-main: var(--col-1);
   --plyr-control-icon-size: 2em;
@@ -2092,7 +2092,7 @@ ul.menu-main-ul > li > span {
   pointer-events: none;
 }
 #case-studies .downloads {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   flex-direction: column;
   margin: 0 -1rem;
@@ -2106,9 +2106,11 @@ ul.menu-main-ul > li > span {
   flex: 1;
 }
 #case-studies .downloads article a {
+  position: relative;
+
   display: block;
   padding: 0.75rem;
-  margin: 0.5rem 0.5rem 1rem;
+  margin: 0.5rem 0.5rem 1.5rem;
   background-color: #f9fafb;
   border-radius: 0.5rem;
   border: 1px solid rgba(0,0,0,0.1);
@@ -2119,19 +2121,35 @@ ul.menu-main-ul > li > span {
 #case-studies .downloads article strong {
   display: inline-block;
   color: var(--col-1);
-  margin-right: 0.35rem;
   font-size: 130%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
 }
+#case-studies .downloads article strong.blue {
+  color: var(--col-1);
+}
+
+#case-studies .downloads article strong.yellow {
+  color: var(--col-4);
+}
+
+#case-studies .downloads article strong.green {
+  color: var(--col-6);
+}
+
 #case-studies .downloads article .title {
   white-space: nowrap;
   margin: 0.5rem 0 0.5rem;
 }
+#case-studies .downloads article .sub-title {
+  opacity: 0.5;
+}
 #case-studies .downloads article footer {
   flex-basis: 100%;
-  padding-left: 0.15rem;
-  padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  opacity: 0.7;
+  opacity: 0.4;
 }
 #case-studies .downloads article footer span {
   text-decoration: underline;
